@@ -1,0 +1,302 @@
+[
+  {
+    "id": "seed-001",
+    "name": "Maria Popescu",
+    "email": "maria@example.com",
+    "city": "Berlin",
+    "residenceCountry": "Germany",
+    "country": "RO",
+    "createdAt": "2026-04-20T09:12:00.000Z",
+    "progress": { "registered": true, "planned": false, "voted": false }
+  },
+  {
+    "id": "seed-002",
+    "name": "Ion Rusu",
+    "email": "ion@example.com",
+    "city": "Milan",
+    "residenceCountry": "Italy",
+    "country": "MD",
+    "createdAt": "2026-04-20T10:44:00.000Z",
+    "progress": { "registered": true, "planned": true, "voted": false }
+  },
+  {
+    "id": "seed-003",
+    "name": "Andrei Lupu",
+    "email": "andrei@example.com",
+    "city": "Paris",
+    "residenceCountry": "France",
+    "country": "MD",
+    "createdAt": "2026-04-20T14:07:00.000Z",
+    "progress": { "registered": false, "planned": false, "voted": false }
+  },
+  {
+    "id": "seed-004",
+    "name": "Ana Munteanu",
+    "email": "ana@example.com",
+    "city": "Madrid",
+    "residenceCountry": "Spain",
+    "country": "RO",
+    "createdAt": "2026-04-20T16:30:00.000Z",
+    "progress": { "registered": true, "planned": false, "voted": false }
+  },
+  {
+    "id": "seed-005",
+    "name": "Nicolae Țurcanu",
+    "email": "nicolae@example.com",
+    "city": "Bucharest",
+    "residenceCountry": "Romania",
+    "country": "MD",
+    "createdAt": "2026-04-20T18:05:00.000Z",
+    "progress": { "registered": true, "planned": true, "voted": false }
+  },
+  {
+    "id": "seed-006",
+    "name": "Sofia Răzeșu",
+    "email": "sofia@example.com",
+    "city": "London",
+    "residenceCountry": "United Kingdom",
+    "country": "RO",
+    "createdAt": "2026-04-21T07:15:00.000Z",
+    "progress": { "registered": false, "planned": false, "voted": false }
+  },
+  {
+    "id": "seed-007",
+    "name": "Giorgi Kipshidze",
+    "email": "giorgi@example.com",
+    "city": "Berlin",
+    "residenceCountry": "Germany",
+    "country": "GE",
+    "createdAt": "2026-04-21T08:40:00.000Z",
+    "progress": { "registered": false, "planned": false, "voted": false }
+  },
+  {
+    "id": "seed-008",
+    "name": "Nino Beridze",
+    "email": "nino@example.com",
+    "city": "Brussels",
+    "residenceCountry": "Belgium",
+    "country": "GE",
+    "createdAt": "2026-04-21T09:55:00.000Z",
+    "progress": { "registered": true, "planned": false, "voted": false }
+  },
+  {
+    "id": "seed-009",
+    "name": "Mehmet Yılmaz",
+    "email": "mehmet@example.com",
+    "city": "Cologne",
+    "residenceCountry": "Germany",
+    "country": "TR",
+    "createdAt": "2026-04-21T11:12:00.000Z",
+    "progress": { "registered": true, "planned": true, "voted": false }
+  },
+  {
+    "id": "seed-010",
+    "name": "Ayşe Demir",
+    "email": "ayse@example.com",
+    "city": "Rotterdam",
+    "residenceCountry": "Netherlands",
+    "country": "TR",
+    "createdAt": "2026-04-21T12:22:00.000Z",
+    "progress": { "registered": false, "planned": false, "voted": false }
+  },
+  {
+    "id": "seed-011",
+    "name": "Elena Gavrilița",
+    "email": "elena@example.com",
+    "city": "Frankfurt",
+    "residenceCountry": "Germany",
+    "country": "MD",
+    "createdAt": "2026-04-21T13:45:00.000Z",
+    "progress": { "registered": true, "planned": false, "voted": false }
+  },
+  {
+    "id": "seed-012",
+    "name": "Răzvan Ionescu",
+    "email": "razvan@example.com",
+    "city": "Vienna",
+    "residenceCountry": "Austria",
+    "country": "RO",
+    "createdAt": "2026-04-21T15:30:00.000Z",
+    "progress": { "registered": true, "planned": true, "voted": false }
+  },
+  {
+    "id": "seed-013",
+    "name": "Tamar Gelashvili",
+    "email": "tamar@example.com",
+    "city": "Paris",
+    "residenceCountry": "France",
+    "country": "GE",
+    "createdAt": "2026-04-21T17:10:00.000Z",
+    "progress": { "registered": false, "planned": false, "voted": false }
+  },
+  {
+    "id": "seed-014",
+    "name": "Cristina Bejan",
+    "email": "cristina@example.com",
+    "city": "Berlin",
+    "residenceCountry": "Germany",
+    "country": "MD",
+    "createdAt": "2026-04-21T18:42:00.000Z",
+    "progress": { "registered": true, "planned": false, "voted": false }
+  },
+  {
+    "id": "seed-015",
+    "name": "Fatma Kaya",
+    "email": "fatma@example.com",
+    "city": "Berlin",
+    "residenceCountry": "Germany",
+    "country": "TR",
+    "createdAt": "2026-04-21T20:00:00.000Z",
+    "progress": { "registered": true, "planned": true, "voted": false }
+  },
+  {
+    "id": "seed-016",
+    "name": "Adrian Pop",
+    "email": "adrian@example.com",
+    "city": "Dublin",
+    "residenceCountry": "Ireland",
+    "country": "RO",
+    "createdAt": "2026-04-22T06:05:00.000Z",
+    "progress": { "registered": false, "planned": false, "voted": false }
+  },
+  {
+    "id": "seed-017",
+    "name": "Victor Stratan",
+    "email": "victor@example.com",
+    "city": "Lisbon",
+    "residenceCountry": "Portugal",
+    "country": "MD",
+    "createdAt": "2026-04-22T07:30:00.000Z",
+    "progress": { "registered": true, "planned": false, "voted": false }
+  },
+  {
+    "id": "seed-018",
+    "name": "Lasha Chkheidze",
+    "email": "lasha@example.com",
+    "city": "Athens",
+    "residenceCountry": "Greece",
+    "country": "GE",
+    "createdAt": "2026-04-22T08:45:00.000Z",
+    "progress": { "registered": true, "planned": true, "voted": false }
+  },
+  {
+    "id": "seed-019",
+    "name": "Burak Öztürk",
+    "email": "burak@example.com",
+    "city": "Vienna",
+    "residenceCountry": "Austria",
+    "country": "TR",
+    "createdAt": "2026-04-22T09:20:00.000Z",
+    "progress": { "registered": false, "planned": false, "voted": false }
+  },
+  {
+    "id": "seed-020",
+    "name": "Ioana Marinescu",
+    "email": "ioana@example.com",
+    "city": "Milan",
+    "residenceCountry": "Italy",
+    "country": "RO",
+    "createdAt": "2026-04-22T10:10:00.000Z",
+    "progress": { "registered": true, "planned": false, "voted": false }
+  },
+  {
+    "id": "seed-021",
+    "name": "Dumitru Ceban",
+    "email": "dumitru@example.com",
+    "city": "Paris",
+    "residenceCountry": "France",
+    "country": "MD",
+    "createdAt": "2026-04-22T11:00:00.000Z",
+    "progress": { "registered": true, "planned": true, "voted": false }
+  },
+  {
+    "id": "seed-022",
+    "name": "Selin Aydın",
+    "email": "selin@example.com",
+    "city": "Hamburg",
+    "residenceCountry": "Germany",
+    "country": "TR",
+    "createdAt": "2026-04-22T12:00:00.000Z",
+    "progress": { "registered": false, "planned": false, "voted": false }
+  },
+  {
+    "id": "seed-023",
+    "name": "Mariam Tsertsvadze",
+    "email": "mariam@example.com",
+    "city": "Madrid",
+    "residenceCountry": "Spain",
+    "country": "GE",
+    "createdAt": "2026-04-22T12:45:00.000Z",
+    "progress": { "registered": true, "planned": false, "voted": false }
+  },
+  {
+    "id": "seed-024",
+    "name": "Tudor Postolache",
+    "email": "tudor@example.com",
+    "city": "Prague",
+    "residenceCountry": "Czechia",
+    "country": "MD",
+    "createdAt": "2026-04-22T13:30:00.000Z",
+    "progress": { "registered": false, "planned": false, "voted": false }
+  },
+  {
+    "id": "seed-025",
+    "name": "Florin Dumitrescu",
+    "email": "florin@example.com",
+    "city": "Brussels",
+    "residenceCountry": "Belgium",
+    "country": "RO",
+    "createdAt": "2026-04-22T14:15:00.000Z",
+    "progress": { "registered": true, "planned": true, "voted": false }
+  },
+  {
+    "id": "seed-026",
+    "name": "Ecaterina Bivol",
+    "email": "ecaterina@example.com",
+    "city": "Berlin",
+    "residenceCountry": "Germany",
+    "country": "MD",
+    "createdAt": "2026-04-22T15:00:00.000Z",
+    "progress": { "registered": true, "planned": false, "voted": false }
+  },
+  {
+    "id": "seed-027",
+    "name": "Kerem Şahin",
+    "email": "kerem@example.com",
+    "city": "Stockholm",
+    "residenceCountry": "Sweden",
+    "country": "TR",
+    "createdAt": "2026-04-22T15:45:00.000Z",
+    "progress": { "registered": false, "planned": false, "voted": false }
+  },
+  {
+    "id": "seed-028",
+    "name": "Irakli Jorjadze",
+    "email": "irakli@example.com",
+    "city": "Milan",
+    "residenceCountry": "Italy",
+    "country": "GE",
+    "createdAt": "2026-04-22T16:30:00.000Z",
+    "progress": { "registered": true, "planned": false, "voted": false }
+  },
+  {
+    "id": "seed-029",
+    "name": "Mihaela Radu",
+    "email": "mihaela@example.com",
+    "city": "Rome",
+    "residenceCountry": "Italy",
+    "country": "RO",
+    "createdAt": "2026-04-22T17:15:00.000Z",
+    "progress": { "registered": true, "planned": true, "voted": false }
+  },
+  {
+    "id": "seed-030",
+    "name": "Valentina Macovei",
+    "email": "valentina@example.com",
+    "city": "London",
+    "residenceCountry": "United Kingdom",
+    "country": "MD",
+    "createdAt": "2026-04-22T18:00:00.000Z",
+    "progress": { "registered": false, "planned": false, "voted": false }
+  }
+]
