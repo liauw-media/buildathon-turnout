@@ -2,10 +2,12 @@ import Link from "next/link";
 import { cookies } from "next/headers";
 import { getCommit, readCommits } from "@/lib/store";
 import { getCountry } from "@/lib/countries";
-import { buildReminderTimeline, daysUntil, formatDate } from "@/lib/timeline";
+import { daysUntil, formatDate } from "@/lib/timeline";
 import { fifthOf, PERMANENT_COMMITMENT_COPY } from "@/lib/diaspora";
+import { buildMessagesFor } from "@/lib/messages";
 import { ProgressToggle } from "./ProgressToggle";
 import { VotingGroup } from "./VotingGroup";
+import NudgeFeed from "./NudgeFeed";
 import { findGroup } from "@/lib/matching";
 
 export default async function DashboardPage() {
@@ -42,8 +44,18 @@ export default async function DashboardPage() {
 
   const daysToRegistration = daysUntil(country.registrationDeadline);
   const daysToElection = daysUntil(country.nextElection.date);
-  const timeline = buildReminderTimeline(country);
   const group = findGroup(user, allCommits);
+
+  // Build the full personalized message set then split past / future for the feed.
+  const messages = buildMessagesFor(user, country);
+  const sent = messages
+    .filter((m) => m.status === "sent")
+    .sort((a, b) => b.date.localeCompare(a.date))
+    .slice(0, 5);
+  const scheduled = messages
+    .filter((m) => m.status === "scheduled")
+    .sort((a, b) => a.date.localeCompare(b.date))
+    .slice(0, 6);
 
   const doneCount =
     (user.progress.registered ? 1 : 0) +
@@ -124,7 +136,7 @@ export default async function DashboardPage() {
         {PERMANENT_COMMITMENT_COPY.body}
       </div>
 
-      <section className="mt-10 grid gap-8 md:grid-cols-2">
+      <section className="mt-10">
         <div>
           <h2 className="text-lg font-semibold">What you&apos;ll need</h2>
           <ul className="mt-3 list-inside list-disc space-y-1 text-sm text-zinc-700">
@@ -141,38 +153,19 @@ export default async function DashboardPage() {
             Official registration portal →
           </a>
         </div>
+      </section>
 
-        <div>
-          <h2 className="text-lg font-semibold">Upcoming nudges</h2>
-          <ol className="mt-3 space-y-3">
-            {timeline.map((ev) => {
-              const days = daysUntil(ev.date);
-              const past = days < 0;
-              return (
-                <li
-                  key={ev.date + ev.label}
-                  className={`flex items-start gap-3 text-sm ${past ? "opacity-50" : ""}`}
-                >
-                  <span
-                    className={`mt-0.5 inline-block h-2 w-2 shrink-0 rounded-full ${
-                      ev.kind === "deadline"
-                        ? "bg-rose-500"
-                        : ev.kind === "action"
-                          ? "bg-amber-500"
-                          : "bg-zinc-400"
-                    }`}
-                  />
-                  <div>
-                    <p className="text-zinc-900">{ev.label}</p>
-                    <p className="text-xs text-zinc-500">
-                      {formatDate(ev.date)} · {past ? "sent" : `in ${days} days`}
-                    </p>
-                  </div>
-                </li>
-              );
-            })}
-          </ol>
+      <section className="mt-10">
+        <div className="mb-3 flex items-baseline justify-between">
+          <p className="text-xs uppercase tracking-wide text-zinc-500">Reminder feed</p>
+          <Link
+            href="/inbox"
+            className="text-xs font-medium text-indigo-600 hover:underline"
+          >
+            Open full inbox →
+          </Link>
         </div>
+        <NudgeFeed sent={sent} scheduled={scheduled} />
       </section>
 
       <VotingGroup initialMembers={group} />

@@ -110,7 +110,8 @@
         "date": "2027-04-11",
         "kind": "presidential",
         "source": "https://en.wikipedia.org/wiki/2027_French_presidential_election",
-        "notes": "First round must fall between 8 and 23 April 2027; estimated date; Macron ineligible for re-election; second round ~2 weeks later"
+        "notes": "First round must fall between 8 and 23 April 2027; estimated date; Macron ineligible for re-election; second round ~2 weeks later",
+        "featured": true
       },
       {
         "label": "French regional and departmental elections",
@@ -318,7 +319,8 @@
         "date": "2027-06-01",
         "kind": "referendum",
         "source": "https://www.swissinfo.ch/eng/various/federal-council-hands-over-eu-treaty-package-to-parliament/91093615",
-        "notes": "Estimated; 'Bilaterals III' package (electricity, health, food safety agreements) expected to go to popular vote in 2027 before October federal elections; exact date TBD"
+        "notes": "Estimated; 'Bilaterals III' package (electricity, health, food safety agreements) expected to go to popular vote in 2027 before October federal elections; exact date TBD",
+        "featured": true
       },
       {
         "label": "Switzerland federal elections (National Council and Council of States)",
@@ -461,7 +463,8 @@
         "date": "2026-09-13",
         "kind": "parliamentary",
         "source": "https://en.wikipedia.org/wiki/2026_Swedish_general_election",
-        "notes": "Second Sunday in September. Held simultaneously with regional and municipal elections."
+        "notes": "Second Sunday in September. Held simultaneously with regional and municipal elections.",
+        "featured": true
       },
       {
         "label": "Regional council elections",
@@ -581,7 +584,8 @@
         "date": "2027-03-07",
         "kind": "parliamentary",
         "source": "https://en.wikipedia.org/wiki/Next_Estonian_parliamentary_election",
-        "notes": "101 members elected every four years. Estonia introduced i-voting (internet voting) in 2005 — the first country globally to do so for national elections — and over half of all votes are now cast online."
+        "notes": "101 members elected every four years. Estonia introduced i-voting (internet voting) in 2005 — the first country globally to do so for national elections — and over half of all votes are now cast online.",
+        "featured": true
       },
       {
         "label": "European Parliament elections",
@@ -671,7 +675,8 @@
         "date": "2027-10-10",
         "kind": "parliamentary",
         "source": "https://en.wikipedia.org/wiki/Next_Polish_parliamentary_election",
-        "notes": "Must be held by 11 November 2027. Elects 460 Sejm deputies and 100 senators. Exact date estimated October 2027; official authority: PKW (Państwowa Komisja Wyborcza) at pkw.gov.pl."
+        "notes": "Must be held by 11 November 2027. Elects 460 Sejm deputies and 100 senators. Exact date estimated October 2027; official authority: PKW (Państwowa Komisja Wyborcza) at pkw.gov.pl.",
+        "featured": true
       },
       {
         "label": "Local government elections",
@@ -821,7 +826,8 @@
         "date": "2027-03-01",
         "kind": "general",
         "source": "https://en.wikipedia.org/wiki/Next_Maltese_general_election",
-        "notes": "Constitutional deadline is by June 2027 (5-year term from March 2022 election). PM Abela widely expected to call for spring 2027; March is most cited estimate. No official date announced as of April 2026. Date is an estimate."
+        "notes": "Constitutional deadline is by June 2027 (5-year term from March 2022 election). PM Abela widely expected to call for spring 2027; March is most cited estimate. No official date announced as of April 2026. Date is an estimate.",
+        "featured": true
       },
       {
         "label": "Local council elections",
@@ -874,7 +880,8 @@
         "date": "2027-07-25",
         "kind": "parliamentary",
         "source": "https://en.wikipedia.org/wiki/Next_Greek_parliamentary_election",
-        "notes": "Constitutional deadline is 25 July 2027. Last election June 2023. There is speculation about an earlier autumn 2026 call. Date shown is the constitutional deadline; actual election may be earlier."
+        "notes": "Constitutional deadline is 25 July 2027. Last election June 2023. There is speculation about an earlier autumn 2026 call. Date shown is the constitutional deadline; actual election may be earlier.",
+        "featured": true
       },
       {
         "label": "European Parliament election",
@@ -943,7 +950,8 @@
         "date": "2028-11-30",
         "kind": "parliamentary",
         "source": "https://en.wikipedia.org/wiki/Next_Romanian_parliamentary_election",
-        "notes": "Constitutional deadline is 30 November 2028. Last parliamentary elections December 2024. Date shown is the latest constitutional deadline; actual election may be held in autumn 2028."
+        "notes": "Constitutional deadline is 30 November 2028. Last parliamentary elections December 2024. Date shown is the latest constitutional deadline; actual election may be held in autumn 2028.",
+        "featured": true
       },
       {
         "label": "European Parliament election",
@@ -1095,7 +1103,8 @@
         "date": "2027-04-01",
         "kind": "presidential",
         "source": "https://en.wikipedia.org/wiki/Next_Serbian_presidential_election",
-        "notes": "Constitutional deadline: before 1 May 2027. Incumbent Aleksandar Vucic constitutionally barred from a third term. Could be held concurrently with parliamentary election. Date is an estimate."
+        "notes": "Constitutional deadline: before 1 May 2027. Incumbent Aleksandar Vucic constitutionally barred from a third term. Could be held concurrently with parliamentary election. Date is an estimate.",
+        "featured": true
       }
     ],
     "MD": [
@@ -1118,7 +1127,8 @@
         "date": "2029-09-28",
         "kind": "parliamentary",
         "source": "https://en.wikipedia.org/wiki/2025_Moldovan_parliamentary_election",
-        "notes": "Next parliamentary election projected for September 2029, following the September 2025 election. Moldova is on EU accession track; elections are free and competitive."
+        "notes": "Next parliamentary election projected for September 2029, following the September 2025 election. Moldova is on EU accession track; elections are free and competitive.",
+        "featured": true
       }
     ],
     "GE": [
@@ -1150,7 +1160,8 @@
         "date": "2026-10-25",
         "kind": "presidential",
         "source": "https://tass.com/world/2089965",
-        "notes": "Ukrainian law prohibits elections during martial law. Media and political sources project a presidential election in autumn 2026 if martial law ends or is amended. Zelensky's term expired March 2024 but was constitutionally extended. Date is indicative — not officially scheduled."
+        "notes": "Ukrainian law prohibits elections during martial law. Media and political sources project a presidential election in autumn 2026 if martial law ends or is amended. Zelensky's term expired March 2024 but was constitutionally extended. Date is indicative — not officially scheduled.",
+        "featured": true
       },
       {
         "label": "Parliamentary election — Verkhovna Rada (projected, post-martial law)",
@@ -1180,7 +1191,8 @@
         "date": "2028-05-14",
         "kind": "general",
         "source": "https://en.wikipedia.org/wiki/Next_Turkish_presidential_election",
-        "notes": "Next general election due by 14 May 2028. Presidential and all 600 Grand National Assembly seats will be contested simultaneously. Erdogan confirmed no early elections; AKP dismissed calls for snap vote before 2028."
+        "notes": "Next general election due by 14 May 2028. Presidential and all 600 Grand National Assembly seats will be contested simultaneously. Erdogan confirmed no early elections; AKP dismissed calls for snap vote before 2028.",
+        "featured": true
       },
       {
         "label": "Local / municipal elections",
@@ -1197,6 +1209,21 @@
         "kind": "referendum",
         "source": "unknown",
         "notes": "FICTIONAL — illustrative civic-tech event for the Turnout platform. Date chosen as anniversary of the disputed 9 August 2020 presidential election, the starting point of the Belarusian democratic protest movement. Inspired by Sviatlana Tsikhanouskaya's United Transitional Cabinet of Belarus and diaspora organizations across the EU and beyond. This shadow referendum would ask the Belarusian diaspora to reaffirm democratic values and Tsikhanouskaya's legitimacy."
+      },
+      {
+        "label": "Peaceful Parliamentary Unanimity Exercise — All 110 Seats Uncontested",
+        "date": "2028-02-27",
+        "kind": "referendum",
+        "source": "unknown",
+        "notes": "FICTIONAL / SATIRICAL — symbolic entry for Turnout demo, timed to Belarus's next scheduled parliamentary election (last Sunday of February 2028). A fictional rendering of what the House of Representatives election actually looks like: 110 constituencies, 110 pre-vetted candidates, 0 opposition permitted. The Central Election Commission announces results at 22:00 before polls formally close. Turnout certified at 88.3%. Satirical of single-list parliamentary theatre; respectful toward Belarusians whose real votes landed people in prison.",
+        "featured": true
+      },
+      {
+        "label": "All-People's Referendum on Stability, Sovereignty, and the Sacred Path Forward",
+        "date": "2027-07-03",
+        "kind": "referendum",
+        "source": "unknown",
+        "notes": "FICTIONAL / SATIRICAL — symbolic entry for Turnout demo. Date chosen as Independence Day of Belarus (3 July). A fictional snap referendum called by the incumbent leadership with 11 days' notice, asking citizens to affirm 'the inviolable course of stability and sovereign development.' Ballot printed only in Russian. International observers denied accreditation. Result: 96.4% Yes. Satirical of referendum timing and framing as consent-manufacturing tools."
       },
       {
         "label": "Parliamentary election (House of Representatives) — sham",
@@ -1229,6 +1256,21 @@
         "notes": "FICTIONAL — illustrative civic-tech event for the Turnout platform. Date chosen as the fifth anniversary of Russia's full-scale invasion of Ukraine (24 February 2022). Imagines a diaspora-organized solidarity vote among Russians abroad (estimated 800,000+ who left Russia after 2022) on questions of the war, democratic transition, and accountability. Inspired by real diaspora networks in Berlin, Riga, Tbilisi, and Tel Aviv."
       },
       {
+        "label": "Referendum on Sovereign Spiritual Values and Eternal Constitutional Norms",
+        "date": "2028-06-12",
+        "kind": "referendum",
+        "source": "unknown",
+        "notes": "FICTIONAL / SATIRICAL — symbolic entry for Turnout demo. Date chosen as Russia Day (12 June), marking Russian sovereignty. A fictional state-managed referendum in which all options on the ballot affirm the existing constitutional framework; the 'No' option is typeset in a font size of 4pt and positioned below the signature line. Official result: 97.1% in favour. Turnout reported at 104% in two oblasts. Satirical of referendum-washing as a legitimacy tool; respectful toward Russian citizens living under repression.",
+        "featured": true
+      },
+      {
+        "label": "Single-Candidate Gubernatorial Confidence Renewal Procedure",
+        "date": "2026-09-20",
+        "kind": "referendum",
+        "source": "unknown",
+        "notes": "FICTIONAL / SATIRICAL — symbolic entry for Turnout demo, timed to coincide with Russia's Unified Voting Day (20 September). A fictional regional 'confidence renewal' for an incumbent governor who ran unopposed after all challengers were disqualified on technical grounds. Voters select between 'I support the course' and 'I fully support the course.' Illustrated with a real-sounding press release from the regional election commission. Satirical of managed competition; respectful toward citizens unable to vote meaningfully."
+      },
+      {
         "label": "Presidential election — regime-controlled",
         "date": "2030-03-15",
         "kind": "presidential",
@@ -1252,6 +1294,21 @@
         "notes": "FICTIONAL — illustrative civic-tech event for the Turnout platform. Date chosen as Hangul Day (9 October), celebrating the Korean alphabet, as a culturally resonant symbol of literacy and self-determination. Imagines a symbolic congress of Korean diaspora communities (including North Korean defectors settled in South Korea, the US, and UK) deliberating on human rights conditions in the DPRK and a vision for Korean reunification."
       },
       {
+        "label": "99.98% Unanimous Endorsement of the Eternal State Policy Directive",
+        "date": "2027-04-15",
+        "kind": "referendum",
+        "source": "unknown",
+        "notes": "FICTIONAL / SATIRICAL — symbolic entry for Turnout demo showcasing sham election mechanics. Date chosen as the Day of the Sun (Kim Il-sung's birthday, 15 April), the most politically sacred date in the DPRK calendar. Citizens vote on a single pre-approved resolution; no 'No' box exists on the ballot. Official result announced before counting begins. Satirical of the regime; respectful toward North Korean people who have no meaningful electoral choice.",
+        "featured": true
+      },
+      {
+        "label": "Rural County People's Loyalty Verification Exercise",
+        "date": "2029-02-16",
+        "kind": "referendum",
+        "source": "unknown",
+        "notes": "FICTIONAL / SATIRICAL — symbolic entry for Turnout demo. Date chosen as the Day of the Shining Star (Kim Jong-il's birthday, 16 February). A fictional sub-national 'verification' vote in which village-level political officers confirm 100% resident participation and 100% affirmative response. Ballots are marked in view of supervisors. Illustrates how turnout is coerced rather than earned. Satirical of the regime's theatre of consent."
+      },
+      {
         "label": "Supreme People's Assembly (16th) — sham election (projected)",
         "date": "2031-03-08",
         "kind": "parliamentary",
@@ -1266,6 +1323,21 @@
         "kind": "referendum",
         "source": "unknown",
         "notes": "FICTIONAL — illustrative civic-tech event for the Turnout platform. Date chosen as the anniversary of Mahsa Amini's death (16 September 2022), the spark of the Woman Life Freedom (Zan Zendegi Azadi) uprising. Imagines a symbolic diaspora vote — involving the millions of Iranians in the US, Germany, Sweden, and Canada — on principles for a post-theocratic Iranian constitution."
+      },
+      {
+        "label": "Assembly of Experts Pre-Approved Slate Ratification",
+        "date": "2026-12-03",
+        "kind": "referendum",
+        "source": "unknown",
+        "notes": "FICTIONAL / SATIRICAL — symbolic entry for Turnout demo. A fictional Guardian Council vetting exercise rendered as a public vote: 98 candidates applied; 97 were disqualified for insufficient theological credentials, reformist sympathies, or owning a pet. The remaining candidate is ratified with 99.2% approval. The ballot question reads: 'Do you endorse the qualified expert selected by the Council of Qualified Experts?' Satirical of Guardian Council vetting as the actual electoral filter; respectful toward Iranian citizens who risk arrest for protesting this system.",
+        "featured": true
+      },
+      {
+        "label": "National Consultation on Preserving the Velayat-e Faqih Sacred Mandate",
+        "date": "2029-02-11",
+        "kind": "referendum",
+        "source": "unknown",
+        "notes": "FICTIONAL / SATIRICAL — symbolic entry for Turnout demo. Date chosen as Revolution Day (11 February), anniversary of the 1979 Islamic Revolution. A fictional mandatory participation vote asking citizens to affirm the Supreme Leader's divine mandate to govern. Voting takes place at mosques; attendance is recorded by neighbourhood committee. Abstention is noted. Official turnout: 91%. Satirical of mobilised consent in theocratic systems; respectful toward Iranians who face real consequences for dissent."
       },
       {
         "label": "Majlis (parliament) and presidential election — managed",
@@ -1289,6 +1361,21 @@
         "kind": "local",
         "source": "https://en.cibercuba.com/noticias/2025-12-08-u1-e208933-s27061-nid316318-gobierno-cubano-presenta-ley-recortar-mandato",
         "notes": "The Cuban government proposed shortening the current municipal delegate term to end in November 2026, to realign the electoral calendar. Municipal elections are staged by the Communist Party of Cuba; only approved candidates run. No competitive pluralism exists."
+      },
+      {
+        "label": "Single-List Democratic Municipal Vote for Neighbourhood Harmony Delegates",
+        "date": "2027-04-19",
+        "kind": "referendum",
+        "source": "unknown",
+        "notes": "FICTIONAL / SATIRICAL — symbolic entry for Turnout demo. Date chosen as the anniversary of the Bay of Pigs victory (19 April 1961), a date of high revolutionary significance. A fictional municipal delegate nomination process: citizens nominate candidates at street-level CDR meetings; the single nominated candidate (vetted by the Party) appears on the ballot unopposed. Voting is public and neighbours observe participation. Satirical of nomination-as-election mechanics; respectful toward Cubans navigating surveillance and scarcity.",
+        "featured": true
+      },
+      {
+        "label": "Revolutionary Continuity Plebiscite on Socialist Economic Sovereignty",
+        "date": "2028-10-10",
+        "kind": "referendum",
+        "source": "unknown",
+        "notes": "FICTIONAL / SATIRICAL — symbolic entry for Turnout demo. Date chosen as Grito de Yara (10 October), Cuba's national independence day marking the start of the first war of independence in 1868. A fictional referendum on a package of economic measures framed as 'defending the revolution against imperialist blockade.' The official No campaign is allotted zero media time. Result: 94.7% Yes. Satirical of plebiscites used to rubber-stamp policy rather than consult citizens."
       },
       {
         "label": "National Assembly of People's Power election — sham",
@@ -1321,6 +1408,21 @@
         "notes": "FICTIONAL — illustrative civic-tech event for the Turnout platform. Date chosen as 5 July, Venezuelan Independence Day (declared 5 July 1811). Imagines a solidarity consultation among the Venezuelan diaspora — estimated 7+ million Venezuelans abroad, in Colombia, Peru, Chile, Spain, and the US — on questions of democratic transition, return conditions, and recognition of the Edmundo González Urrutia opposition government."
       },
       {
+        "label": "Revolutionary Continuity Referendum on Bolivarian Constitutional Permanence",
+        "date": "2027-12-17",
+        "kind": "referendum",
+        "source": "unknown",
+        "notes": "FICTIONAL / SATIRICAL — symbolic entry for Turnout demo. Date chosen as the anniversary of Simón Bolívar's death (17 December 1830), the Liberator whose legacy the regime claims daily. A fictional referendum to amend the constitution to extend the current leadership's mandate and enshrine 'anti-imperialist continuity.' CNE announces preliminary results 40 minutes after polls open. International observers from allied states certify the process as 'profoundly democratic.' Satirical of Bolivarian legitimacy theatre; respectful toward the millions of Venezuelans who voted freely in July 2024 and had their results stolen.",
+        "featured": true
+      },
+      {
+        "label": "Nationwide Chavista Loyalty Consultation for 21st-Century Socialism Advancement",
+        "date": "2029-04-13",
+        "kind": "referendum",
+        "source": "unknown",
+        "notes": "FICTIONAL / SATIRICAL — symbolic entry for Turnout demo. Date chosen as the anniversary of the brief 2002 coup against Chávez (13 April), celebrated annually as 'Return to Power Day.' A fictional mandatory consultation asking state employees, military personnel, and CLAP food-programme beneficiaries to vote in favour of a five-point socialist renewal plan. Participation is tracked by identification card number. Abstention results in removal from food subsidy lists. Satirical of coercive mobilisation; respectful toward Venezuelans facing hunger and political persecution."
+      },
+      {
         "label": "Presidential election (projected) — uncertain following political crisis",
         "date": "2030-07-28",
         "kind": "presidential",
@@ -1349,6 +1451,22 @@
         "kind": "referendum",
         "source": "unknown",
         "notes": "FICTIONAL — illustrative civic-tech event for the Turnout platform. Date chosen as 12 November, birthday of Rebiya Kadeer, longtime Uyghur activist and former political prisoner. Imagines a symbolic assembly of the Uyghur diaspora — represented by the World Uyghur Congress and communities in Turkey, Germany, Kazakhstan, and the US — deliberating on self-determination, accountability for the Xinjiang mass detention system, and international recognition."
+      },
+      {
+        "label": "Nationwide Harmony Pledge: Village Committee Delegate Affirmation Exercise",
+        "date": "2027-10-01",
+        "kind": "referendum",
+        "source": "unknown",
+        "notes": "FICTIONAL / SATIRICAL — symbolic entry for Turnout demo. Date chosen as National Day of the People's Republic of China (1 October). A fictional village-level delegate selection process: residents gather in community halls to applaud — by duration and volume — the single pre-vetted candidate proposed by the local Party branch. The process is described in official media as 'direct grassroots democracy at its most authentic.' Satirical of rubber-stamp participatory mechanics; respectful toward Chinese citizens who navigate extensive surveillance and cannot safely express dissent.",
+        "featured": true
+      },
+      {
+        "label": "Hong Kong Special Administrative Region Patriot Capacity-Building Ballot",
+        "date": "2028-09-06",
+        "kind": "referendum",
+        "source": "unknown",
+        "notes": "FICTIONAL / SATIRICAL — symbolic entry for Turnout demo. A fictional LegCo by-election in which all 18 registered candidates are vetted patriots; the Election Committee pre-selects 16 of them as preferred. Voters choose among the 16 approved options. The two non-preferred candidates later issue statements endorsing the preferred candidates. Official turnout: 32% (the lowest in Hong Kong history, unacknowledged in state media). Satirical of 'patriots only' electoral engineering post-2021; respectful toward the Hong Kong people who filled Victoria Park in 2019.",
+        "featured": true
       },
       {
         "label": "15th National People's Congress election — managed",

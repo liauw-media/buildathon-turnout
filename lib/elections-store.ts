@@ -8,18 +8,27 @@ const DATA_DIR = path.join(process.cwd(), "data");
 const DATA_FILE = path.join(DATA_DIR, "elections.json");
 const CALENDAR_FILE = path.join(DATA_DIR, "elections-calendar.json");
 
-type CalendarEvent = {
+export type CalendarEvent = {
   label: string;
   date: string;
   kind?: string;
   source?: string;
   notes?: string | null;
+  featured?: boolean;
 };
 
-type Calendar = {
+export type Calendar = {
   generatedAt?: string;
   sourceCount?: number;
   countries: Record<string, CalendarEvent[]>;
+};
+
+export type RichCalendarEvent = CalendarEvent & {
+  country: string;
+  code: string;
+  flag: string;
+  countryName: string;
+  days: number;
 };
 
 // In-memory cache for the calendar (static per build; data file is treated as static)
@@ -140,4 +149,47 @@ export async function getAllEffectiveCountries(): Promise<CountryRules[]> {
   return Promise.all(
     COUNTRIES.map((c) => getEffectiveCountry(c.code) as Promise<CountryRules>),
   );
+}
+
+/**
+ * Returns the raw Calendar object (generatedAt, sourceCount, countries map).
+ */
+export async function readElectionsCalendar(): Promise<Calendar> {
+  return readCalendar();
+}
+
+/**
+ * Returns a flat list of all calendar events enriched with country metadata
+ * and a `days` field (days until the event; negative = past).
+ * Sorted by date ascending (upcoming first, past events at the end).
+ */
+export async function getAllCalendarEvents(): Promise<RichCalendarEvent[]> {
+  const cal = await readCalendar();
+  const today = new Date().toISOString().slice(0, 10);
+  const countryMap = new Map(COUNTRIES.map((c) => [c.code, c]));
+
+  const events: RichCalendarEvent[] = [];
+
+  for (const [code, calEvents] of Object.entries(cal.countries)) {
+    const meta = countryMap.get(code);
+    const flag = meta?.flag ?? "";
+    const countryName = meta?.name ?? code;
+
+    for (const ev of calEvents) {
+      const diffMs = new Date(ev.date).getTime() - new Date(today).getTime();
+      const days = Math.round(diffMs / (1000 * 60 * 60 * 24));
+      events.push({ ...ev, country: code, code, flag, countryName, days });
+    }
+  }
+
+  // Upcoming first (ascending), then past events (also ascending within past)
+  events.sort((a, b) => {
+    const aUpcoming = a.days >= 0;
+    const bUpcoming = b.days >= 0;
+    if (aUpcoming && !bUpcoming) return -1;
+    if (!aUpcoming && bUpcoming) return 1;
+    return a.date.localeCompare(b.date);
+  });
+
+  return events;
 }

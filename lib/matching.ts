@@ -2,24 +2,42 @@ import type { Commit } from "./types";
 
 export type MockMember = {
   id: string;
-  displayName: string; // "Maria P."
-  initials: string;    // "MP"
+  /** Emoji avatar stable-hashed from the commit id — no identifying info. */
+  avatar: string;
+  /** Privacy-first label — no names, no initials. E.g. "Fellow voter · Berlin". */
+  displayName: string;
+  /** City only — coarse location, no street/address. */
+  city: string;
   distanceMock: string;
-  matchTier: 1 | 2 | 3; // 1=same city, 2=same residence country, 3=same origin country
+  matchTier: 1 | 2 | 3;
 };
 
-function nameToInitials(name: string): string {
-  const parts = name.trim().split(/\s+/);
-  if (parts.length === 1) return parts[0].slice(0, 2).toUpperCase();
-  return (parts[0][0] + parts[parts.length - 1][0]).toUpperCase();
-}
+const AVATAR_POOL = [
+  "🦊",
+  "🦉",
+  "🌿",
+  "🐝",
+  "🪻",
+  "🌻",
+  "🐢",
+  "🦋",
+  "🌸",
+  "🐙",
+  "🌊",
+  "🪷",
+  "🐞",
+  "🍀",
+  "🎋",
+];
 
-function displayName(name: string): string {
-  const parts = name.trim().split(/\s+/);
-  if (parts.length === 1) return parts[0];
-  const first = parts[0];
-  const lastInitial = parts[parts.length - 1][0].toUpperCase();
-  return `${first} ${lastInitial}.`;
+/**
+ * Stable hash → emoji avatar. Same commit id always gets the same emoji,
+ * so switching personas doesn't shuffle the group's visual identity.
+ */
+function avatarFor(id: string): string {
+  let h = 0;
+  for (let i = 0; i < id.length; i++) h = (h * 31 + id.charCodeAt(i)) | 0;
+  return AVATAR_POOL[Math.abs(h) % AVATAR_POOL.length];
 }
 
 function distanceMockForTier(tier: 1 | 2 | 3): string {
@@ -43,7 +61,7 @@ export function findGroup(user: Commit, allCommits: Commit[]): MockMember[] {
       c.city.toLowerCase() === user.city.toLowerCase(),
   );
 
-  // Tier 2: same origin country AND same residence country (but different city)
+  // Tier 2: same origin country AND same residence country (different city)
   const tier2 = others.filter(
     (c) =>
       c.country === user.country &&
@@ -60,8 +78,9 @@ export function findGroup(user: Commit, allCommits: Commit[]): MockMember[] {
 
   const toMember = (c: Commit, tier: 1 | 2 | 3): MockMember => ({
     id: c.id,
-    displayName: displayName(c.name),
-    initials: nameToInitials(c.name),
+    avatar: avatarFor(c.id),
+    displayName: "Fellow voter",
+    city: c.city,
     distanceMock: distanceMockForTier(tier),
     matchTier: tier,
   });
@@ -72,6 +91,5 @@ export function findGroup(user: Commit, allCommits: Commit[]): MockMember[] {
     ...tier3.map((c) => toMember(c, 3)),
   ];
 
-  // Return 2–4 members, preferring higher tiers
   return candidates.slice(0, 4);
 }

@@ -5,6 +5,7 @@ import { redirect } from "next/navigation";
 import { addTopic, updateTopic, deleteTopic } from "@/lib/topics-store";
 import { upsertOverride } from "@/lib/elections-store";
 import { COUNTRIES } from "@/lib/countries";
+import { updateReminderSettings } from "@/lib/reminder-settings-store";
 
 // ─── Elections ───────────────────────────────────────────────────────────────
 
@@ -94,4 +95,37 @@ export async function removeTopic(formData: FormData): Promise<void> {
   revalidatePath("/admin");
   if (country) revalidatePath(`/elections/${country}/topics`);
   redirect("/admin?tab=topics&success=deleted");
+}
+
+// ─── Reminder Settings ────────────────────────────────────────────────────────
+
+function parseIntArray(raw: string): number[] {
+  return raw
+    .split(",")
+    .map((s) => parseInt(s.trim(), 10))
+    .filter((n) => !isNaN(n) && n >= 0);
+}
+
+export async function saveReminderSettings(formData: FormData): Promise<void> {
+  const emailDaysBeforeRegDeadline = parseIntArray(
+    String(formData.get("emailDaysBeforeRegDeadline") ?? ""),
+  );
+  const smsDaysBeforeRegDeadline = parseIntArray(
+    String(formData.get("smsDaysBeforeRegDeadline") ?? ""),
+  );
+  const emailDaysBeforeElection = parseIntArray(
+    String(formData.get("emailDaysBeforeElection") ?? ""),
+  );
+  const smsDaysBeforeElection = parseIntArray(
+    String(formData.get("smsDaysBeforeElection") ?? ""),
+  );
+
+  await updateReminderSettings({
+    emailDaysBeforeRegDeadline,
+    smsDaysBeforeRegDeadline,
+    emailDaysBeforeElection,
+    smsDaysBeforeElection,
+  });
+
+  revalidatePath("/admin");
 }

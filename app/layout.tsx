@@ -39,7 +39,7 @@ export default async function RootLayout({
     <html lang="en" className="h-full antialiased">
       <body className="min-h-full flex flex-col bg-white text-zinc-900">
         <header className="border-b border-zinc-200">
-          <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
+          <div className="mx-auto flex max-w-full items-center justify-between px-6 py-4 sm:px-10">
             <div className="flex items-center gap-3">
               {/* Persona switcher sits left of the logo for visual distinction */}
               <PersonaSwitcher

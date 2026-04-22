@@ -3,28 +3,6 @@
 import { useState } from "react";
 import type { MockMember } from "@/lib/matching";
 
-// Palette of muted pleasant background colors for avatar circles
-const AVATAR_PALETTE = [
-  "bg-indigo-100 text-indigo-800",
-  "bg-violet-100 text-violet-800",
-  "bg-sky-100 text-sky-800",
-  "bg-teal-100 text-teal-800",
-  "bg-amber-100 text-amber-800",
-  "bg-rose-100 text-rose-800",
-];
-
-function hashName(name: string): number {
-  let h = 0;
-  for (let i = 0; i < name.length; i++) {
-    h = (h * 31 + name.charCodeAt(i)) & 0xffff;
-  }
-  return h;
-}
-
-function avatarColor(initials: string): string {
-  return AVATAR_PALETTE[hashName(initials) % AVATAR_PALETTE.length];
-}
-
 type Props = {
   initialMembers: MockMember[];
 };
@@ -75,7 +53,8 @@ export function VotingGroup({ initialMembers }: Props) {
         <div>
           <p className="font-semibold text-zinc-900">Vote together</p>
           <p className="mt-0.5 text-sm text-zinc-500">
-            {initialMembers.length} people near you have committed
+            {initialMembers.length} fellow voter{initialMembers.length === 1 ? "" : "s"} near you
+            — names kept private
           </p>
         </div>
         <span className="mt-0.5 rounded-full bg-emerald-100 px-2.5 py-0.5 text-xs font-medium text-emerald-800">
@@ -96,20 +75,22 @@ export function VotingGroup({ initialMembers }: Props) {
                   : "border-zinc-200 bg-zinc-50"
               }`}
             >
-              {/* Avatar */}
+              {/* Pseudonymous emoji avatar — no identifying info */}
               <div
-                className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-full text-xs font-semibold ${avatarColor(member.initials)}`}
+                className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-white text-lg ring-1 ring-zinc-200"
                 aria-hidden
               >
-                {member.initials}
+                {member.avatar}
               </div>
 
-              {/* Name + distance */}
+              {/* Privacy-first label — city only, no names */}
               <div className="min-w-0 flex-1">
                 <p className="text-sm font-medium text-zinc-900">
                   {member.displayName}
                 </p>
-                <p className="text-xs text-zinc-500">{member.distanceMock}</p>
+                <p className="text-xs text-zinc-500">
+                  {member.city} · {member.distanceMock}
+                </p>
               </div>
 
               {/* Actions */}

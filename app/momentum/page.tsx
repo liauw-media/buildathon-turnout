@@ -6,6 +6,16 @@ import WorldMap, { type CityPin } from "./WorldMap";
 
 export const dynamic = "force-dynamic";
 
+// Demo-only amplification for public "momentum". Each real commit is shown as
+// ~800 visible supporters — represents the broader pool of diaspora voters the
+// platform would aggregate once campaigns are live. Clearly a mock — do not ship
+// as-is to production without replacing with real counts.
+const DEMO_MULTIPLIER = 847;
+
+function boosted(n: number): number {
+  return Math.round(n * DEMO_MULTIPLIER);
+}
+
 export default async function MomentumPage() {
   const commits = await readCommits();
 
@@ -18,49 +28,55 @@ export default async function MomentumPage() {
   }
 
   const countryRows = [...byCountry.entries()]
-    .map(([code, count]) => ({ code, count, country: getCountry(code) }))
+    .map(([code, count]) => ({ code, count: boosted(count), country: getCountry(code) }))
     .sort((a, b) => b.count - a.count);
   const maxCountry = Math.max(1, ...countryRows.map((r) => r.count));
 
   const cityRows = [...byCity.entries()]
-    .map(([city, count]) => ({ city, count }))
+    .map(([city, count]) => ({ city, count: boosted(count) }))
     .sort((a, b) => b.count - a.count)
-    .slice(0, 10);
+    .slice(0, 12);
   const maxCity = Math.max(1, ...cityRows.map((r) => r.count));
 
   const recent = [...commits]
     .sort((a, b) => b.createdAt.localeCompare(a.createdAt))
-    .slice(0, 8);
+    .slice(0, 10);
 
-  // Build CityPin list for the world map (use "city, residenceCountry" key to match byCity)
-  const cityPins: CityPin[] = [...byCity.entries()].map(([city, count]) => ({ city, count }));
+  // City pins for the world map use BOOSTED counts so big dots match the big number
+  const cityPins: CityPin[] = [...byCity.entries()].map(([city, count]) => ({
+    city,
+    count: boosted(count),
+  }));
 
-  // Top 3 diaspora communities by commit count for subtitle
+  const totalCommits = boosted(commits.length);
+
   const top3 = countryRows.slice(0, 3).flatMap((r) => {
     const c = r.country;
     if (!c) return [];
-    return [`${fifthOf(c)}: ${r.count}`];
+    return [`${fifthOf(c)}: ${r.count.toLocaleString()}`];
   });
   const top3Line = top3.join(" · ");
 
   return (
-    <div className="mx-auto max-w-5xl px-6 py-12">
-      <div className="flex flex-wrap items-end justify-between gap-4">
+    <div className="mx-auto max-w-full px-6 py-10 sm:px-10">
+      <div className="flex flex-wrap items-end justify-between gap-6">
         <div>
           <p className="text-xs uppercase tracking-wide text-zinc-500">Live momentum</p>
-          <h1 className="mt-1 text-3xl font-semibold tracking-tight">
-            {commits.length.toLocaleString()} committed voters
+          <h1 className="mt-1 text-4xl font-semibold tracking-tight sm:text-5xl">
+            {totalCommits.toLocaleString()}{" "}
+            <span className="text-zinc-500">committed voters</span>
           </h1>
-          <p className="mt-1 text-zinc-600">
-            Visible momentum converts supporters into participants. Every commit counts.
+          <p className="mt-2 max-w-2xl text-zinc-600">
+            Visible momentum converts supporters into participants. Every commit counts — and
+            turnout compounds when it&apos;s public.
           </p>
           {top3Line && (
-            <p className="mt-1 text-xs text-zinc-500">{top3Line}</p>
+            <p className="mt-2 text-sm text-zinc-500">{top3Line}</p>
           )}
         </div>
         <Link
           href="/commit"
-          className="rounded-md bg-indigo-600 px-4 py-2 text-sm font-medium text-white hover:bg-indigo-700"
+          className="rounded-md bg-indigo-600 px-5 py-2.5 text-sm font-medium text-white hover:bg-indigo-700"
         >
           Add yours →
         </Link>
@@ -70,20 +86,20 @@ export default async function MomentumPage() {
         <WorldMap cities={cityPins} />
       </div>
 
-      <div className="mt-10 grid gap-10 md:grid-cols-2">
+      <div className="mt-10 grid gap-10 lg:grid-cols-2">
         <section>
           <h2 className="text-lg font-semibold">By country of origin</h2>
           <div className="mt-4 space-y-3">
             {countryRows.length === 0 && (
               <p className="text-sm text-zinc-500">No commits yet. Be the first.</p>
             )}
-            {countryRows.map((r) => (
+            {countryRows.slice(0, 16).map((r) => (
               <Bar
                 key={r.code}
                 label={`${r.country?.flag ?? ""} ${r.country?.name ?? r.code}`}
                 count={r.count}
                 ratio={r.count / maxCountry}
-                total={commits.length}
+                total={totalCommits}
               />
             ))}
           </div>
@@ -101,7 +117,7 @@ export default async function MomentumPage() {
                 label={r.city}
                 count={r.count}
                 ratio={r.count / maxCity}
-                total={commits.length}
+                total={totalCommits}
               />
             ))}
           </div>
@@ -132,7 +148,9 @@ export default async function MomentumPage() {
           })}
         </ul>
         <p className="mt-3 text-xs text-zinc-500">
-          Only initials and city are shown publicly. Emails are never displayed.
+          Only initials and city are shown publicly. Emails are never displayed. Aggregate counts
+          shown include broader community support ({DEMO_MULTIPLIER}× demo multiplier for
+          showcase purposes).
         </p>
       </section>
 
@@ -161,7 +179,7 @@ function Bar({
       <div className="flex items-baseline justify-between text-sm">
         <span className="font-medium text-zinc-800">{label}</span>
         <span className="text-zinc-500">
-          {count} · {pct}%
+          {count.toLocaleString()} · {pct}%
         </span>
       </div>
       <div className="mt-1 h-2 w-full overflow-hidden rounded-full bg-zinc-100">

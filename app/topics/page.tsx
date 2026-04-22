@@ -21,7 +21,7 @@ export default async function TopicsIndexPage() {
   }
 
   return (
-    <div className="mx-auto max-w-6xl px-6 py-12">
+    <div className="mx-auto max-w-full px-6 py-10 sm:px-10">
       <div className="flex flex-wrap items-end justify-between gap-4">
         <div>
           <p className="text-xs uppercase tracking-wide text-zinc-500">Topic library</p>

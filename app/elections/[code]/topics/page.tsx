@@ -111,7 +111,7 @@ export default async function TopicsBrowserPage({
           {country.name}.
         </p>
         <Link
-          href="/commit"
+          href={`/commit?code=${country.code}&election=${country.nextElection.date}`}
           className="mt-3 inline-block rounded-md bg-indigo-600 px-4 py-2 text-sm font-medium text-white hover:bg-indigo-700"
         >
           Commit to vote →
