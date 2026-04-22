@@ -37,14 +37,21 @@ export default async function TopicsBrowserPage({
 
   return (
     <div className="mx-auto max-w-3xl px-6 py-12">
-      {/* Header */}
-      <div className="mb-8">
-        <Link
-          href="/"
-          className="text-xs text-zinc-500 hover:text-zinc-700"
-        >
-          ← Home
+      {/* Breadcrumbs */}
+      <nav className="flex items-center gap-2 text-xs text-zinc-500">
+        <Link href="/elections" className="hover:text-zinc-800">
+          Elections
         </Link>
+        <span>/</span>
+        <Link href={`/elections/${code}`} className="hover:text-zinc-800">
+          {country.flag} {country.name}
+        </Link>
+        <span>/</span>
+        <span className="text-zinc-800">Topics</span>
+      </nav>
+
+      {/* Header */}
+      <div className="mb-8 mt-4">
         <div className="mt-3 flex items-center gap-3">
           <span className="text-3xl">{country.flag}</span>
           <div>
