@@ -130,8 +130,7 @@ export default async function CountryElectionsPage({
             {focus.source && focus.source !== "unknown" && (
               <a
                 href={focus.source}
-                target="_blank"
-                rel="noopener noreferrer"
+                target="_blank" rel="noopener noreferrer"
                 className="text-xs font-medium text-indigo-700 hover:underline"
               >
                 Official source →
@@ -225,8 +224,7 @@ export default async function CountryElectionsPage({
 
         <a
           href={country.registrationUrl}
-          target="_blank"
-          rel="noopener noreferrer"
+          target="_blank" rel="noopener noreferrer"
           className="group rounded-lg border border-zinc-200 bg-white p-5 transition hover:border-indigo-300"
         >
           <p className="text-xs uppercase tracking-wide text-zinc-500">How to register</p>

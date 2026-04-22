@@ -152,7 +152,7 @@ export default function ElectionsExplorer({ rows }: { rows: ElectionRow[] }) {
               </li>
             )}
             {shownUpcoming.map((r) => (
-              <li key={`${r.code}-${r.electionDate}`}>
+              <li key={`${r.code}-${r.electionDate}-${r.electionLabel}`}>
                 <Link
                   href={`/elections/${r.code}?event=${r.electionDate}`}
                   className="grid grid-cols-1 items-center gap-3 px-4 py-4 transition hover:bg-zinc-50 md:grid-cols-[1fr_auto_auto_auto_auto_auto]"
@@ -196,7 +196,7 @@ export default function ElectionsExplorer({ rows }: { rows: ElectionRow[] }) {
             <div className="mt-3 flex flex-wrap gap-2">
               {shownPast.map((r) => (
                 <Link
-                  key={`p-${r.code}-${r.electionDate}`}
+                  key={`p-${r.code}-${r.electionDate}-${r.electionLabel}`}
                   href={`/elections/${r.code}?event=${r.electionDate}`}
                   className="inline-flex items-center gap-2 rounded-full border border-zinc-200 bg-zinc-50 px-3 py-1 text-xs text-zinc-600 hover:bg-white"
                 >

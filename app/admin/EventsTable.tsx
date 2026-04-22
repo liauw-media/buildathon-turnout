@@ -185,8 +185,7 @@ export function EventsTable({ events, commitCounts }: Props) {
                     {ev.source ? (
                       <a
                         href={ev.source}
-                        target="_blank"
-                        rel="noopener noreferrer"
+                        target="_blank" rel="noopener noreferrer"
                         className="text-xs text-indigo-600 hover:underline"
                       >
                         link ↗

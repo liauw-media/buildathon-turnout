@@ -81,10 +81,11 @@ export type CityPin = {
 };
 
 function pinRadius(count: number): number {
-  // Log-scaled so big boosted counts don't saturate at the cap. Small,
-  // readable pins that still differentiate by magnitude.
-  //   1 -> ~2.5  |  100 -> ~3.4  |  1k -> ~5  |  10k -> ~7  |  30k+ -> 8
-  return Math.max(2.5, Math.min(8, Math.log10(count + 1) * 1.7));
+  // Values are in SVG world units (viewBox is 1000x500). At default Europe
+  // zoom (vb.w ≈ 160) 1 world unit ≈ 6 screen px on a 1000px-wide container,
+  // so these tiny values produce crisp 3–10px pins on screen.
+  //   1 -> 0.5  |  100 -> 0.7  |  1k -> 1.05  |  10k -> 1.4  |  30k+ -> 1.6
+  return Math.max(0.5, Math.min(1.6, Math.log10(count + 1) * 0.35));
 }
 
 // ─── Component ─────────────────────────────────────────────────────────────────
@@ -319,12 +320,10 @@ export default function WorldMap({ cities }: { cities: CityPin[] }) {
   const labeledSet = new Set(topPins.map((p) => p.key));
   const renderPins = [...pins].sort((a, b) => b.r - a.r);
 
-  // Scale pin radius and font by current zoom level (vb.w relative to default)
-  // When zoomed in, pins should appear larger in world space
-  const zoomScale = DEFAULT_VB.w / vb.w;
-  // We want pins to appear ~constant in screen size, so scale inversely
-  // but with a min/max to keep them visible
-  const pinScaleFactor = Math.max(0.4, Math.min(2.5, 1 / Math.sqrt(zoomScale)));
+  // Pins should appear ~constant screen-pixel size across zoom levels.
+  // When we zoom in (vb shrinks), world units cover more screen px, so we
+  // shrink pins in world units to compensate.
+  const pinScaleFactor = Math.max(0.4, Math.min(3.5, vb.w / DEFAULT_VB.w));
 
   return (
     <section className="rounded-lg border border-zinc-200 bg-white p-5">

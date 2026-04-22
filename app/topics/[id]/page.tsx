@@ -117,8 +117,7 @@ export default async function TopicDetailPage({
                 <li key={i}>
                   <a
                     href={l.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    target="_blank" rel="noopener noreferrer"
                     className="group block rounded-md border border-zinc-200 p-3 hover:border-indigo-300 hover:bg-indigo-50/40"
                   >
                     <p className="text-sm font-medium text-zinc-900 group-hover:text-indigo-800">
@@ -152,8 +151,7 @@ export default async function TopicDetailPage({
                 <li key={i}>
                   <a
                     href={l.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    target="_blank" rel="noopener noreferrer"
                     className="group block rounded-md border border-zinc-200 p-3 hover:border-indigo-300 hover:bg-indigo-50/40"
                   >
                     <p className="text-sm font-medium text-zinc-900 group-hover:text-indigo-800">
@@ -186,8 +184,7 @@ export default async function TopicDetailPage({
                 <a
                   key={i}
                   href={e.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  target="_blank" rel="noopener noreferrer"
                   className="rounded-full border border-zinc-200 bg-white px-3 py-1 text-xs text-zinc-700 hover:border-indigo-300 hover:text-indigo-700"
                 >
                   {e.name}

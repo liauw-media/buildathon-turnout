@@ -146,8 +146,7 @@ export default async function DashboardPage() {
           </ul>
           <a
             href={country.registrationUrl}
-            target="_blank"
-            rel="noopener noreferrer"
+            target="_blank" rel="noopener noreferrer"
             className="mt-4 inline-block text-sm font-medium text-indigo-600 hover:underline"
           >
             Official registration portal →
