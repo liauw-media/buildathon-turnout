@@ -8,7 +8,12 @@ export function getSupabaseUrl(): string | undefined {
 }
 
 export function getSupabaseAnonKey(): string | undefined {
-  return process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY?.trim() || undefined;
+  // Accept both the new "publishable key" name and the legacy "anon key" name.
+  return (
+    process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY?.trim() ||
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY?.trim() ||
+    undefined
+  );
 }
 
 export function getSupabaseServiceRoleKey(): string | undefined {
