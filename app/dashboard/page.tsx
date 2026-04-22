@@ -5,10 +5,12 @@ import { getCountry } from "@/lib/countries";
 import { daysUntil, formatDate } from "@/lib/timeline";
 import { fifthOf, PERMANENT_COMMITMENT_COPY } from "@/lib/diaspora";
 import { buildMessagesFor } from "@/lib/messages";
+import { readPledgesFor } from "@/lib/pledges-store";
 import { ProgressToggle } from "./ProgressToggle";
 import { VotingGroup } from "./VotingGroup";
 import NudgeFeed from "./NudgeFeed";
 import { findGroup } from "@/lib/matching";
+import { unpledgeElection } from "@/app/actions/pledge";
 
 export default async function DashboardPage() {
   const store = await cookies();
@@ -45,6 +47,9 @@ export default async function DashboardPage() {
   const daysToRegistration = daysUntil(country.registrationDeadline);
   const daysToElection = daysUntil(country.nextElection.date);
   const group = findGroup(user, allCommits);
+  const pledges = await readPledgesFor(user.id);
+  const upcomingPledges = pledges.filter((p) => daysUntil(p.electionDate) >= 0);
+  const pastPledges = pledges.filter((p) => daysUntil(p.electionDate) < 0);
 
   // Build the full personalized message set then split past / future for the feed.
   const messages = buildMessagesFor(user, country);
@@ -152,6 +157,83 @@ export default async function DashboardPage() {
             Official registration portal →
           </a>
         </div>
+      </section>
+
+      {/* My elections — per-event pledges */}
+      <section className="mt-10">
+        <div className="mb-3 flex items-baseline justify-between">
+          <div>
+            <p className="text-xs uppercase tracking-wide text-zinc-500">My elections</p>
+            <p className="text-sm text-zinc-500">
+              {upcomingPledges.length === 0
+                ? "No specific elections pledged yet."
+                : `You've pledged to ${upcomingPledges.length} upcoming election${
+                    upcomingPledges.length === 1 ? "" : "s"
+                  }.`}
+            </p>
+          </div>
+          <Link
+            href={`/elections/${user.country}`}
+            className="text-xs font-medium text-indigo-600 hover:underline"
+          >
+            Browse {country.name} calendar →
+          </Link>
+        </div>
+
+        {upcomingPledges.length === 0 ? (
+          <div className="rounded-lg border border-dashed border-zinc-300 p-6 text-center text-sm text-zinc-500">
+            Pick specific elections you&apos;ll show up for — registration deadlines, local
+            councils, referendums.{" "}
+            <Link
+              href={`/elections/${user.country}`}
+              className="font-medium text-indigo-600 hover:underline"
+            >
+              See all {country.name} events →
+            </Link>
+          </div>
+        ) : (
+          <ul className="divide-y divide-zinc-200 rounded-lg border border-zinc-200">
+            {upcomingPledges.map((p) => {
+              const days = daysUntil(p.electionDate);
+              return (
+                <li
+                  key={p.id}
+                  className="flex items-center justify-between gap-3 px-4 py-3"
+                >
+                  <Link
+                    href={`/elections/${p.country}?event=${p.electionDate}`}
+                    className="group min-w-0 flex-1"
+                  >
+                    <p className="truncate text-sm font-medium text-zinc-900 group-hover:text-indigo-700">
+                      {p.electionLabel}
+                    </p>
+                    <p className="text-xs text-zinc-500">
+                      {country.flag} {country.name} · {formatDate(p.electionDate)} ·{" "}
+                      {days === 0 ? "today" : `in ${days} day${days === 1 ? "" : "s"}`}
+                    </p>
+                  </Link>
+                  <form action={unpledgeElection}>
+                    <input type="hidden" name="country" value={p.country} />
+                    <input type="hidden" name="electionDate" value={p.electionDate} />
+                    <button
+                      type="submit"
+                      title="Remove from my elections"
+                      className="rounded-md border border-zinc-200 px-2 py-1 text-[10px] uppercase tracking-wide text-zinc-500 hover:border-rose-300 hover:text-rose-700"
+                    >
+                      Remove
+                    </button>
+                  </form>
+                </li>
+              );
+            })}
+          </ul>
+        )}
+
+        {pastPledges.length > 0 && (
+          <p className="mt-2 text-xs text-zinc-400">
+            {pastPledges.length} past election{pastPledges.length === 1 ? "" : "s"} archived.
+          </p>
+        )}
       </section>
 
       <section className="mt-10">

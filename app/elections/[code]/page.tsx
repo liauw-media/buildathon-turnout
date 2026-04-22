@@ -1,17 +1,20 @@
 import Link from "next/link";
+import { cookies } from "next/headers";
 import { notFound } from "next/navigation";
 import { getCountry } from "@/lib/countries";
 import { getCountryCalendar, getEffectiveCountry } from "@/lib/elections-store";
 import { getTopicsByCountry } from "@/lib/topics-store";
-import { readCommits } from "@/lib/store";
+import { readCommits, getCommit } from "@/lib/store";
+import { readPledgesFor } from "@/lib/pledges-store";
 import { daysUntil, formatDate } from "@/lib/timeline";
 import { fifthOf } from "@/lib/diaspora";
 import type { VotingAccessibility } from "@/lib/types";
+import { pledgeElection, unpledgeElection } from "@/app/actions/pledge";
 
 export const dynamic = "force-dynamic";
 
 type Params = Promise<{ code: string }>;
-type SearchParams = Promise<{ event?: string }>;
+type SearchParams = Promise<{ event?: string; pledged?: string; error?: string }>;
 
 const TIER_META: Record<VotingAccessibility, { emoji: string; label: string; color: string }> = {
   evoting: { emoji: "🟢", label: "E-voting available", color: "bg-emerald-100 text-emerald-800 border-emerald-200" },
@@ -29,21 +32,30 @@ export default async function CountryElectionsPage({
   searchParams: SearchParams;
 }) {
   const { code: raw } = await params;
-  const { event } = await searchParams;
+  const { event, pledged, error } = await searchParams;
   const code = raw.toUpperCase();
 
   const base = getCountry(code);
   if (!base) notFound();
 
-  const [effective, events, topics, allCommits] = await Promise.all([
+  const cookieStore = await cookies();
+  const uid = cookieStore.get("turnout_uid")?.value;
+  const user = uid ? await getCommit(uid) : undefined;
+
+  const [effective, events, topics, allCommits, pledges] = await Promise.all([
     getEffectiveCountry(code),
     getCountryCalendar(code),
     getTopicsByCountry(code),
     readCommits(),
+    uid ? readPledgesFor(uid) : Promise.resolve([]),
   ]);
 
   const country = effective ?? base;
   const commitCount = allCommits.filter((c) => c.country === code).length;
+  const canPledge = Boolean(user && user.country === code);
+  const pledgedDates = new Set(
+    pledges.filter((p) => p.country === code).map((p) => p.electionDate),
+  );
 
   // If ?event=<date> requested, surface that event as the "focus"; else use the nearest upcoming.
   const today = new Date().toISOString().slice(0, 10);
@@ -103,6 +115,19 @@ export default async function CountryElectionsPage({
         </div>
       </header>
 
+      {/* Flash messages */}
+      {pledged === "1" && (
+        <div className="mt-6 rounded-md border border-emerald-200 bg-emerald-50 px-4 py-3 text-sm text-emerald-800">
+          ✓ Pledged! This election is now on your dashboard.
+        </div>
+      )}
+      {error === "wrong-country" && (
+        <div className="mt-6 rounded-md border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-800">
+          You&apos;re committed to a different country. Turnout tracks one
+          country per person — switch personas to pledge here.
+        </div>
+      )}
+
       {/* Focused event card (the specific one the user clicked, or next upcoming) */}
       {focus && (
         <section className="mt-8 rounded-lg border-2 border-indigo-200 bg-indigo-50/60 p-5">
@@ -111,6 +136,7 @@ export default async function CountryElectionsPage({
               <p className="text-xs uppercase tracking-wide text-indigo-700">
                 {focus.date === event ? "Selected event" : "Next up"}
                 {focus.featured ? " · ⭐ Featured" : ""}
+                {pledgedDates.has(focus.date) ? " · ✓ Pledged" : ""}
               </p>
               <h2 className="mt-1 text-xl font-semibold text-zinc-900">{focus.label}</h2>
               <p className="mt-1 text-sm text-zinc-600">
@@ -127,15 +153,52 @@ export default async function CountryElectionsPage({
                 <p className="mt-2 text-sm text-zinc-700 italic">{focus.notes}</p>
               )}
             </div>
-            {focus.source && focus.source !== "unknown" && (
-              <a
-                href={focus.source}
-                target="_blank" rel="noopener noreferrer"
-                className="text-xs font-medium text-indigo-700 hover:underline"
-              >
-                Official source →
-              </a>
-            )}
+            <div className="flex flex-col items-end gap-2">
+              {canPledge && daysUntil(focus.date) >= 0 && (
+                pledgedDates.has(focus.date) ? (
+                  <form action={unpledgeElection}>
+                    <input type="hidden" name="country" value={code} />
+                    <input type="hidden" name="electionDate" value={focus.date} />
+                    <button
+                      type="submit"
+                      className="rounded-md border border-emerald-300 bg-emerald-50 px-3 py-1.5 text-xs font-medium text-emerald-800 hover:bg-white"
+                    >
+                      ✓ Pledged · remove?
+                    </button>
+                  </form>
+                ) : (
+                  <form action={pledgeElection}>
+                    <input type="hidden" name="country" value={code} />
+                    <input type="hidden" name="electionDate" value={focus.date} />
+                    <input type="hidden" name="electionLabel" value={focus.label} />
+                    <button
+                      type="submit"
+                      className="rounded-md bg-indigo-600 px-3 py-1.5 text-xs font-medium text-white hover:bg-indigo-700"
+                    >
+                      I&apos;ll vote in this election →
+                    </button>
+                  </form>
+                )
+              )}
+              {!user && daysUntil(focus.date) >= 0 && (
+                <Link
+                  href={`/commit?code=${code}&election=${focus.date}`}
+                  className="rounded-md bg-indigo-600 px-3 py-1.5 text-xs font-medium text-white hover:bg-indigo-700"
+                >
+                  Commit first →
+                </Link>
+              )}
+              {focus.source && focus.source !== "unknown" && (
+                <a
+                  href={focus.source}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs font-medium text-indigo-700 hover:underline"
+                >
+                  Official source →
+                </a>
+              )}
+            </div>
           </div>
           <div className="mt-4 flex flex-wrap gap-2 text-xs">
             <p className="rounded-md bg-white px-3 py-1.5 text-zinc-700">

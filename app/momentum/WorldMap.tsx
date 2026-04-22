@@ -440,13 +440,13 @@ export default function WorldMap({ cities }: { cities: CityPin[] }) {
                   strokeWidth={1.5 * pinScaleFactor}
                   filter="url(#pin-shadow)"
                 />
-                {scaledR >= 10 && (
+                {scaledR >= 2 && (
                   <text
                     x={p.x}
-                    y={p.y + 1}
+                    y={p.y + 0.1}
                     textAnchor="middle"
                     dominantBaseline="middle"
-                    fontSize={Math.max(9, scaledR * 0.7)}
+                    fontSize={scaledR * 0.95}
                     fontWeight="600"
                     fill="white"
                     style={{ pointerEvents: "none", userSelect: "none" }}
@@ -458,21 +458,21 @@ export default function WorldMap({ cities }: { cities: CityPin[] }) {
             );
           })}
 
-          {/* Labels for top 8 cities */}
+          {/* Labels for top 8 cities — fontSize in world units, ~12 screen px at default zoom */}
           {topPins.map((p) => {
             const scaledR = p.r * pinScaleFactor;
-            const offsetY = scaledR + 14 * pinScaleFactor;
+            const offsetY = scaledR + 3 * pinScaleFactor;
             return (
               <g key={`lbl-${p.key}`} style={{ pointerEvents: "none" }}>
                 <text
                   x={p.x}
                   y={p.y + offsetY}
                   textAnchor="middle"
-                  fontSize={11 * pinScaleFactor}
+                  fontSize={2 * pinScaleFactor}
                   fontWeight="600"
                   fill="#18181b"
                   stroke="#ffffff"
-                  strokeWidth={3 * pinScaleFactor}
+                  strokeWidth={0.6 * pinScaleFactor}
                   paintOrder="stroke"
                 >
                   {cityKey(p.displayCity)}
@@ -487,7 +487,7 @@ export default function WorldMap({ cities }: { cities: CityPin[] }) {
               x={vb.x + vb.w - 8}
               y={vb.y + vb.h - 8}
               textAnchor="end"
-              fontSize={10 * pinScaleFactor}
+              fontSize={1.8 * pinScaleFactor}
               fill="#71717a"
               style={{ pointerEvents: "none" }}
             >
