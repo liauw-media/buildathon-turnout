@@ -158,5 +158,1077 @@
     "summary": "Türkiye has been an EU candidate since 1999, though accession negotiations have been effectively frozen. Relations cover trade, migration cooperation, and security. The conditions under which negotiations might resume are a matter of ongoing diplomatic discussion.",
     "keywords": ["EU", "accession", "European Union", "diplomacy", "trade"],
     "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "mt-001",
+    "country": "MT",
+    "title": "Rule of Law and Judicial Independence",
+    "summary": "The Venice Commission has issued recommendations on strengthening Malta's judicial independence, including reforms to the appointments process for senior judges. These recommendations followed the 2019 political crisis triggered by the assassination of journalist Daphne Caruana Galizia and the subsequent public inquiry, whose 2021 report found systemic failures of governance. Implementation of recommended reforms remains an ongoing policy question.",
+    "keywords": ["rule of law", "judiciary", "Venice Commission", "Daphne Caruana Galizia", "governance"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "mt-002",
+    "country": "MT",
+    "title": "Golden Passports and Citizenship-by-Investment",
+    "summary": "The European Court of Justice ruled on 29 April 2025 that Malta's Individual Investor Programme (IIP) violated EU law by commodifying EU citizenship without a genuine link requirement. The ruling requires Malta to phase out its investor citizenship scheme. The case raises broader questions about the boundaries of member state sovereignty over nationality and the integrity of EU citizenship.",
+    "keywords": ["golden passport", "IIP", "citizenship by investment", "ECJ", "EU law"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "mt-003",
+    "country": "MT",
+    "title": "Overdevelopment and Planning Reform",
+    "summary": "Malta has among the highest construction intensity per capita in the EU. Civil society groups have raised concerns about permits granted for development Outside Development Zones (ODZ), coastal and rural land encroachment, and the Planning Authority's decision-making track record. Planning reform and heritage protection are prominent issues ahead of the 2027 election.",
+    "keywords": ["planning", "overdevelopment", "ODZ", "environment", "heritage"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "mt-004",
+    "country": "MT",
+    "title": "Healthcare Concessions Scandal Aftermath",
+    "summary": "Maltese courts voided the government concession granted to Vitals Global Healthcare and later transferred to Steward Health Care, finding it had been obtained through fraud. The concession involved three public hospitals and resulted in significant financial obligations for the Maltese state. Questions of accountability for the original contract award and the recovery of public funds remain active political issues.",
+    "keywords": ["healthcare", "Vitals", "Steward", "concession", "accountability"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "mt-005",
+    "country": "MT",
+    "title": "Cost of Living and Energy Subsidies",
+    "summary": "Malta has maintained broad energy bill subsidies to shield households and businesses from international price volatility, making energy costs a central election issue. Political parties differ on the fiscal sustainability of the subsidy regime, the timeline for phasing out fossil fuel dependence, and how to manage the transition to renewables in a small island state with limited land for solar and wind installations.",
+    "keywords": ["cost of living", "energy subsidies", "electricity", "fuel", "fiscal policy"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "at-001",
+    "country": "AT",
+    "title": "Coalition Politics and Government Formation",
+    "summary": "Austria's fragmented parliamentary landscape regularly requires multi-party coalition negotiations following elections. The 2024 federal elections saw the FPÖ emerge as the largest party, triggering a protracted coalition formation process. The resulting government's policy direction on EU affairs, migration, and social spending is a subject of ongoing political debate.",
+    "keywords": ["coalition", "government formation", "FPÖ", "parliament", "politics"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "at-002",
+    "country": "AT",
+    "title": "Migration and Asylum Policy",
+    "summary": "Austria has pursued restrictive asylum policies and has been an active voice within the EU for tightening external border controls. Debates center on integration requirements, deportation procedures, and burden-sharing among EU member states. Migration remains one of the most divisive topics in Austrian electoral politics.",
+    "keywords": ["migration", "asylum", "border", "integration", "EU policy"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "at-003",
+    "country": "AT",
+    "title": "Energy Transition and Climate Policy",
+    "summary": "Austria has set ambitious targets for 100% renewable electricity by 2030 and is expanding wind, solar, and hydropower capacity. Disputes arise over the pace of the transition, the role of natural gas as a bridge fuel, and the distribution of costs between industrial and residential consumers.",
+    "keywords": ["energy", "climate", "renewables", "transition", "environment"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "be-001",
+    "country": "BE",
+    "title": "Federal State Reform and Institutional Complexity",
+    "summary": "Belgium's federal structure divides powers among the federal government, three regions (Flanders, Wallonia, Brussels-Capital), and three language communities. Periodic debates about further devolution, fiscal transfers between regions, and the long-term viability of the Belgian federal model are fixtures of political life.",
+    "keywords": ["federalism", "devolution", "Flanders", "Wallonia", "institutional reform"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "be-002",
+    "country": "BE",
+    "title": "Budget Deficit and Fiscal Consolidation",
+    "summary": "Belgium consistently runs one of the largest structural budget deficits in the eurozone. The European Commission has opened an Excessive Deficit Procedure against Belgium, requiring a credible consolidation path. Debate focuses on where spending cuts or tax increases should fall and how to protect social welfare commitments.",
+    "keywords": ["budget deficit", "fiscal policy", "eurozone", "public spending", "taxes"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "be-003",
+    "country": "BE",
+    "title": "N-VA and the Flemish Independence Question",
+    "summary": "The New Flemish Alliance (N-VA) is the largest Flemish party and advocates for greater autonomy and eventual Flemish independence, while the more radical Vlaams Belang also holds substantial support. The question of Flemish separatism, Belgian unity, and the terms of any further state reform shapes federal coalition negotiations.",
+    "keywords": ["N-VA", "Flemish independence", "separatism", "Vlaams Belang", "autonomy"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "bg-001",
+    "country": "BG",
+    "title": "Political Instability and Repeated Elections",
+    "summary": "Bulgaria held multiple parliamentary elections between 2021 and 2023, reflecting deep political fragmentation and difficulty forming stable governing coalitions. Anti-corruption and pro-reform forces clashed with establishment parties. The consequences for reform implementation, EU fund absorption, and investor confidence are ongoing policy concerns.",
+    "keywords": ["political instability", "elections", "coalitions", "reform", "governance"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "bg-002",
+    "country": "BG",
+    "title": "Rule of Law and EU Oversight",
+    "summary": "Bulgaria was subject to the EU's Cooperation and Verification Mechanism (CVM) for 16 years before its formal closure in 2023, though EU institutions continue to monitor judicial independence and anti-corruption progress. Concerns about organized crime links to political structures remain a subject of domestic and EU-level discussion.",
+    "keywords": ["rule of law", "CVM", "judiciary", "anti-corruption", "EU oversight"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "bg-003",
+    "country": "BG",
+    "title": "Demographic Decline and Emigration",
+    "summary": "Bulgaria has one of the fastest-declining populations in the EU, driven by emigration of working-age adults to Western Europe and low birth rates. The consequences for the pension system, healthcare staffing, and economic productivity are central to long-term policy debates.",
+    "keywords": ["emigration", "demographics", "population decline", "brain drain", "pensions"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "hr-001",
+    "country": "HR",
+    "title": "Schengen Membership and Border Management",
+    "summary": "Croatia joined the Schengen Area in January 2023, ending border controls with EU neighbors. Managing the external Schengen border, particularly regarding irregular migration along the Balkan route, has become a significant domestic and EU-level issue. Pushback allegations at the Croatian border have been raised by human rights organizations.",
+    "keywords": ["Schengen", "border", "migration", "Balkan route", "human rights"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "hr-002",
+    "country": "HR",
+    "title": "Euro Adoption and Economic Convergence",
+    "summary": "Croatia adopted the euro in January 2023, joining the eurozone. The transition raised immediate questions about pricing transparency, inflation pressures, and the loss of monetary policy flexibility. Longer-term debates center on whether eurozone membership accelerates or constrains economic convergence with Western EU members.",
+    "keywords": ["euro", "eurozone", "monetary policy", "inflation", "economic convergence"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "hr-003",
+    "country": "HR",
+    "title": "Diaspora Political Influence",
+    "summary": "Croatia's large diaspora — concentrated in Bosnia-Herzegovina, Germany, and Australia — holds reserved parliamentary seats and has significant electoral influence. Debates about the political weight of diaspora voters relative to domestic voters, and concerns about the role of the Bosnian Croat vote in shaping Croatian politics, are recurring themes.",
+    "keywords": ["diaspora", "political representation", "overseas voting", "Bosnian Croats", "parliament"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "cy-001",
+    "country": "CY",
+    "title": "Reunification of Cyprus",
+    "summary": "Cyprus has been divided since the 1974 Turkish military intervention, with the northern part under Turkish Cypriot administration. Reunification talks under UN auspices have stalled repeatedly; the most recent round collapsed in 2017. The terms of a potential federal settlement and property rights remain deeply contested.",
+    "keywords": ["reunification", "division", "Turkey", "UN", "federal settlement"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "cy-002",
+    "country": "CY",
+    "title": "Golden Visa and Financial Services Scandals",
+    "summary": "Cyprus operated one of the EU's largest citizenship-by-investment programs until it was suspended in 2020 following investigative journalism exposés. The reputational and legal fallout, including parliamentary investigations and EU pressure, has shaped debates about financial regulation, transparency, and the country's role as a financial services hub.",
+    "keywords": ["golden visa", "citizenship by investment", "financial services", "transparency", "scandal"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "cy-003",
+    "country": "CY",
+    "title": "Energy Resources in the Eastern Mediterranean",
+    "summary": "Significant natural gas discoveries in Cyprus's exclusive economic zone have created geopolitical tensions with Turkey, which disputes maritime boundaries and has conducted drilling operations in contested areas. The pace of gas development, revenue management, and the implications for regional security are active policy debates.",
+    "keywords": ["natural gas", "EEZ", "Turkey", "energy", "maritime boundaries"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "cz-001",
+    "country": "CZ",
+    "title": "NATO and Ukraine Support",
+    "summary": "Czechia has been among the most active EU member states in supporting Ukraine following Russia's full-scale invasion, including arms supplies and refugee integration. Defence spending and the terms of ongoing support are subjects of political debate ahead of elections.",
+    "keywords": ["NATO", "Ukraine", "defence", "security", "Russia"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "cz-002",
+    "country": "CZ",
+    "title": "Energy Security and Nuclear Power",
+    "summary": "Czechia is investing in expanding its nuclear energy capacity as a cornerstone of its energy security and decarbonization strategy. The Dukovany plant expansion and potential new reactors are at the center of debates about energy costs, technology partners, and the pace of the transition away from coal.",
+    "keywords": ["nuclear energy", "energy security", "coal phase-out", "decarbonization", "Dukovany"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "cz-003",
+    "country": "CZ",
+    "title": "Populism and Democratic Backsliding Concerns",
+    "summary": "The rise and subsequent criminal conviction of former Prime Minister Andrej Babiš raised questions about conflicts of interest, media ownership by political figures, and the resilience of democratic institutions. These experiences have shaped Czech debates about political ethics and institutional integrity.",
+    "keywords": ["populism", "Babiš", "democracy", "conflicts of interest", "institutions"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "dk-001",
+    "country": "DK",
+    "title": "Immigration and Asylum Policy",
+    "summary": "Denmark has pursued some of the most restrictive immigration and asylum policies in the EU, with cross-party support for reducing refugee intake and tightening integration requirements. The policy is debated in terms of social cohesion, human rights obligations, and Denmark's international reputation.",
+    "keywords": ["immigration", "asylum", "refugees", "integration", "social cohesion"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "dk-002",
+    "country": "DK",
+    "title": "Defence Spending and EU Security Role",
+    "summary": "Denmark abolished its EU defence opt-out in a 2022 referendum following Russia's invasion of Ukraine. Denmark has committed to raising defence spending to meet NATO targets, and the country's role in EU security cooperation is a new dimension of foreign policy debate.",
+    "keywords": ["defence", "NATO", "EU", "security", "opt-out"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "dk-003",
+    "country": "DK",
+    "title": "Green Transition and Agriculture",
+    "summary": "Denmark has set one of the most ambitious climate targets in the EU and is implementing a significant agricultural emissions reduction programme, including a carbon tax on livestock farming. The distributional impacts on farmers and rural communities, and the pace of the transition, are intensely debated.",
+    "keywords": ["climate", "agriculture", "emissions", "carbon tax", "green transition"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "ee-001",
+    "country": "EE",
+    "title": "Digital Governance and Cybersecurity",
+    "summary": "Estonia is a global leader in e-governance, offering digital public services to citizens worldwide via its X-Road data exchange platform and e-Residency programme. Maintaining this digital infrastructure against persistent cyberattacks — particularly from Russian state actors — is a significant national security priority.",
+    "keywords": ["digital governance", "e-governance", "cybersecurity", "X-Road", "e-Residency"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "ee-002",
+    "country": "EE",
+    "title": "Russia Threat Perception and NATO Posture",
+    "summary": "Estonia, sharing a border with Russia, has consistently advocated for maximum NATO resolve and forward presence. Since the 2022 invasion of Ukraine, Estonia has allocated well above 2% of GDP to defence and has pushed for a NATO tripwire force along its border to be upgraded to a full defence posture.",
+    "keywords": ["Russia", "NATO", "defence", "security", "border"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "ee-003",
+    "country": "EE",
+    "title": "Russian-Speaking Minority Integration",
+    "summary": "Approximately a quarter of Estonia's population is Russian-speaking, concentrated in Ida-Viru county and Tallinn. Questions about language requirements for citizenship, minority media access, and the loyalty of this community in the context of the war in Ukraine are sensitive and recurring policy debates.",
+    "keywords": ["Russian minority", "integration", "language policy", "citizenship", "national identity"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "fi-001",
+    "country": "FI",
+    "title": "NATO Membership and Northern Security",
+    "summary": "Finland joined NATO in April 2023, ending more than 75 years of military non-alignment. The new security posture — including basing arrangements, joint exercises, and host nation support for allied forces — is reshaping Finland's defence policy and relationship with Russia, with which it shares a 1,340 km border.",
+    "keywords": ["NATO", "defence", "Russia", "security", "neutrality"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "fi-002",
+    "country": "FI",
+    "title": "Welfare State Fiscal Sustainability",
+    "summary": "Finland faces long-term fiscal pressures from an ageing population, rising pension and healthcare costs, and sluggish economic growth. The current government has pursued significant welfare cuts and labour market reforms, generating debate about the social contract and the future of the Nordic model.",
+    "keywords": ["welfare state", "pensions", "fiscal sustainability", "ageing population", "labour market"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "fi-003",
+    "country": "FI",
+    "title": "Immigration Policy Tightening",
+    "summary": "Finland's government has tightened immigration rules, including restrictions on family reunification and asylum applications. The changes, and allegations of illegal pushbacks at the Russian border, have been contested by human rights organizations and within Finland's political coalition.",
+    "keywords": ["immigration", "asylum", "border", "pushbacks", "human rights"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "fr-001",
+    "country": "FR",
+    "title": "Pension Reform and Social Protest",
+    "summary": "The 2023 pension reform raising the retirement age from 62 to 64 was passed by executive order after failing to secure a parliamentary majority, triggering months of nationwide strikes and protests. The reform's legitimacy, the use of constitutional by-pass procedures, and long-term pension system viability remain contested.",
+    "keywords": ["pension reform", "retirement age", "social protest", "Article 49.3", "strikes"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "fr-002",
+    "country": "FR",
+    "title": "Secularism, Laïcité and Identity Debates",
+    "summary": "France's strict interpretation of state secularism (laïcité) shapes debates about religious symbols in public spaces, the burkini, school curricula, and the integration of Muslim communities. The boundary between religious freedom and public neutrality is a persistent and often polarizing policy question.",
+    "keywords": ["laïcité", "secularism", "Islam", "integration", "identity"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "fr-003",
+    "country": "FR",
+    "title": "Political Fragmentation and Constitutional Tensions",
+    "summary": "The 2024 legislative elections produced a hung parliament with no majority bloc, leading to successive short-lived governments. Debates about constitutional reform, the powers of the National Assembly versus the President, and the viability of the Fifth Republic's institutions under conditions of fragmentation are prominent.",
+    "keywords": ["hung parliament", "constitutional reform", "Fifth Republic", "political fragmentation", "governance"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "de-001",
+    "country": "DE",
+    "title": "Energy Transition (Energiewende) and Industrial Competitiveness",
+    "summary": "Germany's decision to exit nuclear power (completed 2023) while phasing out coal, combined with the end of cheap Russian gas, has raised energy costs for industry. The debate centres on how to maintain industrial competitiveness, attract investment, and accelerate renewables deployment without triggering deindustrialisation.",
+    "keywords": ["Energiewende", "energy transition", "nuclear", "industry", "competitiveness"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "de-002",
+    "country": "DE",
+    "title": "Ukraine Policy and Defence Spending",
+    "summary": "Germany has provided substantial military and financial support to Ukraine but faced early criticism for hesitancy on weapons deliveries. Domestic debates continue about the appropriate level and type of support, the 2% NATO spending commitment, and the role of Germany's historical pacifism in current foreign policy.",
+    "keywords": ["Ukraine", "defence", "NATO", "weapons", "foreign policy"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "de-003",
+    "country": "DE",
+    "title": "Rise of the AfD and Democratic Resilience",
+    "summary": "The Alternative für Deutschland (AfD) has become the second-largest party in polls, advocating for migration restrictions, EU reform, and a negotiated end to the Ukraine war. German domestic intelligence has classified parts of the party as a confirmed extremist organisation. Debates about how democratic institutions respond to far-right electoral success are prominent.",
+    "keywords": ["AfD", "far right", "extremism", "democracy", "migration"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "gr-001",
+    "country": "GR",
+    "title": "Public Debt and Economic Recovery",
+    "summary": "Greece successfully exited its EU-IMF bailout programmes in 2018 after a decade of austerity. Ongoing debates concern the pace of debt reduction, the sustainability of economic growth driven by tourism, and the long-term investment needed for diversification and productivity improvements.",
+    "keywords": ["public debt", "austerity", "economic recovery", "tourism", "investment"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "gr-002",
+    "country": "GR",
+    "title": "Migration and Aegean Crossings",
+    "summary": "Greece remains a primary entry point for irregular migration into the EU via the Aegean Sea and land border with Turkey. Debates focus on border management, the legality of pushback operations, reception conditions on Aegean islands, and the allocation of responsibilities within the EU migration system.",
+    "keywords": ["migration", "Aegean", "pushbacks", "reception", "EU asylum"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "gr-003",
+    "country": "GR",
+    "title": "Wiretapping and Surveillance Scandal",
+    "summary": "The 2022 revelations that journalists, politicians, and business figures had been surveilled using Predator spyware — in some cases apparently with state involvement — triggered a major political crisis. Questions about institutional oversight of intelligence services, press freedom, and rule of law continue to be debated.",
+    "keywords": ["Predator spyware", "surveillance", "press freedom", "intelligence", "rule of law"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "hu-001",
+    "country": "HU",
+    "title": "Rule of Law and EU Funds Dispute",
+    "summary": "The European Commission has withheld billions in EU cohesion funds from Hungary over concerns about judicial independence, academic freedom, anti-corruption measures, and the rule of law. The dispute is one of the most significant applications of EU conditionality mechanisms and shapes debates about Hungary's place in the EU.",
+    "keywords": ["rule of law", "EU funds", "conditionality", "judicial independence", "European Commission"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "hu-002",
+    "country": "HU",
+    "title": "Media Pluralism and Press Freedom",
+    "summary": "Hungary ranks among the lowest in the EU on press freedom indices. Concerns centre on the consolidation of media ownership in government-aligned hands via the KESMA media conglomerate, the closure of independent outlets, and public media's adherence to editorial independence standards.",
+    "keywords": ["media", "press freedom", "KESMA", "pluralism", "censorship"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "hu-003",
+    "country": "HU",
+    "title": "Ukraine Policy and EU Relations",
+    "summary": "Hungary has maintained a distinct position within the EU on Ukraine, blocking or delaying EU financial and military aid packages on multiple occasions and maintaining economic ties with Russia. This stance has created significant tension with other EU member states and NATO allies, and is a central issue in Hungarian and EU-level debate.",
+    "keywords": ["Ukraine", "Russia", "EU", "NATO", "foreign policy"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "ie-001",
+    "country": "IE",
+    "title": "Housing Crisis and Affordability",
+    "summary": "Ireland faces one of the most acute housing affordability crises in the EU, with rapidly rising rents and house prices, a shortage of social housing, and long waiting lists. The causes — planning restrictions, construction costs, land banking, and investor demand — and the appropriate policy responses are deeply contested.",
+    "keywords": ["housing", "rent", "affordability", "planning", "social housing"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "ie-002",
+    "country": "IE",
+    "title": "Corporate Tax and Multinational Presence",
+    "summary": "Ireland's 12.5% corporate tax rate has attracted major US multinational corporations, making the country heavily dependent on a small number of large tax-paying firms. The OECD global minimum tax agreement, implementation of the 15% minimum rate, and the diversification of the revenue base are significant policy questions.",
+    "keywords": ["corporate tax", "multinationals", "OECD", "revenue", "FDI"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "ie-003",
+    "country": "IE",
+    "title": "Immigration and Integration",
+    "summary": "Ireland has experienced rapid population growth driven partly by immigration, generating political debate about the pace of integration, provision of public services, and the response to anti-immigration sentiment. The government's accommodation of asylum seekers in communities across the country has triggered protests and arson attacks on reception facilities.",
+    "keywords": ["immigration", "asylum", "integration", "public services", "social cohesion"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "it-001",
+    "country": "IT",
+    "title": "Public Debt and Fiscal Discipline",
+    "summary": "Italy carries one of the highest public debt-to-GDP ratios in the eurozone, consistently above 140%. Managing debt sustainability while meeting EU fiscal rules, funding public services, and investing in growth is the central challenge of Italian economic policy. Disagreements within governing coalitions over fiscal targets are recurrent.",
+    "keywords": ["public debt", "fiscal policy", "eurozone", "GDP", "sustainability"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "it-002",
+    "country": "IT",
+    "title": "Mediterranean Migration and EU Burden-Sharing",
+    "summary": "Italy is a primary arrival point for migrants crossing the central Mediterranean from Libya and Tunisia. The government has pursued bilateral agreements with transit countries and EU-level negotiations for burden-sharing among member states. Search-and-rescue obligations, reception conditions, and the role of NGO vessels are contested policy and legal questions.",
+    "keywords": ["migration", "Mediterranean", "Libya", "burden-sharing", "NGOs"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "it-003",
+    "country": "IT",
+    "title": "PNRR Implementation and EU Recovery Funds",
+    "summary": "Italy is the largest recipient of EU NextGenerationEU recovery funds under its National Recovery and Resilience Plan (PNRR). The pace of project implementation, compliance with milestones, and the risk of fund clawback are significant policy debates, as is the distribution of investment between Italy's more developed north and less developed south.",
+    "keywords": ["PNRR", "NextGenerationEU", "recovery funds", "implementation", "Mezzogiorno"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "lv-001",
+    "country": "LV",
+    "title": "Russian-Speaking Minority and National Security",
+    "summary": "Latvia's large Russian-speaking population — approximately a quarter of residents — has been a subject of integration and national security debates, intensified by Russia's invasion of Ukraine. Language requirements, non-citizen status for long-term residents, and media access are active policy areas.",
+    "keywords": ["Russian minority", "integration", "language policy", "national security", "non-citizens"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "lv-002",
+    "country": "LV",
+    "title": "Defence and Baltic Security",
+    "summary": "Latvia has significantly increased defence spending following Russia's full-scale invasion of Ukraine, hosting NATO enhanced forward presence battlegroups and pushing for the alliance to adopt a full defence posture in the Baltic states. Bilateral defence agreements with the United States and other allies are central to security policy.",
+    "keywords": ["defence", "NATO", "Russia", "Baltic security", "military"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "lv-003",
+    "country": "LV",
+    "title": "Demographic Decline and Emigration",
+    "summary": "Latvia has lost a significant share of its population since EU accession in 2004, as working-age residents emigrated to higher-wage EU countries. Reversing or managing population decline, attracting diaspora return, and sustaining public services with a shrinking and ageing population are major long-term challenges.",
+    "keywords": ["emigration", "demographics", "diaspora", "population decline", "ageing"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "lt-001",
+    "country": "LT",
+    "title": "Defence Spending and Security Posture",
+    "summary": "Lithuania spends above the NATO 2% GDP target on defence and hosts a German-led NATO enhanced forward presence battlegroup. Debates focus on whether to invite permanent basing of NATO forces, the pace of armed forces modernization, and contributions to collective Baltic defence.",
+    "keywords": ["defence", "NATO", "Germany", "security", "Baltic"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "lt-002",
+    "country": "LT",
+    "title": "Relations with China and Taiwan",
+    "summary": "Lithuania opened a representative office in Taiwan under the name 'Taiwan' (rather than 'Chinese Taipei') in 2021, triggering a significant diplomatic and economic retaliation from China. The episode raised questions about small-state foreign policy, EU solidarity in trade disputes, and the limits of member state autonomy in relations with China.",
+    "keywords": ["China", "Taiwan", "foreign policy", "trade", "EU solidarity"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "lt-003",
+    "country": "LT",
+    "title": "Energy Independence from Russia",
+    "summary": "Lithuania disconnected from the Soviet-era BRELL electricity grid shared with Russia, Belarus, Latvia, and Estonia, synchronising with the European continental grid in February 2025. The energy transition — including new LNG infrastructure and Baltic electricity interconnections — is a major infrastructure and security achievement with ongoing political dimensions.",
+    "keywords": ["energy independence", "BRELL", "electricity grid", "LNG", "Baltic"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "lu-001",
+    "country": "LU",
+    "title": "Financial Sector and Tax Transparency",
+    "summary": "Luxembourg is home to the EU's largest investment fund industry and a major financial centre. Its tax treaties and historical practices have drawn EU and OECD scrutiny. Debates about tax transparency, the OECD minimum tax, and the long-term sustainability of the Luxembourg financial model are prominent.",
+    "keywords": ["financial sector", "tax", "investment funds", "transparency", "OECD"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "lu-002",
+    "country": "LU",
+    "title": "Cross-Border Workers and Social Policy",
+    "summary": "Around half of Luxembourg's workforce commutes daily from France, Belgium, and Germany. Managing the tax, social security, and infrastructure implications of this cross-border labour market — and ensuring fair conditions for both residents and frontier workers — is a distinctive challenge of Luxembourgish policy.",
+    "keywords": ["cross-border workers", "commuters", "social policy", "labour market", "infrastructure"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "lu-003",
+    "country": "LU",
+    "title": "Housing Affordability",
+    "summary": "Luxembourg has among the highest house prices in the EU relative to incomes. Limited land, high demand from an international workforce, and constrained social housing supply have created a severe affordability crisis. Planning reform, land taxation, and social housing investment are central policy debates.",
+    "keywords": ["housing", "affordability", "land tax", "planning", "social housing"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "nl-001",
+    "country": "NL",
+    "title": "Immigration and Asylum Policy",
+    "summary": "The Netherlands formed a right-wing coalition government in 2024 after Geert Wilders' PVV became the largest party. The coalition has pursued the most restrictive asylum policy in recent Dutch history, including opting out of EU asylum solidarity mechanisms. Policy debates encompass reception capacity, integration, and international legal obligations.",
+    "keywords": ["immigration", "asylum", "PVV", "Wilders", "EU asylum"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "nl-002",
+    "country": "NL",
+    "title": "Nitrogen Crisis and Agricultural Policy",
+    "summary": "The Netherlands faces a legally binding requirement to reduce nitrogen emissions by half, predominantly from intensive livestock farming. Court rulings have frozen construction and infrastructure projects in violation of EU nature directives. The BoerBurgerBeweging (BBB) farmers' party emerged partly in response to proposed farm reductions.",
+    "keywords": ["nitrogen", "agriculture", "farming", "nature policy", "BBB"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "nl-003",
+    "country": "NL",
+    "title": "Housing Crisis",
+    "summary": "The Netherlands faces a severe housing shortage, particularly in the Randstad conurbation. A combination of planning restrictions, low social housing investment, and strong demand has pushed prices and rents to historically high levels. Government targets to build 900,000 homes by 2030 face significant implementation challenges.",
+    "keywords": ["housing", "shortage", "planning", "social housing", "Randstad"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "pl-001",
+    "country": "PL",
+    "title": "Judicial Reform Reversal and EU Relations",
+    "summary": "Poland's post-2023 government, led by Donald Tusk, has sought to undo the previous administration's judicial reforms, which the EU found violated rule of law standards and resulted in over €100 billion in frozen EU funds. The process of restoring judicial independence — contested by the still-ruling Law and Justice-aligned Constitutional Tribunal — has itself raised constitutional questions.",
+    "keywords": ["judicial reform", "rule of law", "EU funds", "Constitutional Tribunal", "Tusk"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "pl-002",
+    "country": "PL",
+    "title": "Ukraine Aid and Eastern Flank Defence",
+    "summary": "Poland has been one of the largest providers of military and humanitarian aid to Ukraine and hosts the largest NATO deployment on the eastern flank, including a permanent US military presence. Domestic debates focus on the pace of Polish military modernization, the costs of Ukraine support, and bilateral disputes with Ukraine over agriculture and wartime memory.",
+    "keywords": ["Ukraine", "NATO", "defence", "eastern flank", "US military"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "pl-003",
+    "country": "PL",
+    "title": "Abortion Rights and Civil Liberties",
+    "summary": "Poland's near-total abortion ban, introduced in 2020 following a Constitutional Tribunal ruling, has been one of the most divisive social policy issues. The Tusk government has sought legislative changes but faces obstacles in the Sejm and from the President. The issue intersects with broader debates about women's rights, reproductive healthcare access, and the role of the Catholic Church in public policy.",
+    "keywords": ["abortion", "reproductive rights", "Catholic Church", "civil liberties", "women"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "pt-001",
+    "country": "PT",
+    "title": "Housing and Cost of Living",
+    "summary": "Portugal has experienced rapid property price inflation, driven partly by foreign investment, digital nomad migration, and tourism. Rising rents and the displacement of lower-income residents from city centres — particularly Lisbon and Porto — have made housing the dominant domestic political issue.",
+    "keywords": ["housing", "rent", "tourism", "cost of living", "Lisbon"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "pt-002",
+    "country": "PT",
+    "title": "Political Instability and Anti-Corruption",
+    "summary": "Portugal's socialist government fell in 2023 following a corruption investigation involving former Prime Minister António Costa. The resulting elections produced a narrow centre-right minority government. Questions about political ethics, the independence of prosecutors, and public sector transparency remain prominent.",
+    "keywords": ["corruption", "political stability", "prosecution", "transparency", "governance"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "pt-003",
+    "country": "PT",
+    "title": "Emigration and the Portuguese Diaspora",
+    "summary": "Portugal has one of Europe's largest diaspora populations relative to its domestic population, with communities in France, Switzerland, the UK, and Brazil. The political representation of emigrants, the consequences of a long-term brain drain, and policies to attract diaspora return are recurrent themes.",
+    "keywords": ["emigration", "diaspora", "brain drain", "representation", "return migration"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "sk-001",
+    "country": "SK",
+    "title": "Ukraine Policy and NATO Commitments",
+    "summary": "Slovakia's Prime Minister Robert Fico has adopted a notably pro-Russia, anti-Ukraine-aid stance within the EU and NATO, vetoing certain support measures and visiting Moscow. His position diverges sharply from the Slovak President and from the governments of neighbouring allies, creating significant internal and external tensions.",
+    "keywords": ["Ukraine", "Russia", "NATO", "Fico", "foreign policy"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "sk-002",
+    "country": "SK",
+    "title": "Rule of Law and Media Freedom",
+    "summary": "Slovakia has seen renewed concerns about press freedom, prosecutorial independence, and the dismantling of anti-corruption structures built under previous governments. The shooting of Prime Minister Fico in May 2024 intensified political polarization and raised questions about the country's political climate.",
+    "keywords": ["rule of law", "press freedom", "anti-corruption", "Fico", "polarization"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "sk-003",
+    "country": "SK",
+    "title": "Economic Development and Regional Disparities",
+    "summary": "Slovakia has transformed into a major car manufacturing hub in Central Europe, but growth has been uneven between the developed west and the less industrialized east of the country. Roma minority exclusion and high regional unemployment in eastern Slovakia are persistent social policy challenges.",
+    "keywords": ["economic development", "industry", "regional disparities", "Roma", "unemployment"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "si-001",
+    "country": "SI",
+    "title": "Post-Pandemic Political Reset",
+    "summary": "Slovenia's 2022 elections produced a decisive shift, with the liberal Gibanje Svoboda party defeating the incumbent right-wing government of Janez Janša. The transition addressed concerns about democratic backsliding, media independence, and the rule of law that had attracted EU and civil society attention.",
+    "keywords": ["elections", "Gibanje Svoboda", "Janša", "democratic transition", "rule of law"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "si-002",
+    "country": "SI",
+    "title": "Western Balkans EU Enlargement",
+    "summary": "As an EU border state neighbouring the Western Balkans, Slovenia has been a consistent advocate for EU enlargement to the region. Progress on Balkan accession, border management, and the handling of migration flows at the Slovenian-Croatian border are significant foreign and domestic policy issues.",
+    "keywords": ["Western Balkans", "EU enlargement", "migration", "foreign policy", "border"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "si-003",
+    "country": "SI",
+    "title": "Climate Extremes and Infrastructure Resilience",
+    "summary": "Devastating floods in August 2023 caused an estimated €500 million in damage, exposing infrastructure vulnerabilities and accelerating debates about climate adaptation, flood prevention investment, and the sustainability of Slovenia's built environment.",
+    "keywords": ["floods", "climate adaptation", "infrastructure", "disaster recovery", "environment"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "es-001",
+    "country": "ES",
+    "title": "Catalan Independence and Amnesty Law",
+    "summary": "The Spanish government passed an amnesty law in 2024 for those involved in the 2017 Catalan independence referendum, as part of the terms for forming a governing coalition with Catalan pro-independence parties. The law's constitutionality and the broader question of how to manage territorial demands within Spain's asymmetric federal structure remain deeply contested.",
+    "keywords": ["Catalonia", "independence", "amnesty law", "federalism", "territorial tension"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "es-002",
+    "country": "ES",
+    "title": "Labour Market Reform and Youth Unemployment",
+    "summary": "Spain implemented significant labour market reforms in 2021 aimed at reducing temporary contract prevalence and strengthening collective bargaining. The reforms have been credited with reducing duality, but youth unemployment remains among the highest in the EU and is a persistent structural challenge.",
+    "keywords": ["labour market", "youth unemployment", "temporary contracts", "collective bargaining", "reform"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "es-003",
+    "country": "ES",
+    "title": "Housing Affordability and Rent Control",
+    "summary": "Spain's Housing Law, passed in 2023, introduced rent control measures and additional protections for tenants in stressed rental markets. Its implementation has been contested by regional governments, landlord groups, and economists, with ongoing debate about whether it increases supply or reduces it.",
+    "keywords": ["housing", "rent control", "Housing Law", "affordability", "landlords"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "se-001",
+    "country": "SE",
+    "title": "NATO Membership and Security Transition",
+    "summary": "Sweden joined NATO in March 2024 after more than 200 years of military non-alignment. The transition involves significant adjustments to defence planning, basing rights, and intelligence sharing. Managing the relationship with Russia across the Baltic and the domestic political consensus around the decision are ongoing issues.",
+    "keywords": ["NATO", "Sweden", "defence", "neutrality", "Russia"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "se-002",
+    "country": "SE",
+    "title": "Gang Violence and Public Safety",
+    "summary": "Sweden has experienced a significant increase in gang-related shootings and bombings, particularly in urban peripheries. The issue has reshaped Swedish political debate, with cross-party pressure for tougher sentences, deportation of non-citizen offenders, and intelligence-led policing. Links between gang recruitment and socioeconomic marginalization are a contested element of the discussion.",
+    "keywords": ["gang violence", "public safety", "shootings", "criminality", "integration"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "se-003",
+    "country": "SE",
+    "title": "Welfare State and Immigration Integration",
+    "summary": "Sweden's historically generous asylum and refugee policy has been significantly tightened by successive governments, including the current centre-right coalition. Debates focus on the pace and quality of integration, access to language training and employment, and the relationship between immigration policy and welfare state sustainability.",
+    "keywords": ["welfare state", "immigration", "integration", "asylum policy", "social cohesion"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "gb-001",
+    "country": "GB",
+    "title": "Post-Brexit Trade and Economic Relations",
+    "summary": "The UK–EU Trade and Cooperation Agreement governs post-Brexit trade, but disputes over Northern Ireland, financial services equivalence, and professional qualification recognition continue. The Labour government elected in 2024 has sought to 'reset' UK–EU relations while ruling out rejoining the single market or customs union.",
+    "keywords": ["Brexit", "trade", "EU", "Northern Ireland", "TCA"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "gb-002",
+    "country": "GB",
+    "title": "NHS Funding and Public Service Reform",
+    "summary": "The National Health Service faces record waiting lists, workforce shortages, and a significant funding gap. The Labour government has committed to NHS reform, including independent investigation into its performance. Debates centre on public versus private provision, workforce pay, and whether structural reform or funding increases are the primary solution.",
+    "keywords": ["NHS", "healthcare", "waiting lists", "public services", "reform"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "gb-003",
+    "country": "GB",
+    "title": "Immigration and Border Policy",
+    "summary": "Net migration to the UK reached record levels in 2023, becoming a dominant political issue and a contributing factor in the collapse of the Conservative government. The Labour government has retained restrictions on family and student visa routes while managing legal routes more tightly. The Rwanda deportation scheme was abandoned. Debates continue about the volume, composition, and governance of migration.",
+    "keywords": ["immigration", "net migration", "border", "Rwanda", "visa policy"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "no-001",
+    "country": "NO",
+    "title": "Oil Fund and Sovereign Wealth Management",
+    "summary": "Norway's Government Pension Fund Global — the world's largest sovereign wealth fund — holds investments in thousands of companies globally. Debates centre on the fund's investment criteria, exclusion policies for ethical reasons, the pace of withdrawal for domestic use, and long-term sustainability as a pillar of the Norwegian welfare state.",
+    "keywords": ["oil fund", "sovereign wealth", "investments", "ethics", "welfare state"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "no-002",
+    "country": "NO",
+    "title": "Fisheries Policy and Salmon Aquaculture",
+    "summary": "Norway is the world's largest producer of farmed Atlantic salmon. Sea lice, escape events, environmental impacts, and the terms of the aquaculture licensing system are subjects of ongoing regulatory debate. The fish export industry's access to EU markets has also been affected by Brexit and Norway's EEA status.",
+    "keywords": ["fisheries", "aquaculture", "salmon", "environment", "EEA"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "no-003",
+    "country": "NO",
+    "title": "Arctic Policy and NATO Posture",
+    "summary": "Norway has significantly increased its focus on Arctic security following Russia's invasion of Ukraine. Svalbard's demilitarized status and increased Russian activity in the High North, combined with NATO enlargement and new basing arrangements with the United States, have elevated Arctic governance as a domestic and alliance-level debate.",
+    "keywords": ["Arctic", "NATO", "Svalbard", "Russia", "security"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "ch-001",
+    "country": "CH",
+    "title": "Switzerland-EU Relations and Bilateral Agreements",
+    "summary": "Switzerland's relationship with the EU is governed by a complex set of bilateral agreements rather than membership. Negotiations for a new framework agreement — replacing a rejected 2021 draft — are ongoing. The settlement of disputes, contribution to EU funds, and labour mobility arrangements are central to the talks.",
+    "keywords": ["EU relations", "bilateral agreements", "framework agreement", "labour mobility", "sovereignty"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "ch-002",
+    "country": "CH",
+    "title": "Banking Regulation after Credit Suisse Collapse",
+    "summary": "The emergency rescue of Credit Suisse by UBS in March 2023 — the largest banking failure since the 2008 financial crisis — raised fundamental questions about Swiss banking regulation, 'too big to fail' frameworks, and the concentration of the Swiss financial sector. Parliamentary investigations and regulatory reform are ongoing.",
+    "keywords": ["banking", "Credit Suisse", "UBS", "regulation", "too big to fail"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "ch-003",
+    "country": "CH",
+    "title": "Direct Democracy and Migration Referendums",
+    "summary": "Switzerland's direct democracy system regularly produces referendums on immigration, most notably the 2014 vote on mass immigration initiative and subsequent measures. The tension between popular votes restricting free movement and Switzerland's EU bilateral agreements creates a recurring constitutional and political challenge.",
+    "keywords": ["direct democracy", "referendum", "immigration", "free movement", "bilateral agreements"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "is-001",
+    "country": "IS",
+    "title": "Volcanic Eruptions and Infrastructure Resilience",
+    "summary": "The Reykjanes Peninsula has experienced repeated volcanic eruptions since 2021, including the 2024 eruption that destroyed part of the town of Grindavík. The management of ongoing geological risk, housing for displaced residents, and the long-term habitability of affected areas are acute domestic policy challenges.",
+    "keywords": ["volcano", "Grindavík", "disaster management", "housing", "geological risk"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "is-002",
+    "country": "IS",
+    "title": "Fisheries Management and Quota System",
+    "summary": "Iceland's fishing industry is the backbone of the national economy. The individual transferable quota (ITQ) system has been effective at preventing overfishing but has concentrated quota ownership and raised questions about access for coastal communities, new entrants, and the distribution of resource rents.",
+    "keywords": ["fisheries", "quota", "ITQ", "economy", "coastal communities"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "is-003",
+    "country": "IS",
+    "title": "EU and EEA Membership Debate",
+    "summary": "Iceland applied for EU membership in 2009 but froze the process in 2013. The question of whether to resume accession talks, the trade-offs of EEA membership versus full EU membership, and the implications for fisheries sovereignty are latent but periodically revived policy debates.",
+    "keywords": ["EU", "EEA", "membership", "accession", "fisheries sovereignty"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "ua-001",
+    "country": "UA",
+    "title": "War with Russia and Reconstruction",
+    "summary": "Ukraine has been defending against Russia's full-scale invasion since February 2022. The war has caused massive civilian casualties, displacement of over six million people abroad, and widespread destruction of infrastructure. International discussions about reconstruction financing, accountability for war crimes, and the terms of any future settlement are ongoing.",
+    "keywords": ["war", "Russia", "reconstruction", "displacement", "war crimes"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "ua-002",
+    "country": "UA",
+    "title": "EU Accession Process",
+    "summary": "Ukraine formally opened EU accession negotiations in June 2024. The process requires significant reforms in anti-corruption, judicial independence, and alignment with EU laws. The pace of accession is debated both within Ukraine and among EU member states, particularly regarding agricultural market access and the implications for EU budget and cohesion policy.",
+    "keywords": ["EU accession", "reform", "anti-corruption", "judiciary", "integration"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "ua-003",
+    "country": "UA",
+    "title": "Mobilisation and Wartime Governance",
+    "summary": "Ukraine's mobilisation policy — including exemptions, deferments, and conscription age — has been a source of domestic tension. The government has also postponed elections under martial law, raising questions about democratic legitimacy and the balance between wartime security imperatives and civil liberties.",
+    "keywords": ["mobilisation", "conscription", "elections", "martial law", "governance"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "rs-001",
+    "country": "RS",
+    "title": "EU Accession Progress and Rule of Law",
+    "summary": "Serbia has been an EU candidate since 2012 but accession negotiations have stalled over rule of law benchmarks, including judicial independence, press freedom, and anti-corruption measures. The EU has made progress on Chapter 23 (judiciary and fundamental rights) and Chapter 24 (justice, freedom, security) conditions for advancing.",
+    "keywords": ["EU accession", "rule of law", "judiciary", "anti-corruption", "negotiations"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "rs-002",
+    "country": "RS",
+    "title": "Kosovo-Serbia Relations",
+    "summary": "Relations between Serbia and Kosovo remain unresolved; Serbia does not recognise Kosovo's independence, declared in 2008 and recognized by over 100 states. EU-mediated dialogue has produced agreements that remain poorly implemented. The status of the Serbian community in Kosovo and incidents along the border are ongoing flashpoints.",
+    "keywords": ["Kosovo", "recognition", "EU dialogue", "Serbian community", "territorial dispute"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "rs-003",
+    "country": "RS",
+    "title": "Media Freedom and Democracy Concerns",
+    "summary": "Serbia ranks low on European press freedom indices, with concerns about tabloid harassment of critics, the influence of ruling party allies over major broadcasters, and self-censorship. The 2023-2024 mass protests following a fatal train station roof collapse brought renewed attention to media coverage of public safety and government accountability.",
+    "keywords": ["press freedom", "media", "protests", "democracy", "accountability"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "al-001",
+    "country": "AL",
+    "title": "EU Accession and Judicial Reform",
+    "summary": "Albania opened formal EU accession negotiations in 2022 after completing a 'vetting' process to remove corrupt or compromised judges and prosecutors from the judicial system. Progress on justice reform, organised crime prosecution, and media pluralism are key benchmarks for advancing negotiations.",
+    "keywords": ["EU accession", "judicial reform", "vetting", "organised crime", "negotiations"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "al-002",
+    "country": "AL",
+    "title": "Emigration and Demographic Challenge",
+    "summary": "Albania has experienced significant emigration since the fall of communism, with large communities in Italy, Greece, the UK, and the US. The recent acceleration of emigration — including by young, educated Albanians — raises concerns about the sustainability of the workforce and public services.",
+    "keywords": ["emigration", "diaspora", "demographics", "brain drain", "workforce"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "al-003",
+    "country": "AL",
+    "title": "Electoral Integrity and Political Competition",
+    "summary": "OSCE/ODIHR election monitoring missions have noted concerns about vote buying, voter intimidation, abuse of state resources, and the lack of a level playing field for opposition parties in Albanian elections. Reducing electoral irregularities is a specific EU accession benchmark.",
+    "keywords": ["elections", "electoral integrity", "OSCE", "opposition", "democracy"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "mk-001",
+    "country": "MK",
+    "title": "EU and NATO Accession",
+    "summary": "North Macedonia joined NATO in 2020 and opened EU accession negotiations in 2022, following the Prespa Agreement resolving the name dispute with Greece. Progress in EU negotiations depends on anti-corruption reforms, judicial independence, and — in a new Bulgarian condition — recognition of historical and linguistic connections.",
+    "keywords": ["NATO", "EU accession", "Prespa Agreement", "Bulgaria", "name dispute"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "mk-002",
+    "country": "MK",
+    "title": "Bulgarian Veto and Minority Rights",
+    "summary": "Bulgaria has conditioned North Macedonia's EU accession progress on changes to the constitution to recognise Bulgarians as a constituent people and on a broader bilateral framework for historical and linguistic reconciliation. The issue has generated significant domestic controversy and is a central obstacle in the accession process.",
+    "keywords": ["Bulgaria", "veto", "minority rights", "constitution", "EU accession"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "mk-003",
+    "country": "MK",
+    "title": "Political Polarisation and Corruption",
+    "summary": "North Macedonia has experienced sharp political polarisation, including a 2017 political crisis involving allegations of mass wiretapping by the then-government. Anti-corruption reform, public prosecutor independence, and the rule of law remain ongoing EU accession requirements and domestic political battlegrounds.",
+    "keywords": ["political polarisation", "corruption", "wiretapping", "rule of law", "prosecutor"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "ba-001",
+    "country": "BA",
+    "title": "EU Integration and Dayton Constitutional Reform",
+    "summary": "Bosnia and Herzegovina received EU candidate status in 2022. However, the Dayton Peace Agreement's constitutional structure — with its ethnic power-sharing requirements — is widely considered an obstacle to both efficient governance and EU accession requirements on non-discrimination. Reform of the constitution is politically contentious.",
+    "keywords": ["EU accession", "Dayton Agreement", "constitutional reform", "ethnic power-sharing", "governance"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "ba-002",
+    "country": "BA",
+    "title": "Republika Srpska and Secessionist Tensions",
+    "summary": "The Republika Srpska entity's political leadership under Milorad Dodik has pursued a strategy of undermining state institutions, denying the Srebrenica genocide, and maintaining close ties with Russia and Serbia. These actions have created significant constitutional crises and drawn EU and US sanctions against Dodik personally.",
+    "keywords": ["Republika Srpska", "Dodik", "secession", "genocide denial", "sanctions"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "ba-003",
+    "country": "BA",
+    "title": "Migration Pressure and Balkan Route",
+    "summary": "Bosnia has been a significant transit country for irregular migrants using the Western Balkan route to reach the EU. The management of reception facilities, conditions for migrants and asylum seekers, and cooperation with EU border management have been recurring domestic and diplomatic issues.",
+    "keywords": ["migration", "Balkan route", "reception", "asylum", "EU cooperation"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "me-001",
+    "country": "ME",
+    "title": "EU Accession and Anti-Corruption Reform",
+    "summary": "Montenegro has been in EU accession negotiations since 2012 and has opened all 33 chapters. Progress has been blocked by slow implementation of anti-corruption commitments and judicial reform. The EU has signalled that negotiations will not be concluded without credible track records on rule of law.",
+    "keywords": ["EU accession", "anti-corruption", "judicial reform", "rule of law", "negotiations"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "me-002",
+    "country": "ME",
+    "title": "Church Property Dispute and Identity Politics",
+    "summary": "A 2019 law on religious communities triggered a major political and social crisis over the ownership of Serbian Orthodox Church properties in Montenegro, which became embroiled with questions of Montenegrin national identity and the extent of Serbian influence in the country. The political fallout led to a change in government.",
+    "keywords": ["Serbian Orthodox Church", "religious property", "national identity", "politics", "Serbia"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "me-003",
+    "country": "ME",
+    "title": "Organised Crime and Political Connections",
+    "summary": "Montenegro has a disproportionate share of drug trafficking networks relative to its size, with alleged connections between organised crime, the legal economy, and political figures. Prosecution of high-profile organised crime cases, witness protection, and police reform are ongoing EU accession benchmarks.",
+    "keywords": ["organised crime", "drug trafficking", "corruption", "police reform", "prosecution"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "xk-001",
+    "country": "XK",
+    "title": "International Recognition and UN Membership",
+    "summary": "Kosovo declared independence in 2008 and is recognised by over 100 states, including the US and most EU members. However, Serbia, Russia, China, and five EU member states do not recognise it, blocking UN membership and creating ongoing legal ambiguity in international forums.",
+    "keywords": ["independence", "recognition", "Serbia", "UN membership", "international status"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "xk-002",
+    "country": "XK",
+    "title": "EU Visa Liberalisation",
+    "summary": "Kosovo became the last Western Balkan jurisdiction to receive EU visa-free travel, in January 2024. The change has significant economic and social implications for Kosovo's large diaspora and for freedom of movement. EU integration — including the official opening of accession negotiations — remains a central political objective.",
+    "keywords": ["visa liberalisation", "Schengen", "EU", "diaspora", "freedom of movement"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "xk-003",
+    "country": "XK",
+    "title": "North Kosovo Tensions and Serb Community",
+    "summary": "The Serb-majority municipalities of northern Kosovo have been a persistent source of tension, including armed incidents, boycotts of Kosovo institutions, and the presence of armed Serbian structures. EU-mediated dialogue between Pristina and Belgrade has produced agreements that remain largely unimplemented.",
+    "keywords": ["north Kosovo", "Serb community", "tensions", "EU dialogue", "Pristina-Belgrade"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "by-001",
+    "country": "BY",
+    "title": "Political Prisoners and 2020 Election Aftermath",
+    "summary": "Following the disputed 2020 presidential election and mass protests, Belarusian authorities detained over 35,000 people and sentenced hundreds of political prisoners. The UN Special Rapporteur on Belarus and organisations including Viasna Human Rights Center continue to document ongoing repression and the situation of those imprisoned.",
+    "keywords": ["political prisoners", "2020 election", "repression", "Lukashenko", "Viasna"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "by-002",
+    "country": "BY",
+    "title": "Complicity in Russia's War in Ukraine",
+    "summary": "Belarus permitted Russia to use its territory as a launch point for the February 2022 invasion of Ukraine and has continued to provide logistical support. The EU, US, and UK have imposed successive rounds of sanctions on Belarus. The country's role in the war and the accountability of the Lukashenko government are subjects of international legal and political debate.",
+    "keywords": ["Russia", "Ukraine war", "sanctions", "Lukashenko", "international law"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "by-003",
+    "country": "BY",
+    "title": "Exile Opposition and Democratic Aspirations",
+    "summary": "The Coordination Council of the Belarusian democratic opposition, led abroad by Sviatlana Tsikhanouskaya, claims to represent the democratic majority that it argues won the 2020 election. The exile government maintains diplomatic recognition from several states and advocates for targeted sanctions, support for political prisoners, and a democratic transition.",
+    "keywords": ["exile opposition", "Tsikhanouskaya", "democratic transition", "Coordination Council", "sanctions"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "ru-001",
+    "country": "RU",
+    "title": "Political Prisoners and Navalny's Legacy",
+    "summary": "Alexei Navalny died in an Arctic penal colony in February 2024. His Anti-Corruption Foundation (FBK) continues to operate in exile, publishing investigations into official corruption. Thousands of Russians have been imprisoned for political activity, anti-war speech, or journalism. OVD-Info tracks these cases and provides legal support.",
+    "keywords": ["Navalny", "political prisoners", "FBK", "OVD-Info", "repression"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "ru-002",
+    "country": "RU",
+    "title": "Media Freedom and the Information Environment",
+    "summary": "Russia has effectively eliminated independent domestic media. Outlets including Novaya Gazeta, Echo of Moscow, and Dozhd TV were shut down or forced into exile following the 2022 invasion of Ukraine. Meduza, The Insider, and iStories continue to operate from abroad. Access to independent information inside Russia relies on VPNs and anti-censorship tools.",
+    "keywords": ["media freedom", "censorship", "Meduza", "exile media", "VPN"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "ru-003",
+    "country": "RU",
+    "title": "War in Ukraine and International Accountability",
+    "summary": "Russia's full-scale invasion of Ukraine, launched in February 2022, is the subject of multiple international accountability processes, including the International Criminal Court's arrest warrant for President Vladimir Putin for the deportation of Ukrainian children. War crimes documentation by Ukrainian prosecutors, international NGOs, and the ICC shapes debates about future accountability.",
+    "keywords": ["war in Ukraine", "war crimes", "ICC", "accountability", "international law"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "kp-001",
+    "country": "KP",
+    "title": "Human Rights Conditions and UN Documentation",
+    "summary": "The UN Commission of Inquiry on Human Rights in North Korea (2014) found that systematic, widespread and gross human rights violations amount to crimes against humanity. Conditions including political prison camps (kwanliso), public executions, enforced disappearances, and severe restrictions on movement and information are documented by the UN and NGOs.",
+    "keywords": ["human rights", "kwanliso", "crimes against humanity", "UN", "political prisoners"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "kp-002",
+    "country": "KP",
+    "title": "Nuclear Programme and International Sanctions",
+    "summary": "North Korea has conducted six nuclear tests and developed intercontinental ballistic missiles capable of reaching the continental United States. UN Security Council sanctions prohibit arms exports, limit energy imports, and restrict financial flows. The sanctions regime's enforcement — particularly by China and Russia — and the prospects for denuclearisation diplomacy are ongoing international policy questions.",
+    "keywords": ["nuclear", "ICBM", "sanctions", "denuclearisation", "diplomacy"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "kp-003",
+    "country": "KP",
+    "title": "Defector Support and Exile Community",
+    "summary": "An estimated 33,000 North Koreans have settled in South Korea; smaller numbers live in the UK, US, Europe, and Southeast Asia. Organizations including Liberty in North Korea (LiNK), the North Korea Database Center for Human Rights (NKDB), and the Citizens' Alliance for North Korean Human Rights document conditions and support defector resettlement and advocacy.",
+    "keywords": ["defectors", "exile community", "LiNK", "resettlement", "human rights advocacy"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "ir-001",
+    "country": "IR",
+    "title": "Woman, Life, Freedom Movement",
+    "summary": "The death of Mahsa Amini in morality police custody in September 2022 triggered the largest sustained protest movement in Iran's post-revolutionary history. The government's crackdown — including over 500 deaths, mass arrests, and executions of protesters — drew international condemnation. The movement's demands for women's rights and systemic political change remain active.",
+    "keywords": ["Mahsa Amini", "protests", "women's rights", "morality police", "repression"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "ir-002",
+    "country": "IR",
+    "title": "Nuclear Programme and International Diplomacy",
+    "summary": "Iran's nuclear programme — including uranium enrichment at levels close to weapons-grade — has been the subject of repeated international negotiations. The 2015 JCPOA was abandoned by the US in 2018; subsequent talks have not produced a renewed agreement. Escalation risks, IAEA monitoring access, and the diplomatic path forward are ongoing concerns.",
+    "keywords": ["nuclear programme", "JCPOA", "enrichment", "IAEA", "diplomacy"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "ir-003",
+    "country": "IR",
+    "title": "Internet Shutdowns and Digital Rights",
+    "summary": "Iran operates one of the world's most restrictive internet environments, including the National Information Network (SHOMA) designed to enable disconnection from the global internet. During protests, authorities have repeatedly shut down mobile internet and VPN access. Digital rights groups document shutdowns, platform blocks, and surveillance of activists.",
+    "keywords": ["internet shutdown", "censorship", "digital rights", "VPN", "surveillance"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "cu-001",
+    "country": "CU",
+    "title": "July 2021 Protests and Political Repression",
+    "summary": "The July 11, 2021 protests — the largest in Cuba since 1959 — were triggered by economic shortages, power cuts, and demands for political change. The government's response included mass arrests, trials of protesters in military courts, and sentences of up to 25 years. Hundreds remain imprisoned.",
+    "keywords": ["protests", "political prisoners", "repression", "11J", "human rights"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "cu-002",
+    "country": "CU",
+    "title": "Economic Crisis and Mass Emigration",
+    "summary": "Cuba faces its worst economic crisis in decades, marked by fuel shortages, food insecurity, hyperinflation of the peso, and electricity blackouts lasting up to 20 hours daily. Emigration has accelerated dramatically, with over 500,000 Cubans estimated to have left for the United States alone in 2022–2023, representing a historic demographic exodus.",
+    "keywords": ["economic crisis", "emigration", "shortages", "inflation", "energy"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "cu-003",
+    "country": "CU",
+    "title": "Internet Access and Digital Civil Society",
+    "summary": "Cuba significantly expanded mobile internet access in 2018, enabling a new generation of digital civil society. The government has also used connectivity to mobilise and surveil. Restricted access during protest periods, blocks on social media platforms, and harassment of digital journalists are documented by digital rights organizations.",
+    "keywords": ["internet", "digital rights", "civil society", "social media", "censorship"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "ve-001",
+    "country": "VE",
+    "title": "2024 Presidential Election Dispute",
+    "summary": "The July 2024 presidential election in Venezuela produced a disputed outcome. The Maduro government claimed victory but declined to release precinct-level results; opposition monitors tabulated results showing a decisive win for candidate Edmundo González. The Carter Center and other observers found the process lacked transparency. González went into exile in September 2024.",
+    "keywords": ["2024 election", "Maduro", "Edmundo González", "electoral fraud", "opposition"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "ve-002",
+    "country": "VE",
+    "title": "Migration Crisis and Diaspora",
+    "summary": "Over 7.7 million Venezuelans — approximately a quarter of the pre-crisis population — have left the country since 2015, creating the largest displacement crisis in Latin America. Major host countries include Colombia, Peru, Ecuador, Brazil, Chile, and the United States. The humanitarian, economic, and political dimensions of this diaspora are a major regional policy challenge.",
+    "keywords": ["migration", "diaspora", "displacement", "humanitarian", "Latin America"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "ve-003",
+    "country": "VE",
+    "title": "Humanitarian Situation and Sanctions",
+    "summary": "Venezuela's humanitarian crisis — marked by poverty, malnutrition, collapsing healthcare, and chronic shortages — has been shaped by both government mismanagement and international sanctions. Debates about the effectiveness and humanitarian impact of US and EU sanctions, and the conditions for their lifting, are central to international policy discussions on Venezuela.",
+    "keywords": ["humanitarian crisis", "sanctions", "poverty", "healthcare", "malnutrition"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "cn-001",
+    "country": "CN",
+    "title": "Hong Kong National Security Law and Civil Liberties",
+    "summary": "China imposed the National Security Law on Hong Kong in June 2020, criminalising acts of secession, subversion, terrorism, and collusion with foreign forces. Over 260 people have been prosecuted under the law, including members of the pro-democracy opposition and journalists. The 2021 restructuring of the Legislative Council eliminated most directly elected seats.",
+    "keywords": ["National Security Law", "Hong Kong", "civil liberties", "prosecution", "opposition"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "cn-002",
+    "country": "CN",
+    "title": "Press Freedom and Media Control",
+    "summary": "China operates one of the most restrictive media environments in the world. Major independent Hong Kong outlets including Apple Daily and Stand News were shut down following NSL prosecutions. On the mainland, the Great Firewall blocks major international platforms and foreign news sites. The Committee to Protect Journalists and Reporters Without Borders document journalist detentions and outlet closures.",
+    "keywords": ["press freedom", "media control", "Great Firewall", "Apple Daily", "censorship"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "cn-003",
+    "country": "CN",
+    "title": "EU-China Trade Relations and Decoupling Debate",
+    "summary": "EU-China trade relations are subject to growing friction, including EU anti-subsidy investigations into Chinese electric vehicles and solar panels, restrictions on technology transfers, and debates about strategic dependencies. The concept of 'de-risking' — reducing exposure to Chinese supply chains in critical sectors — is shaping EU industrial and trade policy.",
+    "keywords": ["trade", "EU-China", "electric vehicles", "de-risking", "subsidies"],
+    "createdAt": "2026-01-15T00:00:00.000Z"
   }
 ]

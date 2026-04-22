@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { readCommits } from "@/lib/store";
 import { COUNTRIES, getCountry } from "@/lib/countries";
+import { fifthOf } from "@/lib/diaspora";
 import WorldMap, { type CityPin } from "./WorldMap";
 
 export const dynamic = "force-dynamic";
@@ -34,6 +35,14 @@ export default async function MomentumPage() {
   // Build CityPin list for the world map (use "city, residenceCountry" key to match byCity)
   const cityPins: CityPin[] = [...byCity.entries()].map(([city, count]) => ({ city, count }));
 
+  // Top 3 diaspora communities by commit count for subtitle
+  const top3 = countryRows.slice(0, 3).flatMap((r) => {
+    const c = r.country;
+    if (!c) return [];
+    return [`${fifthOf(c)}: ${r.count}`];
+  });
+  const top3Line = top3.join(" · ");
+
   return (
     <div className="mx-auto max-w-5xl px-6 py-12">
       <div className="flex flex-wrap items-end justify-between gap-4">
@@ -45,6 +54,9 @@ export default async function MomentumPage() {
           <p className="mt-1 text-zinc-600">
             Visible momentum converts supporters into participants. Every commit counts.
           </p>
+          {top3Line && (
+            <p className="mt-1 text-xs text-zinc-500">{top3Line}</p>
+          )}
         </div>
         <Link
           href="/commit"

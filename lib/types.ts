@@ -13,6 +13,9 @@ export type Commit = {
   };
 };
 
+export type VotingAccessibility = "evoting" | "postal" | "consulate" | "travel" | "none";
+export type CountryRegion = "eu" | "europe" | "authoritarian";
+
 export type CountryRules = {
   code: string;
   name: string;
@@ -28,6 +31,9 @@ export type CountryRules = {
     detail: string;
   }>;
   requiredDocuments: string[];
+  votingAccessibility: VotingAccessibility;
+  region: CountryRegion;
+  additionalVotes?: Array<{ label: string; date: string }>;
 };
 
 export type ReminderEvent = {

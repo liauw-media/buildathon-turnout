@@ -3,6 +3,7 @@ import { cookies } from "next/headers";
 import { getCommit, readCommits } from "@/lib/store";
 import { getCountry } from "@/lib/countries";
 import { buildReminderTimeline, daysUntil, formatDate } from "@/lib/timeline";
+import { fifthOf, PERMANENT_COMMITMENT_COPY } from "@/lib/diaspora";
 import { ProgressToggle } from "./ProgressToggle";
 import { VotingGroup } from "./VotingGroup";
 import { findGroup } from "@/lib/matching";
@@ -49,6 +50,11 @@ export default async function DashboardPage() {
     (user.progress.planned ? 1 : 0) +
     (user.progress.voted ? 1 : 0);
 
+  // Diaspora community stats for this user's country
+  const countryCommits = allCommits.filter((c) => c.country === user.country);
+  const citySet = new Set(countryCommits.map((c) => c.city));
+  const diasporaLabel = fifthOf(country);
+
   return (
     <div className="mx-auto max-w-4xl px-6 py-12">
       <div className="flex flex-wrap items-start justify-between gap-4">
@@ -61,6 +67,11 @@ export default async function DashboardPage() {
             Voting as <span className="font-medium">{country.flag} {country.name}</span> diaspora —{" "}
             {user.city}
             {user.residenceCountry ? `, ${user.residenceCountry}` : ""}.
+          </p>
+          <p className="mt-1 text-xs text-indigo-700">
+            You&apos;re part of {diasporaLabel} —{" "}
+            {countryCommits.length} committed voter{countryCommits.length !== 1 ? "s" : ""} across{" "}
+            {citySet.size} {citySet.size !== 1 ? "cities" : "city"}.
           </p>
         </div>
         <div className="text-xs text-zinc-500">
@@ -106,6 +117,12 @@ export default async function DashboardPage() {
           />
         </div>
       </section>
+
+      {/* Permanent commitment callout */}
+      <div className="mt-4 rounded-md bg-indigo-50 border border-indigo-100 p-3 text-xs text-indigo-900">
+        <span className="font-semibold">{PERMANENT_COMMITMENT_COPY.headline}.</span>{" "}
+        {PERMANENT_COMMITMENT_COPY.body}
+      </div>
 
       <section className="mt-10 grid gap-8 md:grid-cols-2">
         <div>

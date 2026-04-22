@@ -1,4 +1,5 @@
 import { COUNTRIES } from "@/lib/countries";
+import { PERMANENT_COMMITMENT_COPY } from "@/lib/diaspora";
 import { submitCommit } from "./actions";
 
 type SearchParams = Promise<{ error?: string }>;
@@ -13,6 +14,12 @@ export default async function CommitPage({ searchParams }: { searchParams: Searc
         30 seconds now means you won&apos;t miss a deadline later. We&apos;ll only use this info to
         send you relevant reminders — nothing else.
       </p>
+
+      {/* Permanent commitment reassurance */}
+      <div className="mt-4 rounded-md bg-indigo-50 border border-indigo-100 p-3 text-xs text-indigo-900">
+        <span className="font-semibold">{PERMANENT_COMMITMENT_COPY.headline}.</span>{" "}
+        {PERMANENT_COMMITMENT_COPY.body}
+      </div>
 
       {error && (
         <div className="mt-6 rounded-md border border-rose-200 bg-rose-50 p-3 text-sm text-rose-700">

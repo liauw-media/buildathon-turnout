@@ -25,7 +25,10 @@ export default function RootLayout({
               <Link href="/momentum" className="hover:text-zinc-900">
                 Momentum
               </Link>
-              <Link href="/elections/MD/topics" className="hover:text-zinc-900">
+              <Link href="/elections" className="hover:text-zinc-900">
+                Elections
+              </Link>
+              <Link href="/topics" className="hover:text-zinc-900">
                 Topics
               </Link>
               <Link href="/dashboard" className="hover:text-zinc-900">

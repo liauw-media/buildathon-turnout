@@ -3,6 +3,7 @@ import { cookies } from "next/headers";
 import { getCommit } from "@/lib/store";
 import { getCountry } from "@/lib/countries";
 import { formatDate } from "@/lib/timeline";
+import { fifthOf } from "@/lib/diaspora";
 import { ShareCard } from "./ShareCard";
 
 export default async function SharedPage() {
@@ -39,6 +40,7 @@ export default async function SharedPage() {
   const electionDate = country?.nextElection.date
     ? formatDate(country.nextElection.date)
     : "";
+  const fifthLabel = country ? fifthOf(country) : null;
 
   return (
     <div className="mx-auto max-w-xl px-6 py-12">
@@ -50,6 +52,11 @@ export default async function SharedPage() {
         <h1 className="mt-1 text-2xl font-semibold text-zinc-900">
           Share it — every card brings someone closer to voting.
         </h1>
+        {fifthLabel && (
+          <p className="mt-2 text-sm text-zinc-500">
+            Joining {fifthLabel} — will you?
+          </p>
+        )}
       </div>
 
       {/* The interactive card component */}
