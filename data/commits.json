@@ -298,5 +298,85 @@
     "country": "MD",
     "createdAt": "2026-04-22T18:00:00.000Z",
     "progress": { "registered": false, "planned": false, "voted": false }
+  },
+  {
+    "id": "persona-mt-london",
+    "name": "Maria Camilleri",
+    "email": "maria.camilleri@example.com",
+    "city": "London",
+    "residenceCountry": "United Kingdom",
+    "country": "MT",
+    "createdAt": "2026-04-18T08:30:00.000Z",
+    "progress": { "registered": false, "planned": false, "voted": false }
+  },
+  {
+    "id": "persona-ch-berlin",
+    "name": "Lukas Gerber",
+    "email": "lukas.gerber@example.com",
+    "city": "Berlin",
+    "residenceCountry": "Germany",
+    "country": "CH",
+    "createdAt": "2026-04-19T10:15:00.000Z",
+    "progress": { "registered": true, "planned": false, "voted": false }
+  },
+  {
+    "id": "persona-de-paris",
+    "name": "Sophie Müller",
+    "email": "sophie.mueller@example.com",
+    "city": "Paris",
+    "residenceCountry": "France",
+    "country": "DE",
+    "createdAt": "2026-04-19T14:45:00.000Z",
+    "progress": { "registered": true, "planned": true, "voted": false }
+  },
+  {
+    "id": "persona-fr-montreal",
+    "name": "Élise Dupont",
+    "email": "elise.dupont@example.com",
+    "city": "Montreal",
+    "residenceCountry": "Canada",
+    "country": "FR",
+    "createdAt": "2026-04-20T11:00:00.000Z",
+    "progress": { "registered": true, "planned": false, "voted": false }
+  },
+  {
+    "id": "persona-ir-stockholm",
+    "name": "Shirin Moradi",
+    "email": "shirin.moradi@example.com",
+    "city": "Stockholm",
+    "residenceCountry": "Sweden",
+    "country": "IR",
+    "createdAt": "2026-04-20T16:20:00.000Z",
+    "progress": { "registered": false, "planned": false, "voted": false }
+  },
+  {
+    "id": "persona-ru-vilnius",
+    "name": "Aleksei Volkov",
+    "email": "aleksei.volkov@example.com",
+    "city": "Vilnius",
+    "residenceCountry": "Lithuania",
+    "country": "RU",
+    "createdAt": "2026-04-21T09:00:00.000Z",
+    "progress": { "registered": false, "planned": false, "voted": false }
+  },
+  {
+    "id": "persona-by-warsaw",
+    "name": "Alena Kovaleva",
+    "email": "alena.kovaleva@example.com",
+    "city": "Warsaw",
+    "residenceCountry": "Poland",
+    "country": "BY",
+    "createdAt": "2026-04-21T13:30:00.000Z",
+    "progress": { "registered": true, "planned": false, "voted": false }
+  },
+  {
+    "id": "persona-tr-cologne",
+    "name": "Deniz Arslan",
+    "email": "deniz.arslan@example.com",
+    "city": "Cologne",
+    "residenceCountry": "Germany",
+    "country": "TR",
+    "createdAt": "2026-04-22T07:45:00.000Z",
+    "progress": { "registered": false, "planned": false, "voted": false }
   }
 ]

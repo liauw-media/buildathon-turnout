@@ -1,0 +1,1369 @@
+{
+  "generatedAt": "2026-04-22T18:31:30.536Z",
+  "sourceCount": 150,
+  "countries": {
+    "GB": [
+      {
+        "label": "Scottish Parliament election",
+        "date": "2026-05-07",
+        "kind": "regional",
+        "source": "https://en.wikipedia.org/wiki/2026_Scottish_Parliament_election",
+        "notes": "129 MSPs elected; date may vary by up to one month by Presiding Officer proposal"
+      },
+      {
+        "label": "Welsh Senedd election",
+        "date": "2026-05-07",
+        "kind": "regional",
+        "source": "https://en.wikipedia.org/wiki/2026_Senedd_election",
+        "notes": "96 members elected under expanded Senedd; concurrent with English local elections"
+      },
+      {
+        "label": "English local elections 2026",
+        "date": "2026-05-07",
+        "kind": "local",
+        "source": "https://en.wikipedia.org/wiki/2026_United_Kingdom_local_elections",
+        "notes": "Elections across many English councils on same day as devolved elections"
+      },
+      {
+        "label": "Northern Ireland Assembly election",
+        "date": "2027-05-06",
+        "kind": "regional",
+        "source": "https://en.wikipedia.org/wiki/Next_Northern_Ireland_Assembly_election",
+        "notes": "90 members elected; on or before 6 May 2027; concurrent NI local council elections"
+      },
+      {
+        "label": "UK local elections 2027",
+        "date": "2027-05-06",
+        "kind": "local",
+        "source": "https://www.theedkins.co.uk/uklocalgov/elec2027.htm",
+        "notes": "216 English local authorities plus Scottish and Welsh councils"
+      },
+      {
+        "label": "London mayoral and Assembly election",
+        "date": "2028-05-04",
+        "kind": "local",
+        "source": "https://en.wikipedia.org/wiki/2028_London_mayoral_election",
+        "notes": "Concurrent with London Assembly elections and English local elections; estimated first Thursday in May 2028"
+      },
+      {
+        "label": "UK general election",
+        "date": "2029-08-15",
+        "kind": "general",
+        "source": "https://en.wikipedia.org/wiki/Next_United_Kingdom_general_election",
+        "notes": "Latest possible date; Parliament auto-dissolves 9 July 2029 (5 years from first sitting 9 July 2024) + 25-working-day campaign; PM can call earlier"
+      }
+    ],
+    "DE": [
+      {
+        "label": "Saxony-Anhalt Landtag election",
+        "date": "2026-09-06",
+        "kind": "regional",
+        "source": "https://en.wikipedia.org/wiki/2026_Saxony-Anhalt_state_election",
+        "notes": "9th Landtag of Saxony-Anhalt"
+      },
+      {
+        "label": "Berlin Abgeordnetenhaus election",
+        "date": "2026-09-20",
+        "kind": "regional",
+        "source": "https://www.berlin.de/en/news/9698449-5559700-berliners-to-elect-state-parliament-on-s.en.html",
+        "notes": "20th House of Representatives of Berlin; concurrent with Mecklenburg-Vorpommern"
+      },
+      {
+        "label": "Mecklenburg-Vorpommern Landtag election",
+        "date": "2026-09-20",
+        "kind": "regional",
+        "source": "https://www.bundesrat.de/EN/organisation-en/laender-en/wahltermine-en/wahltermine-en-inhalt.html",
+        "notes": "Concurrent with Berlin state election"
+      },
+      {
+        "label": "Schleswig-Holstein Landtag election",
+        "date": "2027-04-18",
+        "kind": "regional",
+        "source": "https://www.bundesrat.de/EN/organisation-en/laender-en/wahltermine-en/wahltermine-en-inhalt.html",
+        "notes": "Confirmed date from Bundesrat"
+      },
+      {
+        "label": "North Rhine-Westphalia Landtag election",
+        "date": "2027-04-25",
+        "kind": "regional",
+        "source": "https://www.bundesrat.de/EN/organisation-en/laender-en/wahltermine-en/wahltermine-en-inhalt.html",
+        "notes": "Germany's most populous state"
+      },
+      {
+        "label": "Germany federal Bundestag election",
+        "date": "2029-03-26",
+        "kind": "general",
+        "source": "https://en.wikipedia.org/wiki/Next_German_federal_election",
+        "notes": "Latest possible date (26 March 2029); 21st Bundestag constituted 25 March 2025; exact date TBD by Federal President"
+      }
+    ],
+    "FR": [
+      {
+        "label": "French municipal elections (first round)",
+        "date": "2026-03-15",
+        "kind": "local",
+        "source": "https://en.wikipedia.org/wiki/2026_French_municipal_elections",
+        "notes": "First round 15 March, second round 22 March 2026; ~35,000 communes"
+      },
+      {
+        "label": "French presidential election (first round)",
+        "date": "2027-04-11",
+        "kind": "presidential",
+        "source": "https://en.wikipedia.org/wiki/2027_French_presidential_election",
+        "notes": "First round must fall between 8 and 23 April 2027; estimated date; Macron ineligible for re-election; second round ~2 weeks later"
+      },
+      {
+        "label": "French regional and departmental elections",
+        "date": "2028-03-01",
+        "kind": "regional",
+        "source": "https://en.wikipedia.org/wiki/2028_French_regional_elections",
+        "notes": "Scheduled March 2028; renews 1,757 regional councillors across 17 regions; held simultaneously with departmental elections; exact date TBD"
+      },
+      {
+        "label": "French legislative election (National Assembly)",
+        "date": "2029-06-01",
+        "kind": "parliamentary",
+        "source": "https://en.wikipedia.org/wiki/Next_French_legislative_election",
+        "notes": "Due no later than June 2029; current Assembly elected July 2024; President may dissolve earlier; estimated date"
+      }
+    ],
+    "ES": [
+      {
+        "label": "Aragon regional election",
+        "date": "2026-02-08",
+        "kind": "regional",
+        "source": "https://en.wikipedia.org/wiki/2026_Spanish_regional_elections",
+        "notes": "Already held 8 February 2026"
+      },
+      {
+        "label": "Castile and León regional election",
+        "date": "2026-03-15",
+        "kind": "regional",
+        "source": "https://en.wikipedia.org/wiki/2026_Spanish_regional_elections",
+        "notes": "Already held 15 March 2026"
+      },
+      {
+        "label": "Andalusia regional election",
+        "date": "2026-05-17",
+        "kind": "regional",
+        "source": "https://ine.es/dyngs/Prensa/en/EPAND2026.htm",
+        "notes": "13th Parliament of Andalusia; confirmed date from Spain's National Statistics Institute"
+      },
+      {
+        "label": "Spain regional and local elections (concurrent)",
+        "date": "2027-05-23",
+        "kind": "regional",
+        "source": "https://en.wikipedia.org/wiki/2027_Spanish_regional_elections",
+        "notes": "At least 8 autonomous communities; concurrent with local elections across Spain and Basque foral elections"
+      },
+      {
+        "label": "Spain local elections 2027",
+        "date": "2027-05-23",
+        "kind": "local",
+        "source": "https://en.wikipedia.org/wiki/2027_Spanish_local_elections",
+        "notes": "Nationwide local elections concurrent with regional elections"
+      },
+      {
+        "label": "Spain general election (Cortes Generales)",
+        "date": "2027-08-22",
+        "kind": "general",
+        "source": "https://en.wikipedia.org/wiki/Next_Spanish_general_election",
+        "notes": "Latest possible date; previous election 23 July 2023; dissolution decree no later than 29 June 2027; Sánchez has confirmed 2027 re-election bid"
+      }
+    ],
+    "IT": [
+      {
+        "label": "Italy constitutional referendum on judicial reform",
+        "date": "2026-03-22",
+        "kind": "referendum",
+        "source": "https://en.wikipedia.org/wiki/2026_Italian_constitutional_referendum",
+        "notes": "Confirmatory constitutional referendum held 22-23 March 2026 on Nordio judicial reform (separation of judiciary and prosecution careers)"
+      },
+      {
+        "label": "Italy regional elections 2026",
+        "date": "2026-10-01",
+        "kind": "regional",
+        "source": "https://en.wikipedia.org/wiki/2026_Italian_local_elections",
+        "notes": "Estimated; various regional elections expected in 2026; exact regions and dates TBD; Italy holds regional elections on rolling basis"
+      },
+      {
+        "label": "Italy regional elections 2027",
+        "date": "2027-06-01",
+        "kind": "regional",
+        "source": "https://europeelects.eu/calendar/",
+        "notes": "Estimated; multiple regions due in 2027 election cycle; exact regions and dates TBD"
+      },
+      {
+        "label": "Italy general election (Camera dei Deputati and Senato)",
+        "date": "2027-12-22",
+        "kind": "general",
+        "source": "https://en.wikipedia.org/wiki/Next_Italian_general_election",
+        "notes": "Latest possible date; legislature convened 13 October 2022; President must dissolve no later than September 2027 with election within 70 days"
+      }
+    ],
+    "NL": [
+      {
+        "label": "Netherlands municipal elections",
+        "date": "2026-03-18",
+        "kind": "local",
+        "source": "https://en.wikipedia.org/wiki/2026_Dutch_municipal_elections",
+        "notes": "Elections in 333 municipalities; already held 18 March 2026"
+      },
+      {
+        "label": "Netherlands provincial council and water authority elections",
+        "date": "2027-03-17",
+        "kind": "regional",
+        "source": "https://english.kiesraad.nl/elections/elections-of-the-water-authority",
+        "notes": "Estimated March 2027 (4-year cycle from March 2023); provincial and water board elections held concurrently; exact date TBD"
+      },
+      {
+        "label": "Netherlands Senate election (Eerste Kamer)",
+        "date": "2027-05-01",
+        "kind": "parliamentary",
+        "source": "https://en.wikipedia.org/wiki/Elections_in_the_Netherlands",
+        "notes": "Estimated; Senate elected indirectly by provincial councils after provincial elections; exact date TBD"
+      },
+      {
+        "label": "Netherlands general election (Tweede Kamer)",
+        "date": "2030-05-01",
+        "kind": "general",
+        "source": "https://en.wikipedia.org/wiki/Next_Dutch_general_election",
+        "notes": "Next scheduled general election is May 2030 following snap elections in October 2025; outside project window but noted for completeness"
+      }
+    ],
+    "BE": [
+      {
+        "label": "Belgium federal election (Chamber of Representatives)",
+        "date": "2029-06-29",
+        "kind": "general",
+        "source": "https://en.wikipedia.org/wiki/List_of_elections_in_Belgium",
+        "notes": "Estimated date; 5-year cycle from June 9 2024; concurrent with regional and European Parliament elections"
+      },
+      {
+        "label": "Belgium Flemish Parliament election",
+        "date": "2029-06-29",
+        "kind": "regional",
+        "source": "https://www.vlaanderen.be/en/authorities/elections-in-belgium",
+        "notes": "Concurrent with federal election; 5-year cycle"
+      },
+      {
+        "label": "Belgium Walloon Parliament and Brussels Parliament elections",
+        "date": "2029-06-29",
+        "kind": "regional",
+        "source": "https://be.brussels/en/about-region/elections-et-consultations-publiques/elections/regional-elections",
+        "notes": "Concurrent with federal and Flemish elections; also elects German-speaking Community Parliament"
+      },
+      {
+        "label": "Belgium European Parliament election",
+        "date": "2029-06-29",
+        "kind": "european-parliament",
+        "source": "https://en.wikipedia.org/wiki/2024_Belgian_federal_election",
+        "notes": "Concurrent with all Belgian elections in 2029; Belgium uses compulsory voting"
+      }
+    ],
+    "LU": [
+      {
+        "label": "Luxembourg general election (Chamber of Deputies)",
+        "date": "2028-10-08",
+        "kind": "general",
+        "source": "https://en.wikipedia.org/wiki/Next_Luxembourg_general_election",
+        "notes": "Latest possible date (8 October 2028); 5-year cycle from October 2023; exact Sunday in October TBD; 60 seats across 4 constituencies; mandatory voting for citizens under 75"
+      },
+      {
+        "label": "Luxembourg European Parliament election",
+        "date": "2029-06-29",
+        "kind": "european-parliament",
+        "source": "https://en.wikipedia.org/wiki/Elections_in_Luxembourg",
+        "notes": "Estimated; follows EU-wide EP election cycle; next EP election expected June 2029"
+      },
+      {
+        "label": "Luxembourg communal (municipal) elections",
+        "date": "2029-10-12",
+        "kind": "local",
+        "source": "https://elections.public.lu/en/elections-communales.html",
+        "notes": "Estimated second Sunday of October 2029; 6-year cycle from June 2023 (held in June that year as general elections coincided); next cycle reverts to October schedule"
+      }
+    ],
+    "CH": [
+      {
+        "label": "Switzerland federal referendum round (March)",
+        "date": "2026-03-08",
+        "kind": "referendum",
+        "source": "https://www.admin.ch/gov/en/start/documentation/votes/20260308.html",
+        "notes": "Already held; four votes: initiatives on cash, public broadcasting, climate fund, and individual taxation"
+      },
+      {
+        "label": "Switzerland federal referendum round (June)",
+        "date": "2026-06-14",
+        "kind": "referendum",
+        "source": "https://en.wikipedia.org/wiki/2026_Swiss_referendums",
+        "notes": "Two votes including 'No to 10 million Switzerland' population cap initiative and civil service reform"
+      },
+      {
+        "label": "Switzerland federal referendum round (September)",
+        "date": "2026-09-27",
+        "kind": "referendum",
+        "source": "https://en.wikipedia.org/wiki/2026_Swiss_referendums",
+        "notes": "Confirmed date; specific propositions TBD"
+      },
+      {
+        "label": "Switzerland federal referendum round (November)",
+        "date": "2026-11-29",
+        "kind": "referendum",
+        "source": "https://en.wikipedia.org/wiki/2026_Swiss_referendums",
+        "notes": "Confirmed date; specific propositions TBD"
+      },
+      {
+        "label": "Switzerland EU bilateral agreements referendum",
+        "date": "2027-06-01",
+        "kind": "referendum",
+        "source": "https://www.swissinfo.ch/eng/various/federal-council-hands-over-eu-treaty-package-to-parliament/91093615",
+        "notes": "Estimated; 'Bilaterals III' package (electricity, health, food safety agreements) expected to go to popular vote in 2027 before October federal elections; exact date TBD"
+      },
+      {
+        "label": "Switzerland federal elections (National Council and Council of States)",
+        "date": "2027-10-24",
+        "kind": "general",
+        "source": "https://en.wikipedia.org/wiki/Elections_in_Switzerland",
+        "notes": "Confirmed date; 4-year cycle from October 2023; elects all 200 National Council seats and most of the 46 Council of States seats"
+      }
+    ],
+    "AT": [
+      {
+        "label": "Austria Tyrol Landtag election",
+        "date": "2027-09-01",
+        "kind": "regional",
+        "source": "https://austria-forum.org/af/AustriaWiki/Liste_k%C3%BCnftiger_Wahltermine_in_%C3%96sterreich",
+        "notes": "Estimated autumn 2027; exact date TBD"
+      },
+      {
+        "label": "Austria Upper Austria (Oberösterreich) Landtag election",
+        "date": "2027-09-01",
+        "kind": "regional",
+        "source": "https://austria-forum.org/af/AustriaWiki/Liste_k%C3%BCnftiger_Wahltermine_in_%C3%96sterreich",
+        "notes": "Scheduled 2027; concurrent with Tyrol state and municipal elections; exact date TBD"
+      },
+      {
+        "label": "Austria Lower Austria (Niederösterreich) Landtag election",
+        "date": "2028-01-01",
+        "kind": "regional",
+        "source": "https://austria-forum.org/af/AustriaWiki/Liste_k%C3%BCnftiger_Wahltermine_in_%C3%96sterreich",
+        "notes": "Scheduled 2028; exact date TBD"
+      },
+      {
+        "label": "Austria Carinthia (Kärnten) Landtag election",
+        "date": "2028-03-01",
+        "kind": "regional",
+        "source": "https://austria-forum.org/af/AustriaWiki/Liste_k%C3%BCnftiger_Wahltermine_in_%C3%96sterreich",
+        "notes": "Scheduled 2028; exact date TBD"
+      },
+      {
+        "label": "Austria Salzburg Landtag election",
+        "date": "2028-04-01",
+        "kind": "regional",
+        "source": "https://austria-forum.org/af/AustriaWiki/Liste_k%C3%BCnftiger_Wahltermine_in_%C3%96sterreich",
+        "notes": "Scheduled 2028; exact date TBD"
+      },
+      {
+        "label": "Austria federal parliamentary election (Nationalrat)",
+        "date": "2029-09-01",
+        "kind": "general",
+        "source": "https://en.wikipedia.org/wiki/Next_Austrian_legislative_election",
+        "notes": "By 2029; 29th National Council; current government is ÖVP-SPÖ-NEOS coalition formed after September 2024 election; exact date TBD"
+      }
+    ],
+    "IE": [
+      {
+        "label": "Ireland local elections",
+        "date": "2029-06-01",
+        "kind": "local",
+        "source": "https://www.seeherelected.ie/a-guide-to-running-in-the-2029-local-elections/",
+        "notes": "Estimated summer 2029; polling date set by Minister for Housing, Local Government and Heritage; 5-year cycle from June 2024"
+      },
+      {
+        "label": "Ireland European Parliament election",
+        "date": "2029-06-29",
+        "kind": "european-parliament",
+        "source": "https://results.elections.europa.eu/en/tools/widget-country/ireland/2024-2029/",
+        "notes": "Estimated; concurrent with EU-wide EP elections in June 2029"
+      },
+      {
+        "label": "Ireland general election (Dáil Éireann)",
+        "date": "2029-12-17",
+        "kind": "general",
+        "source": "https://en.wikipedia.org/wiki/Next_Irish_general_election",
+        "notes": "Latest date; Dáil must dissolve no later than 17 December 2029 (5 years from 34th Dáil first meeting 18 December 2024); election must follow within 30 days"
+      }
+    ],
+    "PT": [
+      {
+        "label": "Portugal presidential election (first round)",
+        "date": "2026-01-18",
+        "kind": "presidential",
+        "source": "https://en.wikipedia.org/wiki/2026_Portuguese_presidential_election",
+        "notes": "Already held; first round 18 January 2026; second round 8 February 2026; António José Seguro elected; Marcelo Rebelo de Sousa ineligible for third term"
+      },
+      {
+        "label": "Portugal European Parliament election",
+        "date": "2029-06-29",
+        "kind": "european-parliament",
+        "source": "https://en.wikipedia.org/wiki/Elections_in_Portugal",
+        "notes": "Estimated; follows EU-wide EP election cycle June 2029"
+      },
+      {
+        "label": "Portugal local elections (autárquicas)",
+        "date": "2029-10-05",
+        "kind": "local",
+        "source": "https://en.wikipedia.org/wiki/2029_Portuguese_local_elections",
+        "notes": "Estimated autumn 2029; elections in 308 municipalities for Municipal Chambers, Municipal Assemblies, and Parish Assemblies; 4-year cycle from October 2025"
+      },
+      {
+        "label": "Portugal general election (Assembleia da República)",
+        "date": "2029-10-14",
+        "kind": "general",
+        "source": "https://en.wikipedia.org/wiki/Next_Portuguese_legislative_election",
+        "notes": "Latest possible date; must be called between 14 September and 14 October 2029; at least 60 days notice required; 18th Legislature"
+      }
+    ],
+    "DK": [
+      {
+        "label": "Folketing (parliamentary) election",
+        "date": "2026-03-24",
+        "kind": "parliamentary",
+        "source": "https://en.wikipedia.org/wiki/2026_Danish_general_election",
+        "notes": "Held on 24 March 2026. Next election due by 23 March 2030."
+      },
+      {
+        "label": "Local and regional elections",
+        "date": "2029-11-19",
+        "kind": "local",
+        "source": "https://lifeindenmark.borger.dk/rights/elections-in-denmark",
+        "notes": "Third Tuesday of November every four years. All 98 municipalities and 4 regions vote simultaneously. Estimated date; previous cycle was 18 November 2025."
+      },
+      {
+        "label": "Regional council elections",
+        "date": "2029-11-19",
+        "kind": "regional",
+        "source": "https://en.wikipedia.org/wiki/Elections_in_Denmark",
+        "notes": "Held simultaneously with local municipal elections in November 2029."
+      },
+      {
+        "label": "Next Folketing election (deadline)",
+        "date": "2030-03-23",
+        "kind": "parliamentary",
+        "source": "https://en.wikipedia.org/wiki/Elections_in_Denmark",
+        "notes": "Latest constitutional deadline for the next parliamentary election after the March 2026 election."
+      }
+    ],
+    "SE": [
+      {
+        "label": "Riksdag (parliamentary) election",
+        "date": "2026-09-13",
+        "kind": "parliamentary",
+        "source": "https://en.wikipedia.org/wiki/2026_Swedish_general_election",
+        "notes": "Second Sunday in September. Held simultaneously with regional and municipal elections."
+      },
+      {
+        "label": "Regional council elections",
+        "date": "2026-09-13",
+        "kind": "regional",
+        "source": "https://www.riksdagen.se/en/news/the-2026-elections/",
+        "notes": "Held on the same day as the Riksdag election every four years."
+      },
+      {
+        "label": "Municipal council elections",
+        "date": "2026-09-13",
+        "kind": "local",
+        "source": "https://www.riksdagen.se/en/news/the-2026-elections/",
+        "notes": "Held on the same day as the Riksdag election every four years."
+      },
+      {
+        "label": "Riksdag, regional, and municipal elections",
+        "date": "2030-09-08",
+        "kind": "general",
+        "source": "https://en.wikipedia.org/wiki/Elections_in_Sweden",
+        "notes": "Estimated date: second Sunday in September 2030, four years after the 2026 election cycle. Exact date to be confirmed."
+      }
+    ],
+    "NO": [
+      {
+        "label": "Storting (parliamentary) election",
+        "date": "2025-09-08",
+        "kind": "parliamentary",
+        "source": "https://en.wikipedia.org/wiki/2025_Norwegian_parliamentary_election",
+        "notes": "Held 8 September 2025. Next Storting election expected September 2029."
+      },
+      {
+        "label": "Local government elections (kommunestyre- og fylkestingsvalg)",
+        "date": "2027-09-13",
+        "kind": "local",
+        "source": "https://valgmedarbeiderportalen.valg.no/valgkalender/kommunestyre-og-fylkestingsvalg-2027/",
+        "notes": "Held every four years on a Monday in September, midway through Storting terms. Estimated second Monday in September 2027; exact date set by government."
+      },
+      {
+        "label": "County council elections (fylkestingsvalg)",
+        "date": "2027-09-13",
+        "kind": "regional",
+        "source": "https://www.valg.no/en/elections2/elections-in-norway/",
+        "notes": "Held simultaneously with municipal council elections in September 2027."
+      },
+      {
+        "label": "Storting (parliamentary) election",
+        "date": "2029-09-10",
+        "kind": "parliamentary",
+        "source": "https://en.wikipedia.org/wiki/2029_Norwegian_parliamentary_election",
+        "notes": "Estimated date: Monday in September 2029. Exact date set by Government; four-year term from 2025."
+      }
+    ],
+    "FI": [
+      {
+        "label": "Parliamentary election (Eduskunta)",
+        "date": "2027-04-18",
+        "kind": "parliamentary",
+        "source": "https://en.wikipedia.org/wiki/2027_Finnish_parliamentary_election",
+        "notes": "200 members elected for a four-year term. Third Sunday in April."
+      },
+      {
+        "label": "County and municipal elections",
+        "date": "2029-04-15",
+        "kind": "local",
+        "source": "https://vaalit.fi/en/county-and-municipal-elections",
+        "notes": "Third Sunday in April every four years. Includes elections for wellbeing services county councils. Previous cycle: 13 April 2025."
+      },
+      {
+        "label": "Wellbeing services county elections",
+        "date": "2029-04-15",
+        "kind": "regional",
+        "source": "https://vaalit.fi/en/county-and-municipal-elections",
+        "notes": "Held simultaneously with municipal elections every four years."
+      },
+      {
+        "label": "European Parliament elections",
+        "date": "2029-06-01",
+        "kind": "european-parliament",
+        "source": "https://en.wikipedia.org/wiki/2029_European_Parliament_election",
+        "notes": "Estimated date for Finnish EP polling day, within the April-July 2029 EU-wide election window. Exact date TBC."
+      }
+    ],
+    "IS": [
+      {
+        "label": "Municipal elections (sveitarstjórnarkosningar)",
+        "date": "2026-05-16",
+        "kind": "local",
+        "source": "https://en.wikipedia.org/wiki/2026_Icelandic_municipal_elections",
+        "notes": "Held every four years. Next cycle after 2026 would be 2030."
+      },
+      {
+        "label": "Presidential election",
+        "date": "2028-06-01",
+        "kind": "presidential",
+        "source": "https://en.wikipedia.org/wiki/2024_Icelandic_presidential_election",
+        "notes": "Four-year presidential term; Halla Tómasdóttir's term runs August 2024 – July 2028. Exact date estimated as early June 2028 (traditional Saturday in June). Previous: 1 June 2024."
+      },
+      {
+        "label": "Althing (parliamentary) election",
+        "date": "2028-11-30",
+        "kind": "parliamentary",
+        "source": "https://en.wikipedia.org/wiki/Next_Icelandic_parliamentary_election",
+        "notes": "Must be held by 30 November 2028, four years after the November 2024 election. Exact date TBC."
+      }
+    ],
+    "EE": [
+      {
+        "label": "Presidential election (Riigikogu vote)",
+        "date": "2026-09-02",
+        "kind": "presidential",
+        "source": "https://en.wikipedia.org/wiki/2026_Estonian_presidential_election",
+        "notes": "President is elected by the Riigikogu (parliament), not by direct popular vote. Incumbent Alar Karis' term expires 11 October 2026; vote set for early September 2026. Estonia is renowned for i-voting (internet voting) used since 2005; over 50% of voters now use i-voting in parliamentary elections, though presidential election is a parliamentary vote only."
+      },
+      {
+        "label": "Parliamentary election (Riigikogu)",
+        "date": "2027-03-07",
+        "kind": "parliamentary",
+        "source": "https://en.wikipedia.org/wiki/Next_Estonian_parliamentary_election",
+        "notes": "101 members elected every four years. Estonia introduced i-voting (internet voting) in 2005 — the first country globally to do so for national elections — and over half of all votes are now cast online."
+      },
+      {
+        "label": "European Parliament elections",
+        "date": "2029-06-01",
+        "kind": "european-parliament",
+        "source": "https://en.wikipedia.org/wiki/2029_European_Parliament_election",
+        "notes": "Estimated date within the April-July 2029 EU-wide window. Estonia uses i-voting for EP elections as well."
+      },
+      {
+        "label": "Local government council elections",
+        "date": "2029-10-01",
+        "kind": "local",
+        "source": "https://www.valimised.ee/en",
+        "notes": "Held every four years in October. Previous cycle: October 2025. Exact date TBC."
+      }
+    ],
+    "LV": [
+      {
+        "label": "Saeima (parliamentary) election",
+        "date": "2026-10-03",
+        "kind": "parliamentary",
+        "source": "https://en.wikipedia.org/wiki/2026_Latvian_parliamentary_election",
+        "notes": "First Saturday in October every four years. 100 members elected. Official authority: Centrālā vēlēšanu komisija (CVK)."
+      },
+      {
+        "label": "Presidential election (Saeima vote)",
+        "date": "2027-06-01",
+        "kind": "presidential",
+        "source": "https://www.saeima.lv/en/news/saeima-news/32337-saeima-elects-edgars-rinkevics-as-president-of-latvia",
+        "notes": "The President of Latvia is elected by the Saeima (not by direct popular vote) for a four-year term. Incumbent Edgars Rinkēvičs elected 31 May 2023; next election expected mid-2027 by the newly-elected Saeima. Exact date TBC."
+      },
+      {
+        "label": "Municipal elections",
+        "date": "2029-06-01",
+        "kind": "local",
+        "source": "https://www.cvk.lv/en/local-elections",
+        "notes": "Held every four years. Previous cycle: 7 June 2025 in 42 municipalities. Next expected June 2029. Exact date TBC."
+      },
+      {
+        "label": "European Parliament elections",
+        "date": "2029-06-01",
+        "kind": "european-parliament",
+        "source": "https://en.wikipedia.org/wiki/2029_European_Parliament_election",
+        "notes": "Estimated date within the April-July 2029 EU-wide window. Latvia is an EU member state."
+      }
+    ],
+    "LT": [
+      {
+        "label": "Municipal council and mayoral elections",
+        "date": "2027-03-01",
+        "kind": "local",
+        "source": "https://www.vrk.lt/en/numatomi",
+        "notes": "Held every four years in spring. Previous cycle: March 2023. Estimated spring 2027; exact date TBC. Official authority: Vyriausioji rinkimų komisija (VRK)."
+      },
+      {
+        "label": "Seimas (parliamentary) election",
+        "date": "2028-10-08",
+        "kind": "parliamentary",
+        "source": "https://en.wikipedia.org/wiki/2028_Lithuanian_parliamentary_election",
+        "notes": "141 members elected every four years. First round 8 October 2028, second round two weeks later. Mixed system: 71 single-seat + 70 proportional."
+      },
+      {
+        "label": "Presidential election",
+        "date": "2029-05-13",
+        "kind": "presidential",
+        "source": "https://en.wikipedia.org/wiki/2029_Lithuanian_presidential_election",
+        "notes": "Five-year presidential term. Gitanas Nausėda (re-elected May 2024) is term-limited and ineligible for a third term. Inauguration of winner scheduled 12 July 2029."
+      },
+      {
+        "label": "European Parliament elections",
+        "date": "2029-06-01",
+        "kind": "european-parliament",
+        "source": "https://en.wikipedia.org/wiki/2029_European_Parliament_election",
+        "notes": "Estimated date within the April-July 2029 EU-wide window. Lithuania is an EU member state."
+      }
+    ],
+    "PL": [
+      {
+        "label": "Presidential election (2nd term of Nawrocki)",
+        "date": "2025-05-18",
+        "kind": "presidential",
+        "source": "https://en.wikipedia.org/wiki/2025_Polish_presidential_election",
+        "notes": "Held May 2025 (first round) / June 2025 (second round). Karol Nawrocki (PiS-backed) won. Next presidential election due 2030."
+      },
+      {
+        "label": "Parliamentary election (Sejm and Senate)",
+        "date": "2027-10-10",
+        "kind": "parliamentary",
+        "source": "https://en.wikipedia.org/wiki/Next_Polish_parliamentary_election",
+        "notes": "Must be held by 11 November 2027. Elects 460 Sejm deputies and 100 senators. Exact date estimated October 2027; official authority: PKW (Państwowa Komisja Wyborcza) at pkw.gov.pl."
+      },
+      {
+        "label": "Local government elections",
+        "date": "2028-04-16",
+        "kind": "local",
+        "source": "https://pkw.gov.pl/",
+        "notes": "Held every five years. Covers gmina, powiat, and voivodeship assemblies. Estimated April 2028; previous cycle was April 2024."
+      },
+      {
+        "label": "European Parliament elections",
+        "date": "2029-06-01",
+        "kind": "european-parliament",
+        "source": "https://en.wikipedia.org/wiki/2029_European_Parliament_election",
+        "notes": "Estimated date within the April-July 2029 EU-wide window. Poland is an EU member state."
+      }
+    ],
+    "CZ": [
+      {
+        "label": "Senate and municipal elections",
+        "date": "2026-10-09",
+        "kind": "local",
+        "source": "https://en.wikipedia.org/wiki/2026_Czech_Senate_election",
+        "notes": "Held 9–10 October 2026 (with potential second Senate round 16–17 October). One-third of Senate seats contested. Official authority: Státní volební komise."
+      },
+      {
+        "label": "Municipal (communal) elections",
+        "date": "2026-10-09",
+        "kind": "local",
+        "source": "https://en.wikipedia.org/wiki/2026_Czech_municipal_elections",
+        "notes": "Held simultaneously with Senate elections 9–10 October 2026."
+      },
+      {
+        "label": "Presidential election",
+        "date": "2028-01-01",
+        "kind": "presidential",
+        "source": "https://en.wikipedia.org/wiki/Next_Czech_presidential_election",
+        "notes": "Must be held no later than January 2028. Direct popular election, two-round system. Petr Pavel term expires January 2028. Exact date TBC."
+      },
+      {
+        "label": "European Parliament elections",
+        "date": "2029-06-01",
+        "kind": "european-parliament",
+        "source": "https://en.wikipedia.org/wiki/2029_European_Parliament_election",
+        "notes": "Estimated date within the April-July 2029 EU-wide window."
+      },
+      {
+        "label": "Chamber of Deputies (parliamentary) election",
+        "date": "2029-10-01",
+        "kind": "parliamentary",
+        "source": "https://en.wikipedia.org/wiki/Next_Czech_parliamentary_election",
+        "notes": "200 members elected every four years. Must be held by October 2029. Previous: October 2025. Exact date TBC."
+      }
+    ],
+    "SK": [
+      {
+        "label": "Municipal and regional self-government elections",
+        "date": "2026-10-01",
+        "kind": "local",
+        "source": "https://china-cee.eu/2026/02/10/slovakia-monthly-briefing-the-most-important-political-events-awaiting-slovakia-in-2026/",
+        "notes": "Scheduled for autumn 2026. PM Fico proposed postponing to 2027 but this would breach constitutional principles per legal experts. Date estimated as October 2026; may shift. Official authority: Štatistický úrad Slovenskej republiky."
+      },
+      {
+        "label": "National Council (parliamentary) election",
+        "date": "2027-09-30",
+        "kind": "parliamentary",
+        "source": "https://en.wikipedia.org/wiki/Next_Slovak_parliamentary_election",
+        "notes": "150 members elected every four years. Latest by 2027. Previous: September 2023. Estimated autumn 2027."
+      },
+      {
+        "label": "Presidential election",
+        "date": "2029-03-01",
+        "kind": "presidential",
+        "source": "https://en.wikipedia.org/wiki/Elections_in_Slovakia",
+        "notes": "Five-year term. Peter Pellegrini elected March 2024. Next election estimated spring 2029. Exact date TBC."
+      },
+      {
+        "label": "European Parliament elections",
+        "date": "2029-06-01",
+        "kind": "european-parliament",
+        "source": "https://en.wikipedia.org/wiki/2029_European_Parliament_election",
+        "notes": "Estimated date within the April-July 2029 EU-wide window. Slovakia is an EU member state."
+      }
+    ],
+    "HU": [
+      {
+        "label": "National Assembly (parliamentary) election",
+        "date": "2026-04-12",
+        "kind": "parliamentary",
+        "source": "https://en.wikipedia.org/wiki/2026_Hungarian_parliamentary_election",
+        "notes": "Held 12 April 2026. Tisza Party (Péter Magyar) won in a landslide, ending 16 years of Fidesz rule. Next parliamentary election expected 2030."
+      },
+      {
+        "label": "Local government elections (municipal and county)",
+        "date": "2029-06-01",
+        "kind": "local",
+        "source": "https://en.wikipedia.org/wiki/Elections_in_Hungary",
+        "notes": "Hungary holds local elections every five years. Previous: June 2024 (alongside EP elections). Next cycle expected 2029. Exact date TBC; likely coincides with EP elections."
+      },
+      {
+        "label": "European Parliament elections",
+        "date": "2029-06-01",
+        "kind": "european-parliament",
+        "source": "https://en.wikipedia.org/wiki/2029_European_Parliament_election",
+        "notes": "Estimated date within the April-July 2029 EU-wide window. Hungary is an EU member state. Previous EP election was June 2024."
+      },
+      {
+        "label": "National Assembly (parliamentary) election",
+        "date": "2030-04-01",
+        "kind": "parliamentary",
+        "source": "https://en.wikipedia.org/wiki/Elections_in_Hungary",
+        "notes": "Estimated spring 2030, four years after the April 2026 election. Hungary has no direct presidential election (president elected by parliament)."
+      }
+    ],
+    "SI": [
+      {
+        "label": "National Assembly (parliamentary) election",
+        "date": "2026-03-22",
+        "kind": "parliamentary",
+        "source": "https://en.wikipedia.org/wiki/2026_Slovenian_parliamentary_election",
+        "notes": "Held 22 March 2026. Gibanje Svoboda (PM Golob) won narrowly with 28.63% vs SDS 28.2%. Next parliamentary election expected 2030."
+      },
+      {
+        "label": "Local (municipal) elections",
+        "date": "2026-11-22",
+        "kind": "local",
+        "source": "https://www.gov.si/en/topics/local-elections/",
+        "notes": "Third Sunday in November every four years. Estimated 22 November 2026; previous cycle was November 2022. Mayors and municipal council members elected."
+      },
+      {
+        "label": "Presidential election",
+        "date": "2027-10-24",
+        "kind": "presidential",
+        "source": "https://www.gov.si/en/topics/election-of-the-president-of-the-republic/",
+        "notes": "Five-year term. Incumbent Nataša Pirc Musar elected October 2022. Next presidential election expected October/November 2027. Two-round system; date estimated."
+      },
+      {
+        "label": "European Parliament elections",
+        "date": "2029-06-01",
+        "kind": "european-parliament",
+        "source": "https://en.wikipedia.org/wiki/2029_European_Parliament_election",
+        "notes": "Estimated date within the April-July 2029 EU-wide window. Slovenia is an EU member state."
+      }
+    ],
+    "MT": [
+      {
+        "label": "General election",
+        "date": "2027-03-01",
+        "kind": "general",
+        "source": "https://en.wikipedia.org/wiki/Next_Maltese_general_election",
+        "notes": "Constitutional deadline is by June 2027 (5-year term from March 2022 election). PM Abela widely expected to call for spring 2027; March is most cited estimate. No official date announced as of April 2026. Date is an estimate."
+      },
+      {
+        "label": "Local council elections",
+        "date": "2029-06-01",
+        "kind": "local",
+        "source": "https://en.wikipedia.org/wiki/Elections_in_Malta",
+        "notes": "By law, local council elections in Malta are held concurrently with European Parliament elections (every 5 years). Last held June 2024 alongside EP elections; next due June 2029. Exact date TBC but expected same day as EP election."
+      },
+      {
+        "label": "European Parliament election",
+        "date": "2029-06-01",
+        "kind": "european-parliament",
+        "source": "https://electoral.gov.mt/",
+        "notes": "Malta is an EU member state. EP elections are held every 5 years; last was June 2024. Next scheduled for June 2029. Exact date within June TBC by EU Council decision."
+      }
+    ],
+    "HR": [
+      {
+        "label": "Parliamentary election",
+        "date": "2028-04-30",
+        "kind": "parliamentary",
+        "source": "https://en.wikipedia.org/wiki/Next_Croatian_parliamentary_election",
+        "notes": "Constitutional deadline is 30 April 2028. Last election held 17 April 2024. Exact date within this window TBC. Date shown is the latest constitutional deadline."
+      },
+      {
+        "label": "Local elections",
+        "date": "2029-05-01",
+        "kind": "local",
+        "source": "https://www.izbori.hr/site/en/other/news/election-calendar/2950",
+        "notes": "Local elections were held 18 May 2025 (4-year terms). Next local elections expected spring 2029. Exact date is an estimate based on the 4-year cycle."
+      },
+      {
+        "label": "European Parliament election",
+        "date": "2029-06-01",
+        "kind": "european-parliament",
+        "source": "https://cor.europa.eu/sites/default/files/2025-10/elections_calendar_2024-2029.pdf",
+        "notes": "Croatia is an EU member state. EP elections scheduled June 2029. Exact date TBC."
+      }
+    ],
+    "GR": [
+      {
+        "label": "Municipal and regional elections",
+        "date": "2026-04-04",
+        "kind": "local",
+        "source": "https://www.ypes.gr/en/elections/",
+        "notes": "Confirmed for Saturday 4 April 2026. Elects mayors, municipal councils, and regional governors across all 13 regions and municipalities. 4-year cycle from October 2023."
+      },
+      {
+        "label": "Parliamentary election",
+        "date": "2027-07-25",
+        "kind": "parliamentary",
+        "source": "https://en.wikipedia.org/wiki/Next_Greek_parliamentary_election",
+        "notes": "Constitutional deadline is 25 July 2027. Last election June 2023. There is speculation about an earlier autumn 2026 call. Date shown is the constitutional deadline; actual election may be earlier."
+      },
+      {
+        "label": "European Parliament election",
+        "date": "2029-06-01",
+        "kind": "european-parliament",
+        "source": "https://cor.europa.eu/sites/default/files/2025-10/elections_calendar_2024-2029.pdf",
+        "notes": "Greece is an EU member state. EP elections scheduled June 2029. Exact date TBC."
+      }
+    ],
+    "CY": [
+      {
+        "label": "Parliamentary (legislative) election",
+        "date": "2026-05-24",
+        "kind": "parliamentary",
+        "source": "https://en.wikipedia.org/wiki/2026_Cypriot_legislative_election",
+        "notes": "Confirmed date: 24 May 2026. Elects 56 of the 80-member House of Representatives (24 seats allocated to Turkish Cypriots remain vacant). Held under open-list proportional representation across 6 districts."
+      },
+      {
+        "label": "Presidential election",
+        "date": "2028-02-01",
+        "kind": "presidential",
+        "source": "https://en.wikipedia.org/wiki/Elections_in_Cyprus",
+        "notes": "Next presidential election scheduled for February 2028. 5-year term; last presidential election was February 2023. New electoral law amendments (voting age 17, automatic registration) apply for first time at this election. Exact date in February TBC."
+      },
+      {
+        "label": "European Parliament election",
+        "date": "2029-06-01",
+        "kind": "european-parliament",
+        "source": "https://cor.europa.eu/sites/default/files/2025-10/elections_calendar_2024-2029.pdf",
+        "notes": "Cyprus is an EU member state. EP elections scheduled June 2029. Exact date TBC."
+      }
+    ],
+    "BG": [
+      {
+        "label": "Parliamentary election (early)",
+        "date": "2026-04-19",
+        "kind": "parliamentary",
+        "source": "https://en.wikipedia.org/wiki/2026_Bulgarian_parliamentary_election",
+        "notes": "Held 19 April 2026 (already occurred). Early election called after Zhelyazkov government resigned December 2025. Progressive Bulgaria (led by former President Radev) won a landslide with ~44% of the vote and an outright majority."
+      },
+      {
+        "label": "Presidential election",
+        "date": "2026-11-01",
+        "kind": "presidential",
+        "source": "https://en.wikipedia.org/wiki/2026_Bulgarian_presidential_election",
+        "notes": "Scheduled for autumn 2026. Incumbent president Iliana Iotova (acting head of state) eligible to contest. Bulgaria holds presidential elections every 5 years; last was November 2021. Exact date TBC — November is the likely month. Date is an estimate."
+      },
+      {
+        "label": "European Parliament election",
+        "date": "2029-06-01",
+        "kind": "european-parliament",
+        "source": "https://cor.europa.eu/sites/default/files/2025-10/elections_calendar_2024-2029.pdf",
+        "notes": "Bulgaria is an EU member state. EP elections scheduled June 2029. Exact date TBC."
+      }
+    ],
+    "RO": [
+      {
+        "label": "Local elections",
+        "date": "2028-06-01",
+        "kind": "local",
+        "source": "https://en.wikipedia.org/wiki/Elections_in_Romania",
+        "notes": "Local elections follow a 4-year cycle; last held June 2024. Next expected June 2028. Exact date is an estimate."
+      },
+      {
+        "label": "Parliamentary election",
+        "date": "2028-11-30",
+        "kind": "parliamentary",
+        "source": "https://en.wikipedia.org/wiki/Next_Romanian_parliamentary_election",
+        "notes": "Constitutional deadline is 30 November 2028. Last parliamentary elections December 2024. Date shown is the latest constitutional deadline; actual election may be held in autumn 2028."
+      },
+      {
+        "label": "European Parliament election",
+        "date": "2029-06-01",
+        "kind": "european-parliament",
+        "source": "https://cor.europa.eu/sites/default/files/2025-10/elections_calendar_2024-2029.pdf",
+        "notes": "Romania is an EU member state. EP elections scheduled June 2029. Exact date TBC."
+      },
+      {
+        "label": "Presidential election",
+        "date": "2030-05-01",
+        "kind": "presidential",
+        "source": "https://en.wikipedia.org/wiki/2025_Romanian_presidential_election",
+        "notes": "Next presidential election scheduled for May 2030. Current president Nicusor Dan elected May 2025 for a 5-year term. Included for completeness though outside the primary research window."
+      }
+    ],
+    "AL": [
+      {
+        "label": "Parliamentary election",
+        "date": "2025-05-11",
+        "kind": "parliamentary",
+        "source": "https://en.wikipedia.org/wiki/2025_Albanian_parliamentary_election",
+        "notes": "Held 11 May 2025 (already occurred, included as reference baseline). Edi Rama's Socialist Party won a record 4th term with 83 of 140 seats."
+      },
+      {
+        "label": "Local (municipal) elections",
+        "date": "2027-05-01",
+        "kind": "local",
+        "source": "https://en.wikipedia.org/wiki/Elections_in_Albania",
+        "notes": "Local elections follow a 4-year cycle; last held May 2023. Next expected May 2027. Exact date is an estimate based on the cycle."
+      },
+      {
+        "label": "Parliamentary election",
+        "date": "2029-05-01",
+        "kind": "parliamentary",
+        "source": "https://en.wikipedia.org/wiki/2029_Albanian_parliamentary_election",
+        "notes": "Next parliamentary elections expected by May 2029 (4-year term from May 2025). EU accession negotiations ongoing; government aims to conclude by 2027, with potential membership ~2029. Exact date is an estimate."
+      }
+    ],
+    "BA": [
+      {
+        "label": "Republika Srpska presidential election (early repeat)",
+        "date": "2026-02-08",
+        "kind": "presidential",
+        "source": "https://www.coe.int/en/web/congress/-/congress-to-observe-the-repeat-early-presidential-elections-in-republika-srpska",
+        "notes": "Already held 8 February 2026 (reference event). Repeat early election held in the Republika Srpska entity; Sinisa Karan (SNSD) won."
+      },
+      {
+        "label": "General election (state, entity, and cantonal)",
+        "date": "2026-10-04",
+        "kind": "general",
+        "source": "https://en.wikipedia.org/wiki/2026_Bosnian_general_election",
+        "notes": "Confirmed date: 4 October 2026. Elects the 3-member state Presidency, 42-seat state House of Representatives, Republika Srpska presidency and National Assembly, and Federation of Bosnia and Herzegovina House of Representatives and cantonal assemblies. Held every 4 years."
+      },
+      {
+        "label": "General election",
+        "date": "2030-10-01",
+        "kind": "general",
+        "source": "https://en.wikipedia.org/wiki/Elections_in_Bosnia_and_Herzegovina",
+        "notes": "Next general election expected October 2030 (4-year cycle from 2026). Date is an estimate."
+      }
+    ],
+    "XK": [
+      {
+        "label": "Presidential election (indirect, by Assembly)",
+        "date": "2026-04-28",
+        "kind": "presidential",
+        "source": "https://en.wikipedia.org/wiki/2026_Kosovan_presidential_election",
+        "notes": "Kosovo's president is elected indirectly by the 120-member Assembly. Constitutional Court set 28 April 2026 as the final deadline for the Assembly to conclude the presidential vote. Albulena Haxhiu (Assembly Speaker) serving as acting president since 4 April 2026. Exact outcome date may vary if further rounds needed."
+      },
+      {
+        "label": "Local (municipal) elections",
+        "date": "2029-10-01",
+        "kind": "local",
+        "source": "https://en.wikipedia.org/wiki/2025_Kosovan_local_elections",
+        "notes": "Local elections were held October 2025 (4-year terms). Next expected October 2029 across all 38 municipalities. Date is an estimate."
+      },
+      {
+        "label": "Parliamentary election",
+        "date": "2029-12-01",
+        "kind": "parliamentary",
+        "source": "https://en.wikipedia.org/wiki/Next_Kosovan_parliamentary_election",
+        "notes": "Next regular parliamentary elections expected by late 2029 (4-year term from December 2025 election). Vetevëndosje won 51% in December 2025 elections. Exact date is an estimate."
+      }
+    ],
+    "MK": [
+      {
+        "label": "Parliamentary election",
+        "date": "2028-05-08",
+        "kind": "parliamentary",
+        "source": "https://en.wikipedia.org/wiki/2024_North_Macedonian_parliamentary_election",
+        "notes": "Last parliamentary election was 8 May 2024 (4-year term). Next expected May 2028. VMRO-DPMNE holds a commanding majority. Date is an estimate based on the 4-year cycle."
+      },
+      {
+        "label": "Presidential election",
+        "date": "2029-04-01",
+        "kind": "presidential",
+        "source": "https://en.wikipedia.org/wiki/Elections_in_North_Macedonia",
+        "notes": "Presidential election was held in April 2024 (5-year term). Next presidential election expected around 2029. Date is an estimate."
+      },
+      {
+        "label": "Local (municipal) elections",
+        "date": "2029-10-01",
+        "kind": "local",
+        "source": "https://en.wikipedia.org/wiki/2025_North_Macedonian_local_elections",
+        "notes": "Local elections were held October 2025; those elected serve 4-year terms. Next local elections expected October 2029 across 80 municipalities and Skopje. Date is an estimate."
+      }
+    ],
+    "ME": [
+      {
+        "label": "Municipal elections (various municipalities)",
+        "date": "2026-06-01",
+        "kind": "local",
+        "source": "https://rm.coe.int/2026-calendar-elections/488029e059",
+        "notes": "Council of Europe 2026 calendar lists Montenegro local elections as planned for several municipalities, dates TBC. Municipal elections in Montenegro are staggered. Date is an estimate pending official announcement."
+      },
+      {
+        "label": "Parliamentary election",
+        "date": "2027-06-30",
+        "kind": "parliamentary",
+        "source": "https://en.wikipedia.org/wiki/Next_Montenegrin_parliamentary_election",
+        "notes": "Constitutional deadline: before 30 June 2027. Last election held June 2023 (4-year term). PM Milojko Spajic (PES) leads the current government. Montenegro is in advanced EU accession negotiations aiming to close all chapters by 2026/2027. Date shown is the constitutional deadline."
+      },
+      {
+        "label": "Presidential election",
+        "date": "2028-03-01",
+        "kind": "presidential",
+        "source": "https://en.wikipedia.org/wiki/Elections_in_Montenegro",
+        "notes": "Last presidential election March 2023 (5-year term). Next presidential election expected March 2028. President elected by direct popular vote; runoff if no absolute majority in first round. Date is an estimate."
+      }
+    ],
+    "RS": [
+      {
+        "label": "Local elections (10 municipalities/Bor)",
+        "date": "2026-03-29",
+        "kind": "local",
+        "source": "https://en.wikipedia.org/wiki/2026_Serbian_local_elections",
+        "notes": "Already held 29 March 2026. Local assembly elections in Bor, Arandjelvac, Bajina Basta, Kula, Knjazvac, Kladovo, Majdanpek, Lucani, Smederevska Palanka, and Sevojno (247,985 registered voters). SNS coalition won all 10 but with reduced margins."
+      },
+      {
+        "label": "Parliamentary election",
+        "date": "2027-03-01",
+        "kind": "parliamentary",
+        "source": "https://en.wikipedia.org/wiki/Next_Serbian_parliamentary_election",
+        "notes": "Constitutional deadline: by 31 December 2027. President Vucic has signalled elections could be held as early as late 2026 (Vidovdan/June 28 or December 2026 mentioned). Most analysts expect spring 2027. Date is an estimate; the actual election may be earlier."
+      },
+      {
+        "label": "Presidential election",
+        "date": "2027-04-01",
+        "kind": "presidential",
+        "source": "https://en.wikipedia.org/wiki/Next_Serbian_presidential_election",
+        "notes": "Constitutional deadline: before 1 May 2027. Incumbent Aleksandar Vucic constitutionally barred from a third term. Could be held concurrently with parliamentary election. Date is an estimate."
+      }
+    ],
+    "MD": [
+      {
+        "label": "Local elections and referendum",
+        "date": "2026-05-17",
+        "kind": "local",
+        "source": "https://www.moldpres.md/eng/politics/moldovan-central-electoral-commission-approves-timetable-for-new-local-elections-referendum-due-on-17-may-2026",
+        "notes": "Moldovan Central Electoral Commission confirmed timetable for local elections and local referendum on 17 May 2026."
+      },
+      {
+        "label": "Presidential election",
+        "date": "2028-11-01",
+        "kind": "presidential",
+        "source": "https://en.wikipedia.org/wiki/List_of_next_general_elections",
+        "notes": "Next Moldovan presidential election projected for November 2028, following the October 2024 presidential election won by Maia Sandu. Exact date TBC."
+      },
+      {
+        "label": "Parliamentary election",
+        "date": "2029-09-28",
+        "kind": "parliamentary",
+        "source": "https://en.wikipedia.org/wiki/2025_Moldovan_parliamentary_election",
+        "notes": "Next parliamentary election projected for September 2029, following the September 2025 election. Moldova is on EU accession track; elections are free and competitive."
+      }
+    ],
+    "GE": [
+      {
+        "label": "Local / self-government elections",
+        "date": "2026-10-01",
+        "kind": "local",
+        "source": "https://en.wikipedia.org/wiki/Elections_in_Georgia_(country)",
+        "notes": "Local elections in Georgia are typically held every four years. Last local elections were in 2021; next cycle expected in 2025-2026. Georgian Dream controls most municipalities. Exact date to be confirmed by Central Election Commission."
+      },
+      {
+        "label": "Parliamentary election",
+        "date": "2028-10-26",
+        "kind": "parliamentary",
+        "source": "https://en.wikipedia.org/wiki/Next_Georgian_parliamentary_election",
+        "notes": "Next parliamentary election expected October 2028 (four-year cycle from 2024). The 2024 election was disputed by opposition coalitions and former President Zourabichvili; political legitimacy remains contested under Georgian Dream government."
+      },
+      {
+        "label": "Presidential election (by parliamentary college)",
+        "date": "2028-12-14",
+        "kind": "presidential",
+        "source": "https://en.wikipedia.org/wiki/2024_Georgian_presidential_election",
+        "notes": "Under 2017 constitutional changes, Georgia's president is now elected by a parliamentary college of electors (not direct popular vote). Next presidential election expected December 2028, five years after the December 2024 election."
+      }
+    ],
+    "UA": [
+      {
+        "label": "Presidential election (projected, post-martial law)",
+        "date": "2026-10-25",
+        "kind": "presidential",
+        "source": "https://tass.com/world/2089965",
+        "notes": "Ukrainian law prohibits elections during martial law. Media and political sources project a presidential election in autumn 2026 if martial law ends or is amended. Zelensky's term expired March 2024 but was constitutionally extended. Date is indicative — not officially scheduled."
+      },
+      {
+        "label": "Parliamentary election — Verkhovna Rada (projected, post-martial law)",
+        "date": "2027-03-28",
+        "kind": "parliamentary",
+        "source": "https://news-pravda.com/ukraine/2026/02/20/2085764.html",
+        "notes": "Parliamentary election projected for spring 2027 if peace negotiations conclude and martial law is lifted or amended. The Verkhovna Rada term expired in 2023 but was extended under wartime provisions. Date is indicative — not officially scheduled."
+      },
+      {
+        "label": "Local elections (projected)",
+        "date": "2027-10-24",
+        "kind": "local",
+        "source": "https://en.wikipedia.org/wiki/Elections_in_Ukraine",
+        "notes": "Local elections across Ukraine are due after martial law lapses. Typically held in October. Date is indicative — dependent on end of hostilities and lifting of martial law."
+      }
+    ],
+    "TR": [
+      {
+        "label": "Referendum (possible constitutional amendment)",
+        "date": "2027-06-01",
+        "kind": "referendum",
+        "source": "https://en.wikipedia.org/wiki/Elections_in_Turkey",
+        "notes": "There is ongoing discussion in Turkey about a possible constitutional referendum that could allow Erdogan to seek a third presidential term, potentially needed before the 2028 election. No official date announced; illustrative placeholder based on political dynamics."
+      },
+      {
+        "label": "Presidential and parliamentary general election",
+        "date": "2028-05-14",
+        "kind": "general",
+        "source": "https://en.wikipedia.org/wiki/Next_Turkish_presidential_election",
+        "notes": "Next general election due by 14 May 2028. Presidential and all 600 Grand National Assembly seats will be contested simultaneously. Erdogan confirmed no early elections; AKP dismissed calls for snap vote before 2028."
+      },
+      {
+        "label": "Local / municipal elections",
+        "date": "2029-03-31",
+        "kind": "local",
+        "source": "https://www.dailysabah.com/politics/elections/turkiyes-ruling-party-dismisses-calls-for-early-election-before-2028",
+        "notes": "Local elections in Turkey follow a five-year cycle from March 2024; next municipal elections expected March 2029. Turkey remains a competitive democracy but with significant press freedom and judicial independence concerns."
+      }
+    ],
+    "BY": [
+      {
+        "label": "Belarusian Democratic Forces shadow vote — FICTIONAL",
+        "date": "2025-08-09",
+        "kind": "referendum",
+        "source": "unknown",
+        "notes": "FICTIONAL — illustrative civic-tech event for the Turnout platform. Date chosen as anniversary of the disputed 9 August 2020 presidential election, the starting point of the Belarusian democratic protest movement. Inspired by Sviatlana Tsikhanouskaya's United Transitional Cabinet of Belarus and diaspora organizations across the EU and beyond. This shadow referendum would ask the Belarusian diaspora to reaffirm democratic values and Tsikhanouskaya's legitimacy."
+      },
+      {
+        "label": "Parliamentary election (House of Representatives) — sham",
+        "date": "2028-02-27",
+        "kind": "parliamentary",
+        "source": "https://en.wikipedia.org/wiki/Elections_in_Belarus",
+        "notes": "Belarus holds parliamentary elections every four years on the last Sunday of February. Next cycle after February 2024 is expected February 2028. Elections are tightly managed by the Lukashenko regime; all genuine opposition is imprisoned or in exile. OSCE/ODIHR has not been invited since 2016."
+      },
+      {
+        "label": "Presidential election — sham",
+        "date": "2030-01-26",
+        "kind": "presidential",
+        "source": "https://en.wikipedia.org/wiki/2025_Belarusian_presidential_election",
+        "notes": "Lukashenko won a seventh term in January 2025 with an official 87.6% of the vote — widely condemned as fraudulent. Next presidential election expected January 2030 (five-year term). No independent media, no genuine opposition candidates permitted."
+      }
+    ],
+    "RU": [
+      {
+        "label": "State Duma election — regime-controlled",
+        "date": "2026-09-20",
+        "kind": "parliamentary",
+        "source": "https://en.wikipedia.org/wiki/2026_Russian_legislative_election",
+        "notes": "All 450 State Duma deputies elected 18-20 September 2026 (Unified Voting Day). Elections are heavily managed; no genuine opposition permitted since 2022 crackdown. United Russia expected to retain supermajority. Alongside 39 regional legislative assembly elections."
+      },
+      {
+        "label": "Russian Anti-War Diaspora Referendum — FICTIONAL",
+        "date": "2027-02-24",
+        "kind": "referendum",
+        "source": "unknown",
+        "notes": "FICTIONAL — illustrative civic-tech event for the Turnout platform. Date chosen as the fifth anniversary of Russia's full-scale invasion of Ukraine (24 February 2022). Imagines a diaspora-organized solidarity vote among Russians abroad (estimated 800,000+ who left Russia after 2022) on questions of the war, democratic transition, and accountability. Inspired by real diaspora networks in Berlin, Riga, Tbilisi, and Tel Aviv."
+      },
+      {
+        "label": "Presidential election — regime-controlled",
+        "date": "2030-03-15",
+        "kind": "presidential",
+        "source": "https://en.everybodywiki.com/2030_Russian_presidential_election",
+        "notes": "Next presidential election due by March 2030. Putin won the 2024 election with 87.3% in a vote boycotted by Western observers as neither free nor fair. No independent candidates permitted; outcome effectively predetermined."
+      }
+    ],
+    "KP": [
+      {
+        "label": "Supreme People's Assembly (15th) — sham election",
+        "date": "2026-03-15",
+        "kind": "parliamentary",
+        "source": "https://www.usnews.com/news/world/articles/2026-03-15/north-korea-holds-supreme-peoples-assembly-election-kcna-reports",
+        "notes": "North Korea held elections for the 15th Supreme People's Assembly on 15 March 2026. Every eligible voter is required to vote; all candidates run unopposed and are pre-selected by the Korean Workers' Party. Official turnout is always reported at 99.99%. Not a competitive election in any meaningful sense."
+      },
+      {
+        "label": "Korean Diaspora Democratic Congress — FICTIONAL",
+        "date": "2028-10-09",
+        "kind": "referendum",
+        "source": "unknown",
+        "notes": "FICTIONAL — illustrative civic-tech event for the Turnout platform. Date chosen as Hangul Day (9 October), celebrating the Korean alphabet, as a culturally resonant symbol of literacy and self-determination. Imagines a symbolic congress of Korean diaspora communities (including North Korean defectors settled in South Korea, the US, and UK) deliberating on human rights conditions in the DPRK and a vision for Korean reunification."
+      },
+      {
+        "label": "Supreme People's Assembly (16th) — sham election (projected)",
+        "date": "2031-03-08",
+        "kind": "parliamentary",
+        "source": "https://en.wikipedia.org/wiki/Elections_in_North_Korea",
+        "notes": "North Korea typically holds SPA elections every five years. Following the March 2026 election, the next would be expected around March 2031. All seats won by Workers' Party of Korea-aligned candidates; no genuine competition exists."
+      }
+    ],
+    "IR": [
+      {
+        "label": "Iranian Diaspora Referendum on the Constitution — FICTIONAL",
+        "date": "2027-09-16",
+        "kind": "referendum",
+        "source": "unknown",
+        "notes": "FICTIONAL — illustrative civic-tech event for the Turnout platform. Date chosen as the anniversary of Mahsa Amini's death (16 September 2022), the spark of the Woman Life Freedom (Zan Zendegi Azadi) uprising. Imagines a symbolic diaspora vote — involving the millions of Iranians in the US, Germany, Sweden, and Canada — on principles for a post-theocratic Iranian constitution."
+      },
+      {
+        "label": "Majlis (parliament) and presidential election — managed",
+        "date": "2028-03-01",
+        "kind": "general",
+        "source": "https://iran-times.com/a-new-election-calendar/",
+        "notes": "Following President Raisi's death in 2024 and the early presidential election won by Pezeshkian, the Majlis voted to extend council terms by one year to realign cycles. The next joint presidential and Majlis election is now scheduled for 2028. The Guardian Council routinely disqualifies reformist candidates; elections are managed to produce clerical-approved outcomes."
+      },
+      {
+        "label": "Assembly of Experts election — managed",
+        "date": "2030-02-01",
+        "kind": "parliamentary",
+        "source": "https://en.wikipedia.org/wiki/Elections_in_Iran",
+        "notes": "Assembly of Experts is elected every eight years; the last election was held in March 2024. The next is expected around 2032, but interim or by-elections may occur. The Assembly selects the Supreme Leader; candidates are vetted by the Guardian Council, excluding all genuine reformists."
+      }
+    ],
+    "CU": [
+      {
+        "label": "Municipal Assembly elections — sham",
+        "date": "2026-11-01",
+        "kind": "local",
+        "source": "https://en.cibercuba.com/noticias/2025-12-08-u1-e208933-s27061-nid316318-gobierno-cubano-presenta-ley-recortar-mandato",
+        "notes": "The Cuban government proposed shortening the current municipal delegate term to end in November 2026, to realign the electoral calendar. Municipal elections are staged by the Communist Party of Cuba; only approved candidates run. No competitive pluralism exists."
+      },
+      {
+        "label": "National Assembly of People's Power election — sham",
+        "date": "2028-03-01",
+        "kind": "parliamentary",
+        "source": "https://en.wikipedia.org/wiki/2028_Cuban_parliamentary_election",
+        "notes": "National Assembly elections are held every five years. Following the March 2023 election, the next is expected by March 2028. Cuba's one-party system (Communist Party) precludes genuine competition; all deputies support the revolution. Outcome is predetermined."
+      },
+      {
+        "label": "Cuban Exile Congress — FICTIONAL",
+        "date": "2028-05-20",
+        "kind": "referendum",
+        "source": "unknown",
+        "notes": "FICTIONAL — illustrative civic-tech event for the Turnout platform. Date chosen as 20 May, Cuban Independence Day (the date Cuba gained independence from the US in 1902). Imagines a symbolic congress among the Cuban diaspora — largest communities in Miami, Madrid, and Caracas — deliberating on democratic transition pathways and human rights in Cuba."
+      }
+    ],
+    "VE": [
+      {
+        "label": "Parliamentary elections and regional elections — managed",
+        "date": "2025-05-25",
+        "kind": "parliamentary",
+        "source": "https://en.wikipedia.org/wiki/2025_Venezuelan_parliamentary_election",
+        "notes": "Parliamentary elections held 25 May 2025, electing 285 National Assembly deputies plus governors and regional legislators. Elections under Maduro (and now acting president Rodríguez) are managed through CNE manipulation, opposition disqualifications, and voter intimidation. Maduro was captured by US forces in January 2026; Delcy Rodríguez serves as acting president."
+      },
+      {
+        "label": "Venezuelan Diaspora Consultation — FICTIONAL",
+        "date": "2026-07-05",
+        "kind": "referendum",
+        "source": "unknown",
+        "notes": "FICTIONAL — illustrative civic-tech event for the Turnout platform. Date chosen as 5 July, Venezuelan Independence Day (declared 5 July 1811). Imagines a solidarity consultation among the Venezuelan diaspora — estimated 7+ million Venezuelans abroad, in Colombia, Peru, Chile, Spain, and the US — on questions of democratic transition, return conditions, and recognition of the Edmundo González Urrutia opposition government."
+      },
+      {
+        "label": "Presidential election (projected) — uncertain following political crisis",
+        "date": "2030-07-28",
+        "kind": "presidential",
+        "source": "https://en.wikipedia.org/wiki/Next_Venezuelan_presidential_election",
+        "notes": "The six-year presidential term (2025-2031) was disrupted by Maduro's capture by US forces in January 2026. The next constitutional presidential election would fall in 2030, though the political situation is highly fluid under acting president Delcy Rodríguez. Exact date and competitive nature are uncertain."
+      }
+    ],
+    "CN": [
+      {
+        "label": "Hong Kong Chief Executive election — Beijing-managed",
+        "date": "2027-03-25",
+        "kind": "presidential",
+        "source": "https://en.wikipedia.org/wiki/Chief_Executive_of_Hong_Kong",
+        "notes": "The Hong Kong Chief Executive is selected by the 1,500-member Election Committee, which under 2021 NPC reforms is composed almost entirely of Beijing-approved individuals. Current CE John Lee's term expires 30 June 2027. This is not a public popular vote; the Election Committee selects the candidate."
+      },
+      {
+        "label": "Hong Kong Diaspora Congress — FICTIONAL",
+        "date": "2027-07-01",
+        "kind": "referendum",
+        "source": "unknown",
+        "notes": "FICTIONAL — illustrative civic-tech event for the Turnout platform. Date chosen as 1 July, the anniversary of Hong Kong's handover to China (1997) and of the 2020 pro-democracy protests. Imagines a symbolic congress of the Hong Kong diaspora — concentrated in the UK, Canada, and Australia after the 2020-2021 emigration wave — deliberating on the future of Hong Kong's autonomy, BN(O) communities, and accountability under the National Security Law."
+      },
+      {
+        "label": "Uyghur Diaspora Assembly — FICTIONAL",
+        "date": "2027-11-12",
+        "kind": "referendum",
+        "source": "unknown",
+        "notes": "FICTIONAL — illustrative civic-tech event for the Turnout platform. Date chosen as 12 November, birthday of Rebiya Kadeer, longtime Uyghur activist and former political prisoner. Imagines a symbolic assembly of the Uyghur diaspora — represented by the World Uyghur Congress and communities in Turkey, Germany, Kazakhstan, and the US — deliberating on self-determination, accountability for the Xinjiang mass detention system, and international recognition."
+      },
+      {
+        "label": "15th National People's Congress election — managed",
+        "date": "2028-03-05",
+        "kind": "parliamentary",
+        "source": "https://en.wikipedia.org/wiki/National_People%27s_Congress",
+        "notes": "The 14th NPC's five-year term expires in 2028; the 15th NPC will be elected around March 2028. NPC delegates are not directly elected by citizens; they are selected through a multi-tiered process controlled entirely by the Chinese Communist Party. The NPC is a rubber-stamp body. Citizens have no meaningful vote."
+      },
+      {
+        "label": "Hong Kong Legislative Council election — Beijing-approved candidates only",
+        "date": "2029-12-07",
+        "kind": "parliamentary",
+        "source": "https://en.wikipedia.org/wiki/2025_Hong_Kong_legislative_election",
+        "notes": "The 8th LegCo was elected December 2025; the next election is expected December 2029. Under the 2021 electoral overhaul, only 'patriots' (Beijing-approved candidates) may stand. Pro-democracy figures are barred, imprisoned, or in exile. The 2021 reforms ended competitive legislative elections in Hong Kong."
+      }
+    ]
+  }
+}

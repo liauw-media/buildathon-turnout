@@ -1,3 +1,15 @@
+export type TopicLink = {
+  label: string;
+  url: string;
+  source?: string; // publication / org name (for news items)
+  publishedAt?: string; // ISO date
+};
+
+export type TopicEndorsement = {
+  name: string;
+  url?: string;
+};
+
 export type Topic = {
   id: string;
   country: string; // ISO alpha-2
@@ -5,6 +17,13 @@ export type Topic = {
   summary: string; // 1-3 sentences, non-partisan
   keywords: string[];
   createdAt: string;
+
+  // Optional enriched fields surfaced on /topics/[id] detail page
+  detail?: string; // 2-4 paragraphs of non-partisan context
+  officialLinks?: TopicLink[]; // laws, court rulings, parliament pages
+  newsLinks?: TopicLink[]; // recent news coverage
+  endorsements?: TopicEndorsement[]; // civic orgs that treat this as a priority
+  supporterCount?: number; // mocked: how many diaspora voters flag this as a priority
 };
 
 export type ElectionOverride = {

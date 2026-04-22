@@ -136,8 +136,19 @@ function highlightMatch(text: string, query: string): React.ReactNode {
 
 function TopicCard({ topic, query }: { topic: Topic; query: string }) {
   return (
-    <article className="rounded-lg border border-zinc-200 p-5">
-      <h2 className="font-semibold text-zinc-900">{highlightMatch(topic.title, query)}</h2>
+    <article className="rounded-lg border border-zinc-200 p-5 transition hover:border-zinc-300">
+      <div className="flex items-start justify-between gap-3">
+        <Link href={`/topics/${topic.id}`} className="group block flex-1">
+          <h2 className="font-semibold text-zinc-900 group-hover:text-indigo-700">
+            {highlightMatch(topic.title, query)}
+          </h2>
+        </Link>
+        {typeof topic.supporterCount === "number" && (
+          <span className="shrink-0 rounded-full bg-indigo-50 px-2 py-0.5 text-[11px] font-medium text-indigo-700">
+            👥 {topic.supporterCount.toLocaleString()}
+          </span>
+        )}
+      </div>
       <p className="mt-2 text-sm text-zinc-600 leading-relaxed">{topic.summary}</p>
       {topic.keywords.length > 0 && (
         <div className="mt-3 flex flex-wrap gap-1.5">
@@ -158,6 +169,12 @@ function TopicCard({ topic, query }: { topic: Topic; query: string }) {
           })}
         </div>
       )}
+      <Link
+        href={`/topics/${topic.id}`}
+        className="mt-3 inline-block text-xs font-medium text-indigo-600 hover:underline"
+      >
+        Read more →
+      </Link>
     </article>
   );
 }

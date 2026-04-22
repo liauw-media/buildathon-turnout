@@ -188,11 +188,21 @@ export default function TopicsExplorer({
                 >
                   {country?.name ?? t.country}
                 </Link>
+                {typeof t.supporterCount === "number" && (
+                  <span className="ml-auto text-[10px] font-medium text-indigo-700">
+                    👥 {t.supporterCount.toLocaleString()}
+                  </span>
+                )}
               </div>
-              <h3 className="mt-2 text-base font-semibold leading-snug text-zinc-900">
-                {t.title}
-              </h3>
-              <p className="mt-2 text-sm leading-relaxed text-zinc-600">{t.summary}</p>
+              <Link href={`/topics/${t.id}`} className="group mt-2">
+                <h3 className="text-base font-semibold leading-snug text-zinc-900 group-hover:text-indigo-700">
+                  {t.title}
+                </h3>
+                <p className="mt-2 text-sm leading-relaxed text-zinc-600">{t.summary}</p>
+                <p className="mt-2 text-xs font-medium text-indigo-600 group-hover:underline">
+                  Read more →
+                </p>
+              </Link>
               <div className="mt-auto pt-4 flex flex-wrap gap-1.5">
                 {t.keywords.map((kw) => {
                   const active = activeKeyword?.toLowerCase() === kw.toLowerCase();

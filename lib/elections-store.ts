@@ -6,6 +6,35 @@ import { COUNTRIES, getCountry } from "./countries";
 
 const DATA_DIR = path.join(process.cwd(), "data");
 const DATA_FILE = path.join(DATA_DIR, "elections.json");
+const CALENDAR_FILE = path.join(DATA_DIR, "elections-calendar.json");
+
+type CalendarEvent = {
+  label: string;
+  date: string;
+  kind?: string;
+  source?: string;
+  notes?: string | null;
+};
+
+type Calendar = {
+  generatedAt?: string;
+  sourceCount?: number;
+  countries: Record<string, CalendarEvent[]>;
+};
+
+// In-memory cache for the calendar (static per build; data file is treated as static)
+let calendarCache: Calendar | null = null;
+
+async function readCalendar(): Promise<Calendar> {
+  if (calendarCache) return calendarCache;
+  try {
+    const raw = await fs.readFile(CALENDAR_FILE, "utf8");
+    calendarCache = JSON.parse(raw) as Calendar;
+  } catch {
+    calendarCache = { countries: {} };
+  }
+  return calendarCache;
+}
 
 async function ensureFile(): Promise<void> {
   await fs.mkdir(DATA_DIR, { recursive: true });
@@ -45,8 +74,23 @@ export async function upsertOverride(input: ElectionOverride): Promise<ElectionO
 }
 
 /**
- * Merges an ElectionOverride on top of the static COUNTRIES entry.
- * Returns a full CountryRules-shaped object with any overrides applied.
+ * Returns the raw research-sourced calendar events for a country, if any.
+ * Consumers can use this to display sources/kinds/notes alongside the base data.
+ */
+export async function getCountryCalendar(code: string): Promise<CalendarEvent[]> {
+  const cal = await readCalendar();
+  return cal.countries[code] ?? [];
+}
+
+/**
+ * Merges (in priority order, highest wins):
+ *   1. Admin override  (ElectionOverride)
+ *   2. Research calendar (elections-calendar.json)
+ *   3. Static base     (COUNTRIES)
+ *
+ * The earliest upcoming calendar event becomes `nextElection`; the rest become
+ * `additionalVotes` (replacing any base additionalVotes). An admin override still
+ * wins if explicitly set (we respect operator edits over research).
  */
 export async function getEffectiveCountry(
   code: string,
@@ -54,19 +98,46 @@ export async function getEffectiveCountry(
   const base = getCountry(code);
   if (!base) return undefined;
 
-  const override = await getOverride(code);
-  if (!override) return base;
+  const [override, calendarEvents] = await Promise.all([
+    getOverride(code),
+    getCountryCalendar(code),
+  ]);
 
-  return {
-    ...base,
-    nextElection: {
-      label: override.nextElectionLabel ?? base.nextElection.label,
-      date: override.nextElectionDate ?? base.nextElection.date,
-    },
-    registrationDeadline: override.registrationDeadline ?? base.registrationDeadline,
-  };
+  // Start from base.
+  let result: CountryRules = { ...base };
+
+  // Apply research calendar when present (events already sorted by date).
+  if (calendarEvents.length > 0) {
+    const today = new Date().toISOString().slice(0, 10);
+    const upcoming = calendarEvents.filter((e) => e.date >= today);
+    const picked = upcoming.length > 0 ? upcoming : calendarEvents.slice(-3);
+    const next = picked[0];
+    const rest = picked.slice(1);
+    result = {
+      ...result,
+      nextElection: { label: next.label, date: next.date },
+      additionalVotes: rest.map((e) => ({ label: e.label, date: e.date })),
+    };
+  }
+
+  // Apply admin override last (highest priority for label/date/deadline).
+  if (override) {
+    result = {
+      ...result,
+      nextElection: {
+        label: override.nextElectionLabel ?? result.nextElection.label,
+        date: override.nextElectionDate ?? result.nextElection.date,
+      },
+      registrationDeadline:
+        override.registrationDeadline ?? result.registrationDeadline,
+    };
+  }
+
+  return result;
 }
 
 export async function getAllEffectiveCountries(): Promise<CountryRules[]> {
-  return Promise.all(COUNTRIES.map((c) => getEffectiveCountry(c.code) as Promise<CountryRules>));
+  return Promise.all(
+    COUNTRIES.map((c) => getEffectiveCountry(c.code) as Promise<CountryRules>),
+  );
 }
